@@ -5,7 +5,7 @@
         <div class="page-logo">
             <a href="{{ aurl('/') }}">
                 <h3 class="logo-default" style="margin: 25px 10px 0;color:#fff">
-                    dashboard
+                    {{trans('main.dashboard')}}
                 </h3>
                 {{-- <img src="{{asset('backend/assets/layouts/layout4/img/logo-light.png')}}" alt="logo"  /> --}}
             </a>

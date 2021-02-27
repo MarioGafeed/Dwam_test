@@ -4,7 +4,7 @@
 
     <!-- Banner start -->
     <section class="slider-2 relative">
-        <div class="owl-carousel owl-theme main-slider">
+        <div class="owl-carousel owl-theme main-slider" dir="ltr">
           <div class="item">
               <div class="each-slider-2 flex-center" style="background-image: url('frontend/assets/img/banner/banner-h3-1.png');" data-overlay="4">\
               </div>
@@ -299,7 +299,7 @@
                     <span class="icon-bg-quote mt-15 transform-center opacity-5"><img src="{{ asset('frontend/assets/img/Christian-cross.svg') }}" alt=""></span>
                 </div>
                 <div class="col-lg-10 offset-lg-1 text-center">
-                    <div class="owl-carousel owl-theme testimonial-slide">
+                    <div class="owl-carousel owl-theme testimonial-slide" dir="ltr">
                         <div class="item">
                           <p>{{ trans('main.his_desc1') }}
                           </p>
@@ -337,7 +337,7 @@
                 <!-- client logo slider -->
                 <div class="col-lg-12">
                     <div class="client-slide-outer pt-80 mt-30">
-                        <div class="owl-carousel owl-theme client-slider">
+                        <div class="owl-carousel owl-theme client-slider" dir="ltr">
                             <div class="item">
                                 <img src="frontend/assets/img/clients/1.png" class="client-logo" alt="">
                             </div>
@@ -910,11 +910,11 @@
         <div class="container">
             <div class="row align-items-center mb-55">
                 <div class="col-md-9 col-sm-12 text-center text-md-left">
-                    <h3 class="f-700 fs-41 mb-sm-20">{{ trans('main.event') }}
-                        <span class="fade-texts">{{ trans('main.event_desc') }} </span>
+                    <h3 class="f-700 fs-41 mb-sm-20 txt-{{GetDirection()}}">{{ trans('main.event') }}
+                        <span class="fade-texts txt-{{GetDirection()}}" >{{ trans('main.event_desc') }} </span>
                     </h3>
                 </div>
-                <div class="col-md-3 col-sm-12 text-center text-md-right">
+                <div class="col-md-3 col-sm-12 text-center text-md-right txt-{{GetDirection()}}">
                     <div class="blog-nav">
                         <a href="#" class="blog-nav-left bg-yellow mr-20"> <i class='fas fa-long-arrow-alt-left'></i>
                         </a>
@@ -925,16 +925,16 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="owl-carousel owl-theme blog-slider">
+                    <div class="owl-carousel owl-theme blog-slider" dir="ltr">
                         <div class="item">
                             <div class="each-blog">
                                 <div class="blog-img relative">
                                     <img src="frontend/assets/img/blog/blog1.png" alt="">
-                                    <a href="events-detail.html" class="blog-link transform-center"> <i class="fas fa-arrow-right"></i>
+                                    <a href="events-detail.html" class="blog-link transform-center "> <i class="fas fa-arrow-right"></i>
                                     </a>
                                 </div>
                                 <div class="blog-text">
-                                    <h4 class="mt-20 mb-20">
+                                    <h4 class="mt-20 mb-20 txt-{{GetDirection()}}">
                                         <a href="events-detail.html" class="f-700 fs-19">{{ trans('main.event1') }}</a>
                                     </h4>
                                     <div class="blog-data">
@@ -954,13 +954,13 @@
                                     </a>
                                 </div>
                                 <div class="blog-text">
-                                    <h4 class="mt-20 mb-20">
+                                    <h4 class="mt-20 mb-20 txt-{{GetDirection()}}">
                                         <a href="#" class="f-700 fs-19">{{ trans('main.event2') }}</a>
                                     </h4>
                                     <div class="blog-data">
-                                        <ul class="d-flex align-items-center">
+                                        <ul class="d-flex align-items-center ">
                                             <li><i class="far fa-calendar-alt"></i>29-07-2021 To</li>
-                                            <li><i class="fas fa-comment"></i>01-08-2021</li>
+                                            <li><i class="fas fa-comment "></i>01-08-2021</li>
                                         </ul>
                                     </div>
                                 </div>

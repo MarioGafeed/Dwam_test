@@ -4,16 +4,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-5">
-                    <h6 class="fs-23 f-700 mb-25">{{ trans('main.about') }}</h6>
-                    <div class="about_title-footer pr-60 mb-md-40">
+                    <h6 class="fs-23 f-700 mb-25 txt-center" >{{ trans('main.about') }}</h6>
+                    <div class="about_title-footer pr-60 mb-md-40 txt-{{GetDirection()}}">
                         <p>{{ trans('main.about_desc1') }}</p>
                         <p> {{ trans('main.about_desc2') }}<a href="about-us.html" class="underline">{{ trans('main.read_more') }}</a>
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-3 mb-md-40">
-                    <h6 class="fs-23 f-700 mb-25">Quick Links</h6>
-                    <ul class="footer-links">
+                    <h6 class="fs-23 f-700 mb-25 txt-center" >{{ trans('main.qlinks') }}</h6>
+                    <ul class="footer-links txt-center">
                         <li> <a href="about-us.html">{{ trans('main.about') }}</a>
                         </li>
                         <li> <a href="contact-1.html">{{ trans('main.contact') }}</a>
@@ -27,15 +27,15 @@
                     </ul>
                 </div>
                 <div class="col-lg-4 mb-md-20">
-                    <h6 class="fs-23 f-700 mb-25">{{ trans('main.subscribe') }}</h6>
+                    <h6 class="fs-23 f-700 mb-25 txt-{{GetDirection()}}">{{ trans('main.subscribe') }}</h6>
                     <form>
                         <div class="form-group relative">
-                            <input type="text" class="form-control input-border" id="name" aria-describedby="name" placeholder="{{ trans('main.ur_name') }}"> <i class="far fa-user transform-v-center"></i>
+                            <input type="text" class="form-control input-border txt-center" id="name" aria-describedby="name" placeholder="{{ trans('main.ur_name') }}"> <i class="far fa-user transform-v-center"></i>
                         </div>
-                        <div class="form-group relative mt-25">
-                            <input type="email" class="form-control input-border" id="email" aria-describedby="email" placeholder="{{ trans('main.ur_email') }}"> <i class="far fa-envelope transform-v-center"></i>
+                        <div class="form-group relative mt-25 ">
+                            <input type="email" class="form-control input-border txt-center" id="email" aria-describedby="email" placeholder="{{ trans('main.ur_email') }}"> <i class="far fa-envelope transform-v-center"></i>
                         </div>
-                        <div class="text-left text-md-right mt-30">
+                        <div class="text-left text-md-right mt-30 footer-center">
                             <button type="submit" class="btn btn-small bg-yellow">{{ trans('main.subscribe_b') }}</button>
                         </div>
                     </form>

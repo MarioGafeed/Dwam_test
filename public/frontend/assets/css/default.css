@@ -4159,3 +4159,15 @@ body .video-area1::before{
 .modal-backdrop.show {
     opacity: 0.95;
 }
+
+.txt-rtl{
+  text-align: right;
+}
+
+.txt-ltr{
+  text-align: left;
+}
+
+.txt-center{
+  text-align: center;
+}

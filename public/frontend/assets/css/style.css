@@ -1475,10 +1475,22 @@ header.type-3 {
     display: none;
 }
 
-.db-block {
+.db-block-ltr {
     display: block;
     position: absolute;
     right: 0;
+    top: 0;
+    bottom: 0;
+    width: 150px;
+    font-weight: 500;
+    font-size: 18px;
+    background: #d6c590;
+}
+
+.db-block-rtl {
+    display: block;
+    position: absolute;
+    left: 0;
     top: 0;
     bottom: 0;
     width: 150px;

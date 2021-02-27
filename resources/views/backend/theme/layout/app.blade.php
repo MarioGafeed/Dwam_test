@@ -13,7 +13,7 @@
 
         <meta content="width=device-width, initial-scale=1" name="viewport" />
 
-        <meta content="Mohamed Zayed" name="author" />
+        <meta content="Mario" name="author" />
 
         {{-- <link rel="shortcut icon" href="favicon.ico" /> --}}
 

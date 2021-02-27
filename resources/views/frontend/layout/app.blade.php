@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ GetLanguage() }}" dir="{{ GetDirection() }}" >
 
 <head>
     <title>DWAM:Doctors With A Mission</title>
@@ -43,7 +43,7 @@
           <div class="container">
               <div class="row align-items-center">
                   <div class="col-lg-9 col-md-12 text-center text-lg-left">
-                      <h3 class="f-700 fs-35 mb-md-20">{{ trans('main.connect_area') }}</h3>
+                      <h3 class="f-700 fs-35 mb-md-20 txt-{{GetDirection()}}">{{ trans('main.connect_area') }}</h3>
                   </div>
                   <div class="col-lg-3 col-md-12 text-center text-lg-right"> <a href="contact-1.html" class="btn btn-black shadow-1">{{ trans('main.connect_area_us') }}</a>
                   </div>
