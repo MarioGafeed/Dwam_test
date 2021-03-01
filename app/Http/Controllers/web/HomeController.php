@@ -52,6 +52,16 @@ class HomeController extends Controller
       ]);
     }
 
+    public function send(Request $request)
+    {
+      $pcats = Pcategory::select('id', 'title')->get();
+      $vcats = Vcategory::select('id', 'title')->get();
+      return view('frontend.about', [
+        'pcats' => $pcats,
+        'vcats' => $vcats
+      ]);
+    }
+
     public function logout()
     {
         auth()->logout();

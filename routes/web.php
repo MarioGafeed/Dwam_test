@@ -20,6 +20,7 @@ Route::middleware(\App\Http\Middleware\LangMiddleware::class)->group(function ()
     Route::get('/', 'web\HomeController@index');
     Route::get('/donate', 'web\HomeController@donate');
     Route::get('/contact', 'web\HomeController@contact');
+    Route::post('/contact/message/send', 'web\HomeController@send');
     Route::get('/about', 'web\HomeController@about');
     // Route::get('/lang/{lang}', 'FrontendController@changeLang');
 

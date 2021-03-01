@@ -76,7 +76,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <form action="#" class="relative z-5 mt-10">
+                    <form method="post" action="{{ url('contact/message/send') }}"  class="relative z-5 mt-10">
                         <div class="row">
                             <div class="col-lg-4">
                                 <div class="form-group relative mb-30 mb-sm-20">
@@ -95,7 +95,7 @@
                             </div>
                             <div class="col-md-12">
                                 <div class="form-group relative mb-30 mb-sm-20">
-                                    <textarea class="form-control input-white shadow-5" name="message txt-center" id="message" cols="30" rows="7" placeholder="{{ trans('main.your_message') }}"></textarea>
+                                    <textarea class="form-control input-white shadow-5 txt-center" name="msg" id="message" cols="30" rows="7" placeholder="{{ trans('main.your_message') }}"></textarea>
                                 </div>
                             </div>
                             <div class="col-lg-12 text-center mt-10 mb-5"> <a href="#" class="btn btn-black shadow-1">{{trans('main.submit')}}</a>
