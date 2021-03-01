@@ -27,6 +27,31 @@ class HomeController extends Controller
         return redirect()->back();
     }
 
+    public function donate()
+    {
+      return view('frontend.donate');
+    }
+
+    public function contact()
+    {
+      $pcats = Pcategory::select('id', 'title')->get();
+      $vcats = Vcategory::select('id', 'title')->get();
+      return view('frontend.contact', [
+        'pcats' => $pcats,
+        'vcats' => $vcats
+      ]);
+    }
+
+    public function about()
+    {
+      $pcats = Pcategory::select('id', 'title')->get();
+      $vcats = Vcategory::select('id', 'title')->get();
+      return view('frontend.about', [
+        'pcats' => $pcats,
+        'vcats' => $vcats
+      ]);
+    }
+
     public function logout()
     {
         auth()->logout();

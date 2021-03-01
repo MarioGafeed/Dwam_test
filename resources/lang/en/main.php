@@ -1030,6 +1030,40 @@ return [
     'relate_article'                      => 'Related Articles',
     'tags'                                => 'Tags:',
 
+    // Contact
+    'touch'                               =>'Get In Touch',
+    'con_info'                            =>'Contact Information',
+    'call'                                =>'Call US',
+    'send_mail'                           =>'SEND A MAIL',
+    'our_add'                             =>'OUR ADDRESS',
+    'full_add'                            =>'41  Abou Dawoud Al Zaheri, Manteqah as Sadesah, Nasr City, Cairo',
+    'send_message'                        =>'Send Us a Message',
+    'your_message'                        =>'Your message',
+    'submit'                              =>'SUBMIT',
+
+    // about us
+    'about_title'                         =>'Training, equipping, and serving Christian health care workers to reach others',
+    'about_desc'                          =>'Reach unreached people in Egypt, the Middle East, and Africa, and encourage others to do the same',
+    'about_desc_right'                    =>'An Egyptian, Christian Medical, a multi-specialty group united to proclaim Jesus Christ DWAM was started in 2007, by a group of committed Christian Egyptian health care workers.',
+    'about_desc_left'                     =>'Annual Conference for health care l workers from Egypt and the Arab region which encourages attendees to shine as light in the darkness',
+    'about_desc_left2'                    =>'Scientific training courses in Christian hospitals by physicians distinguished scientifically and spiritually, both Egyptian and foreigners from the UK and USA',
+    'about_video_title'                   =>'D.W.A.M',
+    'about_video_desc'                    =>'you can support DWAM in the following ways: PRAY & ACT',
+    'about_pastor_txt_back'               =>'Everyone can partner with us in prayer!',
+    'about_pastor_txt_title'              =>'PRAY',
+    'view_all'                            =>'VIEW ALL',
+    'about_pastor1'                       =>'DR. Maher Samuel',
+    'about_pastor1_role'                  =>'Leader',
+    'about_pastor2'                       =>'DR. Ehab Ayoub',
+    'about_pastor2_role'                  =>'Leader',
+    'about_pastor3'                       =>'DR. Andrew Magdy',
+    'about_pastor3_role'                  =>'Leader',
+    'about_pastor4'                       =>'Eng. Fady Wadie',
+    'about_pastor4_role'                  =>'Leader',
+    'about_squre1'                        =>'Worshiped with ',
+    'about_num'                           =>' 300',
+    'about_squre2'                        =>'+ Members',
+
 
 
 

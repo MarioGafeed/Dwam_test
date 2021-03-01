@@ -14,15 +14,15 @@
                 <div class="col-lg-3 mb-md-40">
                     <h6 class="fs-23 f-700 mb-25 txt-center" >{{ trans('main.qlinks') }}</h6>
                     <ul class="footer-links txt-center">
-                        <li> <a href="about-us.html">{{ trans('main.about') }}</a>
+                        <li> <a href="/about">{{ trans('main.about') }}</a>
                         </li>
-                        <li> <a href="contact-1.html">{{ trans('main.contact') }}</a>
+                        <li> <a href="/contact">{{ trans('main.contact') }}</a>
                         </li>
-                        <li> <a href="blog.html">{{ trans('main.blog') }}</a>
+                        <li> <a href="/posts/index">{{ trans('main.blog') }}</a>
                         </li>
-                        <li> <a href="#">{{ trans('main.videos') }}</a>
+                        <li> <a href="/vposts/index">{{ trans('main.videos') }}</a>
                         </li>
-                        <li> <a href="#">{{ trans('main.terms') }}</a>
+                        <li> <a href="#" onclick='alert("إنتظروا الإصدار القادم بنعمة ربنا")'>{{ trans('main.terms') }}</a>
                         </li>
                     </ul>
                 </div>

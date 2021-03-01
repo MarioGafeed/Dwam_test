@@ -29,9 +29,9 @@ class HomeController extends Controller
         return view('home');
     }
 
-    public function olash()
+    public function donate()
     {
-      return view('sdfdf');
+      return view('frontend.donate');
     }
 
     public function changeLang($lang)

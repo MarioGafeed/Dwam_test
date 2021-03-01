@@ -16,7 +16,7 @@
                                   <span class="frame-bottom"></span>
                                   <div class="main-banner-texts">
                                       <h1 class="f-700">{{ trans('main.txt1') }}   <span class="yellow">{{ trans('main.txt2') }}</span> <span class="blk-spn">{{ trans('main.txt3') }} </span></h1>
-                                      <p class="fs-15">{{ trans('main.txt4') }}</p> <a href="contact-1.html" class="btn btn-border-out z-5">{{ trans('main.banner_button1') }}</a>
+                                      <p class="fs-15">{{ trans('main.txt4') }}</p> <a href="/contact" class="btn btn-border-out z-5">{{ trans('main.banner_button1') }}</a>
                                   </div>
                               </div>
                           </div>
@@ -36,7 +36,7 @@
                                   <span class="frame-bottom"></span>
                                   <div class="main-banner-texts">
                                       <h1 class="f-700">{{ trans('main.txt11') }}   <span class="yellow">{{ trans('main.txt22') }}</span> <span class="blk-spn">{{ trans('main.txt33') }} </span></h1>
-                                      <p class="fs-15">{{ trans('main.txt44') }}</p> <a href="contact-1.html" class="btn btn-border-out z-5">{{ trans('main.banner_button1') }}</a>
+                                      <p class="fs-15">{{ trans('main.txt44') }}</p> <a href="/contact" class="btn btn-border-out z-5">{{ trans('main.banner_button1') }}</a>
                                   </div>
                               </div>
                           </div>
@@ -56,7 +56,7 @@
                                   <span class="frame-bottom"></span>
                                   <div class="main-banner-texts">
                                       <h1 class="f-700">{{ trans('main.txt111') }}   <span class="yellow">{{ trans('main.txt222') }}</span> <span class="blk-spn">{{ trans('main.txt333') }} </span></h1>
-                                      <p class="fs-15">{{ trans('main.txt444') }}</p> <a href="contact-1.html" class="btn btn-border-out z-5">{{ trans('main.banner_button1') }}</a>
+                                      <p class="fs-15">{{ trans('main.txt444') }}</p> <a href="/contact" class="btn btn-border-out z-5">{{ trans('main.banner_button1') }}</a>
                                   </div>
                               </div>
                           </div>
@@ -76,7 +76,7 @@
                                   <span class="frame-bottom"></span>
                                   <div class="main-banner-texts">
                                       <h1 class="f-700">{{ trans('main.txt1111') }}   <span class="yellow">{{ trans('main.txt2222') }}</span> <span class="blk-spn">{{ trans('main.txt3333') }} </span></h1>
-                                      <p class="fs-15">{{ trans('main.txt4444') }}</p> <a href="contact-1.html" class="btn btn-border-out z-5">{{ trans('main.banner_button1') }}</a>
+                                      <p class="fs-15">{{ trans('main.txt4444') }}</p> <a href="/contact" class="btn btn-border-out z-5">{{ trans('main.banner_button1') }}</a>
                                   </div>
                               </div>
                           </div>
@@ -96,7 +96,7 @@
                                   <span class="frame-bottom"></span>
                                   <div class="main-banner-texts">
                                       <h1 class="f-700">{{ trans('main.txt11111') }}   <span class="yellow">{{ trans('main.txt22222') }}</span> <span class="blk-spn">{{ trans('main.txt33333') }} </span></h1>
-                                      <p class="fs-15">{{ trans('main.txt44444') }}</p> <a href="contact-1.html" class="btn btn-border-out z-5">{{ trans('main.banner_button1') }}</a>
+                                      <p class="fs-15">{{ trans('main.txt44444') }}</p> <a href="/contact" class="btn btn-border-out z-5">{{ trans('main.banner_button1') }}</a>
                                   </div>
                               </div>
                           </div>
@@ -116,7 +116,7 @@
                                   <span class="frame-bottom"></span>
                                   <div class="main-banner-texts">
                                       <h1 class="f-700">{{ trans('main.txt111111') }}   <span class="yellow">{{ trans('main.txt222222') }}</span> <span class="blk-spn">{{ trans('main.txt333333') }} </span></h1>
-                                      <p class="fs-15">{{ trans('main.txt444444') }}</p> <a href="contact-1.html" class="btn btn-border-out z-5">{{ trans('main.banner_button1') }}</a>
+                                      <p class="fs-15">{{ trans('main.txt444444') }}</p> <a href="/contact" class="btn btn-border-out z-5">{{ trans('main.banner_button1') }}</a>
                                   </div>
                               </div>
                           </div>
@@ -136,7 +136,7 @@
                                   <span class="frame-bottom"></span>
                                   <div class="main-banner-texts">
                                       <h1 class="f-700">{{ trans('main.txt1111111') }}   <span class="yellow">{{ trans('main.txt2222222') }}</span> <span class="blk-spn">{{ trans('main.txt3333333') }} </span></h1>
-                                      <p class="fs-15">{{ trans('main.txt4444444') }}</p> <a href="contact-1.html" class="btn btn-border-out z-5">{{ trans('main.banner_button1') }}</a>
+                                      <p class="fs-15">{{ trans('main.txt4444444') }}</p> <a href="/contact" class="btn btn-border-out z-5">{{ trans('main.banner_button1') }}</a>
                                   </div>
                               </div>
                           </div>
@@ -156,7 +156,7 @@
                                   <span class="frame-bottom"></span>
                                   <div class="main-banner-texts">
                                       <h1 class="f-700">{{ trans('main.txt11111111') }}   <span class="yellow">{{ trans('main.txt22222222') }}</span> <span class="blk-spn">{{ trans('main.txt33333333') }} </span></h1>
-                                      <p class="fs-15">{{ trans('main.txt44444444') }}</p> <a href="contact-1.html" class="btn btn-border-out z-5">{{ trans('main.banner_button1') }}</a>
+                                      <p class="fs-15">{{ trans('main.txt44444444') }}</p> <a href="/contact" class="btn btn-border-out z-5">{{ trans('main.banner_button1') }}</a>
                                   </div>
                               </div>
                           </div>
@@ -176,7 +176,7 @@
                                   <span class="frame-bottom"></span>
                                   <div class="main-banner-texts">
                                       <h1 class="f-700">{{ trans('main.txt111111111') }}   <span class="yellow">{{ trans('main.txt222222222') }}</span> <span class="blk-spn">{{ trans('main.txt333333333') }} </span></h1>
-                                      <p class="fs-15">{{ trans('main.txt444444444') }}</p> <a href="contact-1.html" class="btn btn-border-out z-5">{{ trans('main.banner_button1') }}</a>
+                                      <p class="fs-15">{{ trans('main.txt444444444') }}</p> <a href="/contact" class="btn btn-border-out z-5">{{ trans('main.banner_button1') }}</a>
                                   </div>
                               </div>
                           </div>
@@ -196,7 +196,7 @@
                                   <span class="frame-bottom"></span>
                                   <div class="main-banner-texts">
                                       <h1 class="f-700">{{ trans('main.txt1111111111') }}   <span class="yellow">{{ trans('main.txt2222222222') }}</span> <span class="blk-spn">{{ trans('main.txt3333333333') }} </span></h1>
-                                      <p class="fs-15">{{ trans('main.txt4444444444') }}</p> <a href="contact-1.html" class="btn btn-border-out z-5">{{ trans('main.banner_button1') }}</a>
+                                      <p class="fs-15">{{ trans('main.txt4444444444') }}</p> <a href="/contact" class="btn btn-border-out z-5">{{ trans('main.banner_button1') }}</a>
                                   </div>
                               </div>
                           </div>
@@ -216,7 +216,7 @@
                                   <span class="frame-bottom"></span>
                                   <div class="main-banner-texts">
                                       <h1 class="f-700">{{ trans('main.txt11111111111') }}   <span class="yellow">{{ trans('main.txt22222222222') }}</span> <span class="blk-spn">{{ trans('main.txt33333333333') }} </span></h1>
-                                      <p class="fs-15">{{ trans('main.txt44444444444') }}</p> <a href="contact-1.html" class="btn btn-border-out z-5">{{ trans('main.banner_button1') }}</a>
+                                      <p class="fs-15">{{ trans('main.txt44444444444') }}</p> <a href="/contact" class="btn btn-border-out z-5">{{ trans('main.banner_button1') }}</a>
                                   </div>
                               </div>
                           </div>
@@ -236,7 +236,7 @@
                                   <span class="frame-bottom"></span>
                                   <div class="main-banner-texts">
                                       <h1 class="f-700">{{ trans('main.txt111111111111') }}   <span class="yellow">{{ trans('main.txt222222222222') }}</span> <span class="blk-spn">{{ trans('main.txt333333333333') }} </span></h1>
-                                      <p class="fs-15">{{ trans('main.txt444444444444') }}</p> <a href="contact-1.html" class="btn btn-border-out z-5">{{ trans('main.banner_button1') }}</a>
+                                      <p class="fs-15">{{ trans('main.txt444444444444') }}</p> <a href="/contact" class="btn btn-border-out z-5">{{ trans('main.banner_button1') }}</a>
                                   </div>
                               </div>
                           </div>
@@ -256,7 +256,7 @@
                                   <span class="frame-bottom"></span>
                                   <div class="main-banner-texts">
                                       <h1 class="f-700">{{ trans('main.txt1111111111111') }}   <span class="yellow">{{ trans('main.txt2222222222222') }}</span> <span class="blk-spn">{{ trans('main.txt3333333333333') }} </span></h1>
-                                      <p class="fs-15">{{ trans('main.txt4444444444444') }}</p> <a href="contact-1.html" class="btn btn-border-out z-5">{{ trans('main.banner_button1') }}</a>
+                                      <p class="fs-15">{{ trans('main.txt4444444444444') }}</p> <a href="/contact" class="btn btn-border-out z-5">{{ trans('main.banner_button1') }}</a>
                                   </div>
                               </div>
                           </div>
@@ -276,7 +276,7 @@
                                   <span class="frame-bottom"></span>
                                   <div class="main-banner-texts">
                                       <h1 class="f-700">{{ trans('main.txt11111111111111') }}   <span class="yellow">{{ trans('main.txt22222222222222') }}</span> <span class="blk-spn">{{ trans('main.txt33333333333333') }} </span></h1>
-                                      <p class="fs-15">{{ trans('main.txt44444444444444') }}</p> <a href="contact-1.html" class="btn btn-border-out z-5">{{ trans('main.banner_button1') }}</a>
+                                      <p class="fs-15">{{ trans('main.txt44444444444444') }}</p> <a href="/contact" class="btn btn-border-out z-5">{{ trans('main.banner_button1') }}</a>
                                   </div>
                               </div>
                           </div>
@@ -504,7 +504,7 @@
                         <img src="frontend/assets/img/work/a6.jpg" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
-                            <a href="donate.html" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
+                            <a href="donate.php" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
                                 <span class="v-line"></span>
                             </a>
                             <div class="work-text text-center">
@@ -512,7 +512,7 @@
                                     <li>D.W.A.M.</li>
                                     <li>Life</li>
                                 </ul>
-                                <h4 class="mb-10"><a href="donate.html" class="fs-25 f-700 white hover-white">Donate</a></h4>
+                                <h4 class="mb-10"><a href="donate.php" class="fs-25 f-700 white hover-white">{{trans('main.donate')}}</a></h4>
                                 <p class=" white">Share your love by donating.</p>
                             </div>
                         </div>
@@ -656,7 +656,7 @@
                         <img src="{{ asset('frontend/assets/img/work/a55.jpg') }}" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
-                            <a href="contact-1.html" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
+                            <a href="/contact" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
                                 <span class="v-line"></span>
                             </a>
                             <div class="work-text text-center">
@@ -664,7 +664,7 @@
                                     <li>D.W.A.M.</li>
                                     <li>Life</li>
                                 </ul>
-                                <h4 class="mb-10"><a href="contact-1.html" class="fs-25 f-700 white hover-white">Connect</a></h4>
+                                <h4 class="mb-10"><a href="/contact" class="fs-25 f-700 white hover-white">Connect</a></h4>
                                 <p class=" white">We hope your contacting with D.W.A.M.</p>
                             </div>
                         </div>

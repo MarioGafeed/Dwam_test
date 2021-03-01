@@ -5,7 +5,7 @@
         <div class="row align-items-center">
             <div class="col-md-2 col-4">
                 <div class="logo2">
-                    <a href="index.html">
+                    <a href="/">
                         <img src="{{ asset('frontend/assets/img/logo/logo5.png') }}" alt="">
                     </a>
                 </div>
@@ -83,7 +83,7 @@
             </div>
         </div>
     </div>
-    <a href="#"  class="db-block-{{GetDirection()}} ml-35 ml-xs-25">
+    <a href="#" onclick='alert("في الإصدار القادم صلواتكم")' class="db-block-{{GetDirection()}} ml-35 ml-xs-25">
         <div class="transform-center">{{ trans('main.donate') }}</div>
     </a>
     <a href="#" class="menu-bars db-none right-menu ml-35 ml-xs-25">
@@ -102,12 +102,12 @@
           <div class="fx-menu-header d-flex justify-content-between">
             <p class="rbt-slab fs-13 f-700">{{trans('main.dwam')}}</p>
             <div class="close-menu">
-              <a href="#" class=""> <span></span>
+              <a href="#" onclick='alert("في الإصدار القادم صلواتكم")' class=""> <span></span>
                 <span></span>
               </a>
             </div>
           </div>
-          <a href="donate.html" class="btn btn-black mt-30 mb-35 mb-xs-20">{{ trans('main.donate') }}</a>
+          <a href="#" onclick='alert("في الإصدار القادم صلواتكم")' class="btn btn-black mt-30 mb-35 mb-xs-20">{{ trans('main.donate') }}</a>
           <div class="fx-menu-content mb-15" >
             <ul class="fx-menu-links rbt-slab txt-{{GetDirection()}}">
               <!-- <li> <a href="#" >{{ trans('main.home') }}</a>

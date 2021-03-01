@@ -18,6 +18,9 @@ Route::middleware(\App\Http\Middleware\LangMiddleware::class)->group(function ()
     Auth::routes();
 
     Route::get('/', 'web\HomeController@index');
+    Route::get('/donate', 'web\HomeController@donate');
+    Route::get('/contact', 'web\HomeController@contact');
+    Route::get('/about', 'web\HomeController@about');
     // Route::get('/lang/{lang}', 'FrontendController@changeLang');
 
     Route::get('/posts/index', 'web\PostController@index');
