@@ -57,7 +57,7 @@
             <div class="col-lg-6">
                 <h3 class="lh-15 mb-md-20 mt-xs-10">{{trans('main.about_desc_right')}}</h3>
             </div>
-            <div class="col-lg-5 offset-lg-1">
+            <div class="col-lg-5 offset-lg-1">                
                 <p>{{trans('main.about_desc_left')}}</p>
                 <p class="mb-0">{{trans('main.about_desc_left2')}}</p>
             </div>

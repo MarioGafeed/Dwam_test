@@ -7,7 +7,7 @@
                     <h6 class="fs-23 f-700 mb-25 txt-center" >{{ trans('main.about') }}</h6>
                     <div class="about_title-footer pr-60 mb-md-40 txt-{{GetDirection()}}">
                         <p>{{ trans('main.about_desc1') }}</p>
-                        <p> {{ trans('main.about_desc2') }}<a href="about-us.html" class="underline">{{ trans('main.read_more') }}</a>
+                        <p> {{ trans('main.about_desc2') }}<a href="/about" class="underline">{{ trans('main.read_more') }}</a>
                         </p>
                     </div>
                 </div>
