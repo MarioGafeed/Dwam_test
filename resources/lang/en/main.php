@@ -1039,7 +1039,10 @@ return [
     'full_add'                            =>'41  Abou Dawoud Al Zaheri, Manteqah as Sadesah, Nasr City, Cairo',
     'send_message'                        =>'Send Us a Message',
     'your_message'                        =>'Your message',
+    'contact_mgs_send'                    =>'Your message send successfully',
+    'body'                                =>'Your message',
     'submit'                              =>'SUBMIT',
+    'subject'                             =>'Subject',
 
     // about us
     'about_title'                         =>'Training, equipping, and serving Christian health care workers to reach others',

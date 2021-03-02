@@ -73,33 +73,67 @@
                 <div class="col-lg-12">
                     <h2 class="f-700 mb-25 fs-41 text-left text-lg-center">{{trans('main.send_message')}}</h2>
                 </div>
+                @if(session('success'))
+                  <div class="col-lg-12 alert alert-success txt-center">
+                      {{ session('success') }}
+                  </div>
+                @endif
             </div>
             <div class="row">
                 <div class="col-lg-12">
                     <form method="post" action="{{ url('contact/message/send') }}"  class="relative z-5 mt-10">
-                      <!-- @csrf -->
+                      @csrf
                         <div class="row">
+
+                            <div class="col-lg-4">
+                              <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
+                                <div class="form-group relative mb-30 mb-sm-20">
+                                    <input type="text" class="form-control input-lg input-white shadow-5 txt-center" name="name" placeholder="{{ trans('main.name') }}" >  <i class="far fa-user transform-v-center"></i>
+                                    @if ($errors->has('name'))
+                                        <span class="help-block" style="color:red;">
+                                            <strong class="help-block">{{ $errors->first('name') }}</strong>
+                                        </span>
+                                    @endif
+                                </div>
+                             </div>
+                           </div>
+
+                            <div class="col-lg-4">
+                              <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
+                                <div class="form-group relative mb-30 mb-sm-20">
+                                    <input type="email" class="form-control input-lg input-white shadow-5 txt-center" name="email" placeholder="{{ trans('main.email') }}" > <i class="far fa-envelope transform-v-center"></i>
+                                    @if ($errors->has('email'))
+                                        <span class="help-block" style="color:red;">
+                                            <strong class="help-block">{{ $errors->first('email') }}</strong>
+                                        </span>
+                                    @endif
+                                </div>
+                              </div>
+                            </div>
+
                             <div class="col-lg-4">
                                 <div class="form-group relative mb-30 mb-sm-20">
-                                    <input type="text" class="form-control input-lg input-white shadow-5 txt-center" name="name" placeholder="{{ trans('main.name') }}"> <i class="far fa-user transform-v-center"></i>
+                                    <input type="text" class="form-control input-lg input-white shadow-5 txt-center" id="phone" name="phone" placeholder="{{ trans('main.phone') }}"> <i class="fas fa-mobile-alt transform-v-center"></i>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-12">
                                 <div class="form-group relative mb-30 mb-sm-20">
-                                    <input type="email" class="form-control input-lg input-white shadow-5 txt-center" name="email" placeholder="{{ trans('main.email') }}"> <i class="far fa-envelope transform-v-center"></i>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="form-group relative mb-30 mb-sm-20">
-                                    <input type="text" class="form-control input-lg input-white shadow-5 txt-center" id="phone" placeholder="{{ trans('main.phone') }}"> <i class="fas fa-mobile-alt transform-v-center"></i>
+                                    <input type="text" class="form-control input-lg input-white shadow-5 txt-center" id="subject" name="subject" placeholder="{{ trans('main.subject') }}"> <i class="far fa-envelope transform-v-center"></i>
                                 </div>
                             </div>
                             <div class="col-md-12">
+                              <div class="form-group{{ $errors->has('body') ? ' has-error' : '' }}">
                                 <div class="form-group relative mb-30 mb-sm-20">
-                                    <textarea class="form-control input-white shadow-5 txt-center" name="msg" id="message" cols="30" rows="7" placeholder="{{ trans('main.your_message') }}"></textarea>
+                                    <textarea class="form-control input-white shadow-5 txt-center" name="body" id="message" cols="30" rows="7" placeholder="{{ trans('main.your_message') }}"></textarea>
+                                    @if ($errors->has('body'))
+                                        <span class="help-block txt-center" style="color:red;">
+                                            <strong class="help-block txt-center">{{ $errors->first('body') }}</strong>
+                                        </span>
+                                    @endif
                                 </div>
+                              </div>
                             </div>
-                            <div class="col-lg-12 text-center mt-10 mb-5"> <button  type="submit" class="btn btn-black shadow-1">{{trans('main.submit')}}</button>
+                            <div class="col-lg-12 text-center mt-10 mb-5"> <button  type="submit" class="btn btn-black shadow-1" >{{trans('main.submit')}}</button>
                             </div>
                         </div>
                     </form>

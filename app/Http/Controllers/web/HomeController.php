@@ -1,11 +1,12 @@
 <?php
 
 namespace App\Http\Controllers\web;
-
-use Illuminate\Http\Request;
+use App\Http\Requests\MessagesRequest;
 use App\Http\Controllers\Controller;
 use App\Models\Pcategory;
 use App\Models\Vcategory;
+use App\Models\Message;
+use Illuminate\Support\Facades\Validator;
 
 class HomeController extends Controller
 {
@@ -52,14 +53,35 @@ class HomeController extends Controller
       ]);
     }
 
-    public function send(Request $request)
+    public function send(MessagesRequest $request)
     {
-      $pcats = Pcategory::select('id', 'title')->get();
-      $vcats = Vcategory::select('id', 'title')->get();
-      return view('frontend.about', [
-        'pcats' => $pcats,
-        'vcats' => $vcats
-      ]);
+      // $validator =  Validator::make($request->all(), [
+      // 'name'    =>'required|string|max:255',
+      // 'email'   =>'required|email|max:255',
+      // 'phone'   =>'nullable',
+      // 'subject' =>'nullable|string|max:255',
+      // 'body'    =>'required|string',
+      // ]);
+
+      $requestAll = $request->all();
+      $message = Message::create($requestAll);
+
+      // if($validator->fails()){
+      //   $errors = $validator->errors();
+      //   return redirect( url('contact') )->withErrors($errors);
+      // }
+      // Message::create([
+      //   'name'      => $request->name,
+      //   'email'     => $request->email,
+      //   'phone'     => $request->phone,
+      //   'subject'   => $request->subject,
+      //   'body'      => $request->body,
+      // ]);
+      // $request->session()->flash('success', 'your message send successfully');
+      // return back();
+
+      session()->flash('success', trans('main.contact_mgs_send'));
+      return back();
     }
 
     public function logout()
