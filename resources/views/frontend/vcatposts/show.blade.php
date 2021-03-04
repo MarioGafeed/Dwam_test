@@ -1,4 +1,4 @@
-@extends('frontend.layout.app')
+/@extends('frontend.layout.app')
 
 @section('content')
 
@@ -20,7 +20,7 @@
             </div>
             <div class="col-md-4 text-center text-md-right">
                 <ul class="pagination-inner">
-                    <li><a href="index.html" class="yellow">{{ trans('main.home') }} </a>
+                    <li><a href="/" class="yellow">{{ trans('main.home') }} </a>
                     </li>
                     <li>
                       @if(Getlanguage() == 'en')
@@ -51,7 +51,7 @@
                           {{ json_decode($vcatpost->title)->ar }}
                           @endif
                         </a></h3>
-                        <a href="{{ url("/vpost/show/{$vcatpost->id}") }}" class="white f-700 mt-10 fs-12">Read More<i class="fas fa-long-arrow-alt-right ml-10"></i></a>
+                        <a href="{{ url("/vpost/show/{$vcatpost->id}") }}" class="white f-700 mt-10 fs-12">{{ trans('main.readMore') }}<i class="fas fa-long-arrow-alt-right ml-10"></i></a>
                     </div>
                 </div>
             </div>

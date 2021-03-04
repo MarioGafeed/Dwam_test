@@ -26,7 +26,7 @@ class PcategoriesRequest extends FormRequest
         return [
             'title_en'        => 'nullable|string|max:50',
             'title_ar'        => 'required|string|max:50',
-            'image'           => 'nullable',
+            'image'           => 'required|mimes:jpg|dimensions:width=350,height=299',
             'keyword'         => 'nullable',
             'summary_en'      => 'nullable',
             'summary_ar'      => 'required',

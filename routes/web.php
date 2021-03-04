@@ -24,7 +24,7 @@ Route::middleware(\App\Http\Middleware\LangMiddleware::class)->group(function ()
     Route::get('/about', 'web\HomeController@about');
     // Route::get('/lang/{lang}', 'FrontendController@changeLang');
 
-    Route::get('/posts/index', 'web\PostController@index');
+    Route::get('/posts/index', 'web\PostController@index'); // Show all Post categories for all posts
     Route::get('/post/show/{id}', 'web\PostController@show');
     Route::get('/catposts/show/{id}', 'web\CatpostController@show');
 

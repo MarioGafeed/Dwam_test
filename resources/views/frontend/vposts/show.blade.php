@@ -16,7 +16,7 @@
             </div>
             <div class="col-md-4 text-center text-md-right">
                 <ul class="pagination-inner">
-                    <li><a href="index.html" class="yellow">{{ trans('main.home') }} </a>
+                    <li><a href="/" class="yellow">{{ trans('main.home') }} </a>
                     </li>
                     <li>
                       @if(GetLanguage() == 'en')
@@ -252,7 +252,7 @@
                         </div>
                         <div class="row">
                             <div class="col-lg-12">
-                                <div class="owl-carousel owl-theme relative-slider">
+                                <div class="owl-carousel owl-theme relative-slider" dir="ltr">
                                   @foreach($vpostsHasSameTaqs As $posthsataq)
                                     <div class="item">
                                         <div class="each-blog">

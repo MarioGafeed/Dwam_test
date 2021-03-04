@@ -14,7 +14,7 @@
             </div>
             <div class="col-md-4 text-center text-md-right">
                 <ul class="pagination-inner">
-                    <li><a href="index.html" class="yellow">{{ trans('main.home') }} </a>
+                    <li><a href="/" class="yellow">{{ trans('main.home') }} </a>
                     </li>
                     <li>
                       @if(GetLanguage() == 'en')
@@ -59,14 +59,14 @@
                       @endif
                     </h2>
                     <div class="nav-blog-detail mt-md-45">
-                        <a href="#" class="left fs-13 f-700 transform-v-center"> <i class="fas fa-long-arrow-alt-left mr-20"></i>PREV</a> <a href="#" class="right fs-13 f-700 transform-v-center">
-                    NEXT<i class="fas fa-long-arrow-alt-right ml-20"></i>
+                        <a href="#" class="left fs-13 f-700 transform-v-center"> <i class="fas fa-long-arrow-alt-left mr-20"></i>{{trans('main.prev')}}</a> <a href="#" class="right fs-13 f-700 transform-v-center">
+                    {{trans('main.next')}}<i class="fas fa-long-arrow-alt-right ml-20"></i>
                 </a>
                     </div>
                 </div>
                 <div class="blog-by-info pt-20 pb-20 mb-55 mt-55">
                     <ul class="list-inline fs-13 text-left text-sm-center">
-                        <li class="list-inline-item"> <i class="far fa-calendar mr-10 fs-13 yellow"></i> {{$mypost->updated_at->format('d M Y ')}} </li>
+                        <li class="list-inline-item"> <i class="far fa-calendar mr-10 fs-13 yellow"></i> {{$mypost->updated_at->format('d M Y')}} </li>
                         <!-- <li class="list-inline-item"> <i class="far fa-comments mr-10 fs-13 yellow"></i> 30 Comments</li> -->
                     </ul>
                 </div>
@@ -96,7 +96,7 @@
                           {!! json_decode($mypost->content)->ar !!}
                       @endif
                     </p>
-                    <div class="block-quote-2 mb-30 mt-20"> <span class="quote-icon2 yellow">“</span>
+                    <div class="block-quote-2 mb-30 mt-20 txt-center"> <span class="quote-icon2 yellow">“</span>
                         <div class="block-quote-text z-5">
                             <p class="blue fs-23 lh-15 rbt-slab fw-500">
                               @if( GetLanguage() == 'en' )
@@ -147,7 +147,7 @@
                                         <li> <a href="https://www.facebook.com/DoctorsWithAMission/" target="_blank"><i class="fab fa-facebook-f"></i></a>
                                         </li>
                                         <li> <a href="https://youtube.com/channel/UCPg_ihi25b6MBda2Obc0_qA" target="_blank"><i class="fab fa-youtube"></i></a>
-                                        </li>                                        
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -260,9 +260,9 @@
                         </div>
                         <div class="row">
                             <div class="col-lg-12">
-                                <div class="owl-carousel owl-theme relative-slider">
+                                <div class="owl-carousel owl-theme relative-slider" dir="ltr">
                                   @foreach($postsHasSameTaqs As $posthsataq)
-                                  <div class="item">
+                                  <div class="item txt-center">
                                     <div class="each-blog">
                                       <div class="blog-img relative">
                                         <img src="{{ asset('uploads/'.$posthsataq->image) }}" alt="">
@@ -281,7 +281,7 @@
                                         </h4>
                                         <div class="blog-data">
                                           <ul class="d-flex align-items-center">
-                                            <li><i class="far fa-calendar-alt"></i>{{$posthsataq->updated_at->format('d M Y, h:i')}}</li>
+                                            <li><i class="far fa-calendar-alt"></i>{{$posthsataq->updated_at->format('d M Y')}}</li>
                                             <!-- <li><i class="fas fa-comment"></i>30 Comments</li> -->
                                           </ul>
                                         </div>

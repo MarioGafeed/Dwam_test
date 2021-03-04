@@ -37,7 +37,8 @@ class VpostsRequest extends FormRequest
             'desc_en'       => 'required',
             'desc_ar'       => 'nullable',
             'status'        => 'required|in:active,inactive',
-            'image'         => 'required|image',
+            // 'image'         => 'required|mimes:jpg|dimensions:min_width=255,min_height=336',
+            'image'         => 'required|mimes:jpg|dimensions:width=255,height=336',
         ];
     }
 

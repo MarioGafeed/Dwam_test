@@ -36,7 +36,7 @@ class PostsRequest extends FormRequest
             'desc_ar'         => 'required',
             'desc_en'         => 'nullable',
             'status'          => 'required|in:active,inactive',
-            'image'           => 'required|image',
+            'image'           => 'required|mimes:jpg|dimensions:width=350,height=299',
         ];
     }
 

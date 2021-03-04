@@ -14,7 +14,7 @@
             </div>
             <div class="col-md-4 text-center text-md-right">
                 <ul class="pagination-inner">
-                    <li><a href="index.html" class="yellow">Home </a>
+                    <li><a href="/" class="yellow">Home </a>
                     </li>
                     <li>Donate</li>
                 </ul>

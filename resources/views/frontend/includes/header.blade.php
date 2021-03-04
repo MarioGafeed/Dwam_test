@@ -25,9 +25,9 @@
                         </ul> -->
                     </li>
                     <li class="mg-nav-item mg-nav-item-has-children nav-link">
-                        <a href="#">{{ trans('main.videos') }}</a>
+                        <a href="{{ url("/vposts/index") }}">{{ trans('main.videos') }}</a>
                         <ul class="sub-menu">
-                            <li class="mg-nav-item nav-link"> <a href="index-2.html">{{ trans('main.live_videos') }}</a></li>
+                            <li class="mg-nav-item nav-link"> <a href="#" onclick='alert("قريباً في الإصدار القادم")'>{{ trans('main.live_videos') }}</a></li>
                             @foreach($vcats as $vcat)
                               <li class="mg-nav-item nav-link"> <a href="{{ url("/vcatposts/show/{$vcat->id}") }}">
                                   @if(GetLanguage() == 'en')
@@ -47,7 +47,7 @@
                         </ul>
                     </li>
                     <li class="mg-nav-item mg-nav-item-has-children nav-link">
-                        <a href="#">{{ trans('main.blogs') }}</a>
+                        <a href="{{ url("/posts/index") }}">{{ trans('main.blogs') }}</a>
                         <ul class="sub-menu">
                           @foreach($pcats as $pcat)
                             <li class="mg-nav-item nav-link"> <a href="{{ url("/catposts/show/{$pcat->id}") }}">
@@ -112,11 +112,11 @@
             <ul class="fx-menu-links rbt-slab txt-{{GetDirection()}}">
               <!-- <li> <a href="#" >{{ trans('main.home') }}</a>
               </li> -->
-              <li> <a href="#" class="has-sub" >{{ trans('main.videos') }}</a>
+              <li> <a href="{{ url("/vposts/index") }}" class="has-sub" >{{ trans('main.videos') }}</a>
                 <ul class="submenu">
-                  <li class="mg-nav-item nav-link"  dir=" dir="ltr""> <a href="index-2.html">{{ trans('main.live_videos') }}</a></li>
+                  <li class="mg-nav-item nav-link"  dir="ltr"> <a href="#" onclick='alert("قريباً في الإصدار القادم")'>{{ trans('main.live_videos') }}</a></li>
                   @foreach($vcats as $vcat)
-                  <li class="mg-nav-item nav-link"  dir=" dir="ltr""> <a href="{{ url("/vcatposts/show/{$vcat->id}") }}">
+                  <li class="mg-nav-item nav-link"   dir="ltr"> <a href="{{ url("/vcatposts/show/{$vcat->id}") }}">
                     @if(GetLanguage() == 'en')
                     {{json_decode($vcat->title)->en}}
                     @else
@@ -132,7 +132,7 @@
                   <li class="mg-nav-item nav-link" > <a href="#" onclick='alert("معذرة تحت الإنشاء")'>{{ trans('main.book_room') }}</a></li>
                 </ul>
               </li>
-              <li> <a href="#" class="has-sub"  >{{ trans('main.blogs') }}</a>
+              <li> <a href="{{ url("/posts/index") }}" class="has-sub"  >{{ trans('main.blogs') }}</a>
                 <ul class="submenu">
                   @foreach($pcats as $pcat)
                   <li class="mg-nav-item nav-link"  dir="ltr"> <a href="{{ url("/catposts/show/{$pcat->id}") }}">

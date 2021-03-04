@@ -6,7 +6,7 @@
     <section class="slider-2 relative">
         <div class="owl-carousel owl-theme main-slider" dir="ltr">
           <div class="item">
-              <div class="each-slider-2 flex-center" style="background-image: url('frontend/assets/img/banner/banner-h3-1.png');" data-overlay="4">\
+              <div class="each-slider-2 flex-center" style="background-image: url('frontend/assets/img/banner/banner-h3-1.jpg');" data-overlay="4">\
               </div>
               <div class="banner-text">
                   <div class="container">
@@ -26,7 +26,7 @@
           </div>
 
           <div class="item">
-              <div class="each-slider-2 flex-center" style="background-image: url('frontend/assets/img/banner/banner-h3-2.png');" data-overlay="4">\
+              <div class="each-slider-2 flex-center" style="background-image: url('frontend/assets/img/banner/banner-h3-2.jpg');" data-overlay="4">\
               </div>
               <div class="banner-text">
                   <div class="container">
@@ -46,7 +46,7 @@
           </div>
 
           <div class="item">
-              <div class="each-slider-2 flex-center" style="background-image: url('frontend/assets/img/banner/banner-h3-3.png');" data-overlay="4">\
+              <div class="each-slider-2 flex-center" style="background-image: url('frontend/assets/img/banner/banner-h3-3.jpg');" data-overlay="4">\
               </div>
               <div class="banner-text">
                   <div class="container">
@@ -66,7 +66,7 @@
           </div>
 
           <div class="item">
-              <div class="each-slider-2 flex-center" style="background-image: url('frontend/assets/img/banner/banner-h3-4.png');" data-overlay="4">\
+              <div class="each-slider-2 flex-center" style="background-image: url('frontend/assets/img/banner/banner-h3-4.jpg');" data-overlay="4">\
               </div>
               <div class="banner-text">
                   <div class="container">
@@ -86,7 +86,7 @@
           </div>
 
           <div class="item">
-              <div class="each-slider-2 flex-center" style="background-image: url('frontend/assets/img/banner/banner-h3-5.png');" data-overlay="4">\
+              <div class="each-slider-2 flex-center" style="background-image: url('frontend/assets/img/banner/banner-h3-5.jpg');" data-overlay="4">\
               </div>
               <div class="banner-text">
                   <div class="container">
@@ -106,7 +106,7 @@
           </div>
 
           <div class="item">
-              <div class="each-slider-2 flex-center" style="background-image: url('frontend/assets/img/banner/banner-h3-6.png');" data-overlay="4">\
+              <div class="each-slider-2 flex-center" style="background-image: url('frontend/assets/img/banner/banner-h3-6.jpg');" data-overlay="4">\
               </div>
               <div class="banner-text">
                   <div class="container">
@@ -126,7 +126,7 @@
           </div>
 
           <div class="item">
-              <div class="each-slider-2 flex-center" style="background-image: url('frontend/assets/img/banner/banner-h3-7.png');" data-overlay="4">\
+              <div class="each-slider-2 flex-center" style="background-image: url('frontend/assets/img/banner/banner-h3-7.jpg');" data-overlay="4">\
               </div>
               <div class="banner-text">
                   <div class="container">
@@ -146,7 +146,7 @@
           </div>
 
           <div class="item">
-              <div class="each-slider-2 flex-center" style="background-image: url('frontend/assets/img/banner/banner-h3-8.png');" data-overlay="4">\
+              <div class="each-slider-2 flex-center" style="background-image: url('frontend/assets/img/banner/banner-h3-8.jpg');" data-overlay="4">\
               </div>
               <div class="banner-text">
                   <div class="container">
@@ -166,7 +166,7 @@
           </div>
 
           <div class="item">
-              <div class="each-slider-2 flex-center" style="background-image: url('frontend/assets/img/banner/banner-h3-9.png');" data-overlay="4">\
+              <div class="each-slider-2 flex-center" style="background-image: url('frontend/assets/img/banner/banner-h3-9.jpg');" data-overlay="4">\
               </div>
               <div class="banner-text">
                   <div class="container">
@@ -186,7 +186,7 @@
           </div>
 
           <div class="item">
-              <div class="each-slider-2 flex-center" style="background-image: url('frontend/assets/img/banner/banner-h3-10.png');" data-overlay="4">\
+              <div class="each-slider-2 flex-center" style="background-image: url('frontend/assets/img/banner/banner-h3-10.jpg');" data-overlay="4">\
               </div>
               <div class="banner-text">
                   <div class="container">
@@ -206,7 +206,7 @@
           </div>
 
           <div class="item">
-              <div class="each-slider-2 flex-center" style="background-image: url('frontend/assets/img/banner/banner-h3-11.png');" data-overlay="4">\
+              <div class="each-slider-2 flex-center" style="background-image: url('frontend/assets/img/banner/banner-h3-11.jpg');" data-overlay="4">\
               </div>
               <div class="banner-text">
                   <div class="container">
@@ -226,7 +226,7 @@
           </div>
 
           <div class="item">
-              <div class="each-slider-2 flex-center" style="background-image: url('frontend/assets/img/banner/banner-h3-12.png');" data-overlay="4">\
+              <div class="each-slider-2 flex-center" style="background-image: url('frontend/assets/img/banner/banner-h3-12.jpg');" data-overlay="4">\
               </div>
               <div class="banner-text">
                   <div class="container">
@@ -246,7 +246,7 @@
           </div>
 
           <div class="item">
-              <div class="each-slider-2 flex-center" style="background-image: url('frontend/assets/img/banner/banner-h3-13.png');" data-overlay="4">\
+              <div class="each-slider-2 flex-center" style="background-image: url('frontend/assets/img/banner/banner-h3-13.jpg');" data-overlay="4">\
               </div>
               <div class="banner-text">
                   <div class="container">
@@ -266,7 +266,7 @@
           </div>
 
           <div class="item">
-              <div class="each-slider-2 flex-center" style="background-image: url('frontend/assets/img/banner/banner-h3-14.png');" data-overlay="4">\
+              <div class="each-slider-2 flex-center" style="background-image: url('frontend/assets/img/banner/banner-h3-14.jpg');" data-overlay="4">\
               </div>
               <div class="banner-text">
                   <div class="container">
@@ -284,8 +284,6 @@
                   </div>
               </div>
           </div>
-
-
 
         </div>
     </section>
@@ -765,7 +763,7 @@
                     </div>
                     <div class="video-area relative mt-45 shadow-1">
                         <img src="{{ asset('frontend/assets/img/bg/style.jpg') }}" alt="">
-                        <a href="https://www.youtube.com/watch?v=wGFm8FSa1aI&feature=youtu.be" class="laink-arrow z-10 popup-video transform-center"> <i class="fas fa-play"></i>
+                        <a href="https://www.youtube.com/watch?v=iPzxoFLnd9w" class="laink-arrow z-10 popup-video transform-center"> <i class="fas fa-play"></i>
                         </a>
                     </div>
                 </div>

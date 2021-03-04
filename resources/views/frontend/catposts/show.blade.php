@@ -47,7 +47,7 @@
                   <a href= " {{ url("/post/show/{$catpost->id}") }}  " class="blog-link transform-center"> <i class="fas fa-arrow-right"></i>
                   </a>
                 </div>
-                <div class="blog-text">
+                <div class="blog-text txt-center">
                   <h2 class="mt-20 mb-20">
                     <a href="{{ url("/post/show/{$catpost->id}") }}  " class="f-700 fs-19">
                       @if(Getlanguage() == 'en')
@@ -59,7 +59,7 @@
                   </h2>
                   <div class="blog-data">
                     <ul class="d-flex align-items-center">
-                      <li><i class="far fa-calendar-alt"></i>{{ $catpost->updated_at }}</li>
+                      <li><i class="far fa-calendar-alt"></i>{{ $catpost->updated_at->format('d M Y') }}</li>
                       <!-- If U want to Add Comment -->
                       <!-- <li><i class="fas fa-comment"></i>35 Comments</li> -->
                     </ul>
