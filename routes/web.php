@@ -36,6 +36,8 @@ Route::middleware(\App\Http\Middleware\LangMiddleware::class)->group(function ()
 
 Route::get('/lang/{lang}', 'web\HomeController@changeLang');
 
+
+
 // Route::get('/', 'web\FrontendController@index');
 //
 // Route::get('/logout', 'web\HomeController@logout');

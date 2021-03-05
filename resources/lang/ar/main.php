@@ -786,6 +786,8 @@ return [
     'vposts'                          => 'منشورات فيديو',
     'prev'                            => 'السابق',
     'next'                            => 'التالي',
+    'message'                         => 'رسالة',
+    'messages'                        => 'رسائل',
     // setting
     'sitename'                        => 'أسم الموقع',
 

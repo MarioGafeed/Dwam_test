@@ -104,17 +104,6 @@
                              <span class="title">{{ trans('main.show-all') }} {{ trans('main.posts') }}</span>
                          </a>
                      </li>
-                     <!-- <li class="nav-item {{ active_route('eposts.create') }}">
-                         <a href="{{ route('eposts.create') }}" class="nav-link ">
-                             <span class="title">{{ trans('main.add') }} {{ trans('main.epost') }}</span>
-                         </a>
-                     </li>
-                     <li class="nav-item {{ active_route('eposts.index') }}">
-                         <a href="{{ route('eposts.index') }}" class="nav-link ">
-                             <span class="title">{{ trans('main.show-all') }} {{ trans('main.eposts') }}</span>
-                         </a>
-                     </li> -->
-
                      <li class="nav-item {{ active_route('vposts.create') }}">
                          <a href="{{ route('vposts.create') }}" class="nav-link ">
                              <span class="title">{{ trans('main.add') }} {{ trans('main.vpost') }}</span>
@@ -125,18 +114,6 @@
                              <span class="title">{{ trans('main.show-all') }} {{ trans('main.vposts') }}</span>
                          </a>
                      </li>
-
-                     <!-- <li class="nav-item {{ active_route('evposts.create') }}">
-                         <a href="{{ route('evposts.create') }}" class="nav-link ">
-                             <span class="title">{{ trans('main.add') }} {{ trans('main.evpost') }}</span>
-                         </a>
-                     </li>
-                     <li class="nav-item {{ active_route('evposts.index') }}">
-                         <a href="{{ route('evposts.index') }}" class="nav-link ">
-                             <span class="title">{{ trans('main.show-all') }} {{ trans('main.evposts') }}</span>
-                         </a>
-                     </li> -->
-
                  </ul>
              </li>
 
@@ -162,18 +139,6 @@
                              <span class="title">{{ trans('main.show-all') }} {{ trans('main.ptaqs') }}</span>
                          </a>
                      </li>
-
-                     <!-- <li class="nav-item {{ active_route('eptaqs.create') }}">
-                         <a href="{{ route('eptaqs.create') }}" class="nav-link ">
-                             <span class="title">{{ trans('main.add') }} {{ trans('main.eptaq') }}</span>
-                         </a>
-                     </li>
-                     <li class="nav-item {{ active_route('eptaqs.index') }}">
-                         <a href="{{ route('eptaqs.index') }}" class="nav-link ">
-                             <span class="title">{{ trans('main.show-all') }} {{ trans('main.eptaqs') }}</span>
-                         </a>
-                     </li> -->
-
                      <li class="nav-item {{ active_route('vtaqs.create') }}">
                          <a href="{{ route('vtaqs.create') }}" class="nav-link ">
                              <span class="title">{{ trans('main.add') }} {{ trans('main.vtaq') }}</span>
@@ -184,18 +149,6 @@
                              <span class="title">{{ trans('main.show-all') }} {{ trans('main.vtaqs') }}</span>
                          </a>
                      </li>
-
-
-                     <!-- <li class="nav-item {{ active_route('evtaqs.create') }}">
-                         <a href="{{ route('evtaqs.create') }}" class="nav-link ">
-                             <span class="title">{{ trans('main.add') }} {{ trans('main.evtaq') }}</span>
-                         </a>
-                     </li>
-                     <li class="nav-item {{ active_route('evtaqs.index') }}">
-                         <a href="{{ route('evtaqs.index') }}" class="nav-link ">
-                             <span class="title">{{ trans('main.show-all') }} {{ trans('main.evtaq') }}</span>
-                         </a>
-                     </li> -->
                  </ul>
              </li>
 
@@ -221,17 +174,6 @@
                              <span class="title">{{ trans('main.show-all') }} {{ trans('main.pcategories') }}</span>
                          </a>
                      </li>
-                     <!-- <li class="nav-item {{ active_route('epcategories.create') }}">
-                         <a href="{{ route('epcategories.create') }}" class="nav-link ">
-                             <span class="title">{{ trans('main.add') }} {{ trans('main.epcategory') }}</span>
-                         </a>
-                     </li>
-                     <li class="nav-item {{ active_route('epcategories.index') }}">
-                         <a href="{{ route('epcategories.index') }}" class="nav-link ">
-                             <span class="title">{{ trans('main.show-all') }} {{ trans('main.epcategories') }}</span>
-                         </a>
-                     </li> -->
-
                      <li class="nav-item {{ active_route('vcategories.create') }}">
                          <a href="{{ route('vcategories.create') }}" class="nav-link ">
                              <span class="title">{{ trans('main.add') }} {{ trans('main.vcategory') }}</span>
@@ -242,19 +184,34 @@
                              <span class="title">{{ trans('main.show-all') }} {{ trans('main.vcategories') }}</span>
                          </a>
                      </li>
-
-                     <!-- <li class="nav-item {{ active_route('evcategories.create') }}">
-                         <a href="{{ route('evcategories.create') }}" class="nav-link ">
-                             <span class="title">{{ trans('main.add') }} {{ trans('main.evcategory') }}</span>
-                         </a>
-                     </li>
-                     <li class="nav-item {{ active_route('evcategories.index') }}">
-                         <a href="{{ route('evcategories.index') }}" class="nav-link ">
-                             <span class="title">{{ trans('main.show-all') }} {{ trans('main.evcategories') }}</span>
-                         </a>
-                     </li> -->
                  </ul>
              </li>
+
+              <!-- Add Message By Mario -->
+             <li class="heading">
+                 <h3 class="uppercase">{{ trans('main.messages') }}</h3>
+             </li>
+
+             <li class="nav-item  {{ active_route('messages.*') }}">
+                 <a href="javascript:;" class="nav-link nav-toggle">
+                     <i class="icon-users"></i>
+                     <span class="title">{{ trans('main.messages') }}</span>
+                     <span class="arrow"></span>
+                 </a>
+                 <ul class="sub-menu">
+                     <li class="nav-item {{ active_route('messages.create') }}">
+                         <a href="{{ route('messages.create') }}" class="nav-link ">
+                             <span class="title">{{ trans('main.add') }} {{ trans('main.message') }}</span>
+                         </a>
+                     </li>
+                     <li class="nav-item {{ active_route('messages.index') }}">
+                         <a href="{{ route('messages.index') }}" class="nav-link ">
+                             <span class="title">{{ trans('main.show-all') }} {{ trans('main.messages') }}</span>
+                         </a>
+                     </li>
+                 </ul>
+             </li>
+
 
              <!-- Add Site Seeting   (Mario Added) -->
              <li class="heading">
