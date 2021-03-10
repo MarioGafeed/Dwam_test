@@ -10,6 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+use App\Mail\ContactResponseMail;
 
 Route::middleware(\App\Http\Middleware\LangMiddleware::class)->group(function () {
 
@@ -63,4 +64,7 @@ Route::middleware(\App\Http\Middleware\LangMiddleware::class)->group(function ()
     // Route::get('/message/show/{message}', 'MessageController@show');
     // Route::post('/message/response/{message}', 'MessageController@message');
   //  Routepostget('get-user-answers', 'AnswersController@user_answers')->name('user_answers.index');
+    Route::Get('test', function(){
+      Mail::to('marioprogrammerfancier@gmail.com')->send(new ContactResponseMail);
+    });
 });

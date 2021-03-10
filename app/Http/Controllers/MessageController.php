@@ -66,7 +66,7 @@ class MessageController extends Controller
           'show' => $message,
       ]);
   }
-  
+
 
   /**
    * Remove the specified resource from storage.
@@ -102,5 +102,13 @@ class MessageController extends Controller
           session()->flash('success', trans('main.deleted-message'));
           return redirect()->route('messages.index');
       }
+  }
+
+  public function response(Message $message, Request $request)
+  {
+    $request->validate([
+      'title'=>required
+    ]);
+    $receiverMail = $message->email;
   }
 }
