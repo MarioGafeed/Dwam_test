@@ -1,6 +1,9 @@
-<h1>Hello World</h1>
+<h1>{{ $name }}</h1>
 
 
 <p>
-This is a random Text
+
+<h3> {{ $subject }} </h3>
+   </br>
+ {{ $body }}
 </p>

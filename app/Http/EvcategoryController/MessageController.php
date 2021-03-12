@@ -7,9 +7,6 @@ use App\Http\Requests\MessagesRequest;
 use App\DataTables\MessagesDataTable;
 use App\Models\Message;
 use Helper;
-use App\Mail\ContactResponseMail;
-use Illuminate\Support\Facades\Mail;
-
 
 class MessageController extends Controller
 {
@@ -110,14 +107,13 @@ class MessageController extends Controller
   public function response(Message $message, Request $request)
   {
     $request->validate([
-      'name'=>'required|string|max:255',
-      'subject'=>'required',
-      'body'=>'required|string',
-      'email'   =>'required|email|max:255',
+      'name'=>required,
+      'subject'=>required,
+      'body'=>required,
     ]);
-    // $receiverName = $message->name;
-    $receiverMail = $request->email;
-    Mail::to($receiverMail)->send(new ContactResponseMail($request->name, $request->subject, $request->body) );
+    $receiverName = $message->name;
+    $receiverMail = $message->email;
+    Mail::to($receiverMail)->send(new ContactResponseMail($receiverName, $request->subject, $request->body) );
 
     session()->flash('success', trans('main.send-message'));
     return redirect()->route('messages.index');

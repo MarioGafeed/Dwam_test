@@ -10,7 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-use App\Mail\ContactResponseMail;
+
 
 Route::middleware(\App\Http\Middleware\LangMiddleware::class)->group(function () {
 
@@ -55,16 +55,17 @@ Route::middleware(\App\Http\Middleware\LangMiddleware::class)->group(function ()
 
     // Website Setting
     Route::resource('settings', 'SettingController');
-    Route::post('settings/multi_delete', 'EvcategoryController@multi_delete')->name('settings.multi_delete');
+    Route::post('settings/multi_delete', 'SettingController@multi_delete')->name('settings.multi_delete');
 
     // Video Post Categories
     Route::resource('messages', 'MessageController');
-    Route::post('messages/multi_delete', 'MessagesController@multi_delete')->name('messages.multi_delete');
+    Route::post('messages/multi_delete', 'MessageController@multi_delete')->name('messages.multi_delete');
+    Route::post('messages/response', 'MessageController@response')->name('messages.response');;
     // Route::get('/messages/index', 'MessageController@index');
     // Route::get('/message/show/{message}', 'MessageController@show');
     // Route::post('/message/response/{message}', 'MessageController@message');
   //  Routepostget('get-user-answers', 'AnswersController@user_answers')->name('user_answers.index');
-    Route::Get('test', function(){
-      Mail::to('marioprogrammerfancier@gmail.com')->send(new ContactResponseMail);
-    });
+    // Route::Get('test', function(){
+    //   Mail::to('marioprogrammerfancier@gmail.com')->send(new ContactResponseMail);
+    // });
 });

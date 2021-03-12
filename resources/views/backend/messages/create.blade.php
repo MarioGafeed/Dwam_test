@@ -17,11 +17,11 @@
                     </div>
                 </div>
                 <div class="portlet-body form">
-                    <form method="post" action="{{ route('messages.store') }}" class="form-horizontal" role="form" enctype="multipart/form-data">
+                    <form method="post" action="{{ route('messages.response') }}" class="form-horizontal" role="form" enctype="multipart/form-data">
                         @csrf
                         @include('backend.messages.incs._fields', [
                             'data' => collect(old()),
-                            'action' => 'create'
+                            'action' => 'response'
                         ])
                         <div class="form-actions">
                             <div class="row">

@@ -16,9 +16,15 @@ class ContactResponseMail extends Mailable
      *
      * @return void
      */
-    public function __construct()
+
+     public $name, $subject, $body;
+
+    public function __construct($name, $subject, $body)
     {
-        //
+        $this->name    = $name;
+        $this->subject = $subject;
+        $this->body    = $body;
+
     }
 
     /**

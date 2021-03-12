@@ -55,6 +55,7 @@ return [
     'lead'                => 'Lead',
     'lead-source'         => 'Lead Source',
     'added-message'       => 'Data added successfully',
+    'send-message'        => 'Message Sent successfully',
     'success'             => 'Success',
     'ask-delete'          => 'Are you sure that you want to delete ',
     'ask-assign'          => 'Are you sure that you want to assign ',
@@ -783,9 +784,9 @@ return [
     'vposts'                       => 'Video Posts',
     'prev'                         => 'PREV',
     'next'                         => 'NEXT',
-    'message'                      => 'MESSAGE',
-    'messages'                     => 'MESSAGES',
-      
+    'message'                      => 'Message',
+    'messages'                     => 'Messages',
+
     // setting
     'sitename'                     => 'Site Name',
     'bannersliderimage'            => 'Banner Slider Img',

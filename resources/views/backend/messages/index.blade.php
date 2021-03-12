@@ -7,7 +7,7 @@
 @section('content')
     <div class="row">
         <div class="col-md-12">
-            <form method="post" action="{{ route('vposts.multi_delete') }}">
+            <form method="post" action="{{ route('messages.multi_delete') }}">
                 @csrf
                 <div class="portlet light">
                     <div class="portlet-title">
@@ -58,7 +58,7 @@
             });
         });
         $(document).on('click', '.createBtn', function() {
-            window.location = "{{ route('vposts.create') }}";
+            window.location = "{{ route('messages.create') }}";
         });
         $(document).on('click', '.deleteBtn', function() {
             $('#multi_delete').modal('show');
