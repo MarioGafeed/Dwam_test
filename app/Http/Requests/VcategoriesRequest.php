@@ -39,10 +39,10 @@ class VcategoriesRequest extends FormRequest
     public function attributes()
     {
         return [
-            'title'       => trans('main.title'),
+            'title'         => trans('main.title'),
             'keyword'       => trans('main.keyword'),
             'summary'       => trans('main.summary'),
-            'desc'       => trans('main.desc'),
+            'desc'          => trans('main.desc'),
         ];
     }
 }

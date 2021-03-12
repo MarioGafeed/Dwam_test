@@ -31,7 +31,7 @@
         <div class="col-md-6">
             <select class="form-control select2" id="vcat_id" name="vcat_id">
               <option value="">{{ trans('main.select Category') }}</option>
-              @foreach ($vcat as $pc)          
+              @foreach ($vcat as $pc)
                   <option value="{{ $pc->id }}" {{ getData($data, 'vcat_id') == $pc->id ? 'selected' : '' }}>
                     @if(GetLanguage() == 'en')
                       {{ json_decode($pc->title)->en }}
@@ -80,8 +80,8 @@
                 </div>
                 <div>
                     <span class="btn red btn-outline btn-file">
-                        <span class="fileinput-new"> {{ trans('main.select_image') }} </span>
-                        <span class="fileinput-exists"> {{ trans('main.change') }} </span>
+                        <span class="fileinput-new"> {{ trans('main.select_image') }} 255*336</span>
+                        <span class="fileinput-exists"> {{ trans('main.change') }} 255*336</span>
                         <input type="file" name="image">
                     </span>
                     <a href="javascript:;" class="btn red fileinput-exists" data-dismiss="fileinput"> {{ trans('main.remove') }} </a>

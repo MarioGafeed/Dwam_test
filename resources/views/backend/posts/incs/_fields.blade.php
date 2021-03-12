@@ -77,8 +77,8 @@
                 </div>
                 <div>
                     <span class="btn red btn-outline btn-file">
-                        <span class="fileinput-new"> {{ trans('main.select_image') }} </span>
-                        <span class="fileinput-exists"> {{ trans('main.change') }} </span>
+                        <span class="fileinput-new"> {{ trans('main.select_image') }} 350*299</span>
+                        <span class="fileinput-exists"> {{ trans('main.change') }} 350*299</span>
                         <input type="file" name="image">
                     </span>
                     <a href="javascript:;" class="btn red fileinput-exists" data-dismiss="fileinput"> {{ trans('main.remove') }} </a>
