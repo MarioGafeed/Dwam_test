@@ -407,7 +407,7 @@
                         <img src="{{ asset('frontend/assets/img/work/a1.jpg') }}" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
-                            <a href="ministries.html" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
+                            <a href="{{ url("/vposts/index") }}" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
                                 <span class="v-line"></span>
                             </a>
                             <div class="work-text text-center">
@@ -415,8 +415,8 @@
                                     <li>D.W.A.M</li>
                                     <li>Life</li>
                                 </ul>
-                                <h4 class="mb-10"><a href="ministries.html" class="fs-25 f-700 white hover-white">Videos</a></h4>
-                                <p class=" white">Enjoy with D.W.A.M'S life Video.</p>
+                                <h4 class="mb-10"><a href="{{ url("/vposts/index") }}" class="fs-25 f-700 white hover-white">{{trans('main.videos')}}</a></h4>
+                                <p class=" white">{{trans("main.work_desc1")}}</p>
                             </div>
                         </div>
                     </div>
@@ -445,7 +445,7 @@
                         <img src="frontend/assets/img/work/a3.jpg" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
-                            <a href="events.html" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
+                            <a href="#" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
                                 <span class="v-line"></span>
                             </a>
                             <div class="work-text text-center">
@@ -453,7 +453,7 @@
                                     <li>D.W.A.M.</li>
                                     <li>Life</li>
                                 </ul>
-                                <h4 class="mb-10"><a href="events.html" class="fs-25 f-700 white hover-white">Events</a></h4>
+                                <h4 class="mb-10"><a href="#" class="fs-25 f-700 white hover-white">Events</a></h4>
                                 <p class=" white">Each month, DWAM give you a new EVENT.</p>
                             </div>
                         </div>
@@ -540,25 +540,6 @@
                         <img src="{{ asset('frontend/assets/img/work/a8.jpg') }}" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
-                            <a href="our-partner.html" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
-                                <span class="v-line"></span>
-                            </a>
-                            <div class="work-text text-center">
-                                <ul class="category yellow">
-                                    <li>D.W.A.M.</li>
-                                    <li>Life</li>
-                                </ul>
-                                <h4 class="mb-10"><a href="our-partner.html" class="fs-25 f-700 white hover-white">Our Partners</a></h4>
-                                <p class=" white">Interact with our partners in direct way.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 work-grid-item">
-                    <div class="mnsry-work relative">
-                        <img src="{{ asset('frontend/assets/img/work/a9.jpg') }}" alt="">
-                        <div class="content-wk transition-5">
-                            <div class="overlay-full transition-4"></div>
                             <a href="about-us.html" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
                                 <span class="v-line"></span>
                             </a>
@@ -575,64 +556,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 work-grid-item">
                     <div class="mnsry-work relative">
-                        <img src="{{ asset('frontend/assets/img/work/a10.jpg') }}" alt="">
-                        <div class="content-wk transition-5">
-                            <div class="overlay-full transition-4"></div>
-                            <a href="about-pastor.html" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
-                                <span class="v-line"></span>
-                            </a>
-                            <div class="work-text text-center">
-                                <ul class="category yellow">
-                                    <li>D.W.A.M.</li>
-                                    <li>Life</li>
-                                </ul>
-                                <h4 class="mb-10"><a href="about-pastor.html" class="fs-25 f-700 white hover-white">About responsible</a></h4>
-                                <p class=" white">DR Maher Samuel.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 work-grid-item">
-                    <div class="mnsry-work relative">
-                        <img src="frontend/assets/img/work/a11.jpg" alt="">
-                        <div class="content-wk transition-5">
-                            <div class="overlay-full transition-4"></div>
-                            <a href="#" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
-                                <span class="v-line"></span>
-                            </a>
-                            <div class="work-text text-center">
-                                <ul class="category yellow">
-                                    <li>D.W.A.M.</li>
-                                    <li>Life</li>
-                                </ul>
-                                <h4 class="mb-10"><a href="#" class="fs-25 f-700 white hover-white">Shop</a></h4>
-                                <p class=" white">Now you can collect your needs.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 work-grid-item">
-                    <div class="mnsry-work relative">
-                        <img src="{{ asset('frontend/assets/img/work/a12.jpg') }}" alt="">
-                        <div class="content-wk transition-5">
-                            <div class="overlay-full transition-4"></div>
-                            <a href="#" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
-                                <span class="v-line"></span>
-                            </a>
-                            <div class="work-text text-center">
-                                <ul class="category yellow">
-                                    <li>D.W.A.M.</li>
-                                    <li>Life</li>
-                                </ul>
-                                <h4 class="mb-10"><a href="#" class="fs-25 f-700 white hover-white">Verses</a></h4>
-                                <p class=" white">Each you need spirit food.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 work-grid-item">
-                    <div class="mnsry-work relative">
-                        <img src="{{ asset('frontend/assets/img/work/a15.jpg') }}" alt="">
+                        <img src="{{ asset('frontend/assets/img/work/a9.jpg') }}" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
                             <a href="#" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
@@ -651,7 +575,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 work-grid-item">
                     <div class="mnsry-work relative">
-                        <img src="{{ asset('frontend/assets/img/work/a55.jpg') }}" alt="">
+                        <img src="{{ asset('frontend/assets/img/work/a10.jpg') }}" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
                             <a href="/contact" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
@@ -670,7 +594,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 work-grid-item">
                     <div class="mnsry-work relative">
-                        <img src="{{ asset('frontend/assets/img/work/a7a.jpg') }}" alt="">
+                        <img src="{{ asset('frontend/assets/img/work/a11.jpg') }}" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
                             <a href="contact-2.html" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
@@ -689,7 +613,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 work-grid-item">
                     <div class="mnsry-work relative">
-                        <img src="{{ asset('frontend/assets/img/work/a8.jpg') }}" alt="">
+                        <img src="{{ asset('frontend/assets/img/work/a12.jpg') }}" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
                             <a href="#" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
@@ -763,7 +687,7 @@
                     </div>
                     <div class="video-area relative mt-45 shadow-1">
                         <img src="{{ asset('frontend/assets/img/bg/style.jpg') }}" alt="">
-                        <a href="https://www.youtube.com/watch?v=iPzxoFLnd9w" class="laink-arrow z-10 popup-video transform-center"> <i class="fas fa-play"></i>
+                        <a href="https://www.youtube.com/watch?v=9VjzMtvyCdc" class="laink-arrow z-10 popup-video transform-center"> <i class="fas fa-play"></i>
                         </a>
                     </div>
                 </div>
@@ -928,12 +852,12 @@
                             <div class="each-blog">
                                 <div class="blog-img relative">
                                     <img src="frontend/assets/img/blog/blog1.png" alt="">
-                                    <a href="events-detail.html" class="blog-link transform-center "> <i class="fas fa-arrow-right"></i>
+                                    <a href="#" class="blog-link transform-center "> <i class="fas fa-arrow-right"></i>
                                     </a>
                                 </div>
                                 <div class="blog-text">
                                     <h4 class="mt-20 mb-20 txt-{{GetDirection()}}">
-                                        <a href="events-detail.html" class="f-700 fs-19">{{ trans('main.event1') }}</a>
+                                        <a href="#" class="f-700 fs-19">{{ trans('main.event1') }}</a>
                                     </h4>
                                     <div class="blog-data">
                                         <ul class="d-flex align-items-center">

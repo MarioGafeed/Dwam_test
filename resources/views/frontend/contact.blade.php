@@ -47,8 +47,8 @@
                     <div class="ctnct-info-icon"> <i class="fas fa-envelope"></i>
                     </div>
                     <h5 class="fs-12 f-500 mb-10">{{ trans('main.send_mail') }}</h5>
-                    <p class="bld-text"> <a href="#" class="fs-16 f-500">dwam@dwam4j.net</a>
-                        <a href="#" class="fs-16 f-500">contact@dwam4j.net</a>
+                    <p class="bld-text"> <a href="#" class="fs-16 f-500">dwam@dwam4j.com</a>
+                        <a href="#" class="fs-16 f-500">contact@dwam4j.com</a>
                     </p>
                 </div>
             </div>

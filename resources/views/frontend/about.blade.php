@@ -57,7 +57,7 @@
             <div class="col-lg-6">
                 <h3 class="lh-15 mb-md-20 mt-xs-10">{{trans('main.about_desc_right')}}</h3>
             </div>
-            <div class="col-lg-5 offset-lg-1">                
+            <div class="col-lg-5 offset-lg-1">
                 <p>{{trans('main.about_desc_left')}}</p>
                 <p class="mb-0">{{trans('main.about_desc_left2')}}</p>
             </div>
@@ -71,7 +71,7 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <div class="our-style-text z-10">
-                    <a href="https://www.youtube.com/watch?v=ZTC8ay17Oi8" class="laink-arrow opacity-1 z-10 popup-video  mb-35"> <i class="fas fa-play"></i>
+                    <a href="https://www.youtube.com/watch?v=TttLcUBKoUg" class="laink-arrow opacity-1 z-10 popup-video  mb-35"> <i class="fas fa-play"></i>
                     </a>
                     <h3 class="white fs-58 f-700 mb-25">{{trans('main.about_video_title')}}</h3>
                     <p class="white">{{trans('main.about_video_desc')}}</p> <span class="line-vd"></span>
@@ -131,7 +131,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-4 col-md-6">
                 <div class="team-img shadow-1 js-tilt3">
                     <img src="frontend/assets/img/team/1.jpg" alt="">
                     <div class="team-text text-center">
@@ -153,7 +153,7 @@
 
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-4 col-md-6">
                 <div class="team-img shadow-1 js-tilt3">
                     <img src="frontend/assets/img/team/2.jpg" alt="">
                     <div class="team-text text-center">
@@ -175,7 +175,7 @@
 
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-4 col-md-6">
                 <div class="team-img shadow-1 js-tilt3">
                     <img src="frontend/assets/img/team/3.jpg" alt="">
                     <div class="team-text text-center">
@@ -197,12 +197,56 @@
 
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-4 col-md-6">
                 <div class="team-img shadow-1 js-tilt3">
                     <img src="frontend/assets/img/team/4.jpg" alt="">
                     <div class="team-text text-center">
                         <h4 class="fs-22 f-700 yellow mb-10">{{trans('main.about_pastor4')}}</h4>
                         <p class="white mb-0">{{trans('main.about_pastor4_role')}}</p>
+                        <div class="social-team">
+                            <ul class="social-icons white">
+                                <li> <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li> <a href="#"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li> <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </li>
+                                <li> <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="team-img shadow-1 js-tilt3">
+                    <img src="frontend/assets/img/team/5.jpg" alt="">
+                    <div class="team-text text-center">
+                        <h4 class="fs-22 f-700 yellow mb-10">{{trans('main.about_pastor5')}}</h4>
+                        <p class="white mb-0">{{trans('main.about_pastor5_role')}}</p>
+                        <div class="social-team">
+                            <ul class="social-icons white">
+                                <li> <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li> <a href="#"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li> <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </li>
+                                <li> <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="team-img shadow-1 js-tilt3">
+                    <img src="frontend/assets/img/team/6.jpg" alt="">
+                    <div class="team-text text-center">
+                        <h4 class="fs-22 f-700 yellow mb-10">{{trans('main.about_pastor6')}}</h4>
+                        <p class="white mb-0">{{trans('main.about_pastor6_role')}}</p>
                         <div class="social-team">
                             <ul class="social-icons white">
                                 <li> <a href="#"><i class="fab fa-facebook-f"></i></a>
