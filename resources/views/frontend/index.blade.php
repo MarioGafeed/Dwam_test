@@ -404,10 +404,10 @@
             <div class="row work-masonry-div">
                 <div class="col-lg-4 col-md-6 work-grid-item">
                     <div class="mnsry-work relative">
-                        <img src="{{ asset('frontend/assets/img/work/a1.jpg') }}" alt="">
+                        <img src="{{ asset('frontend/assets/img/Our-D.W.A.M/1.jpg') }}" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
-                            <a href="{{ url("/vposts/index") }}" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
+                            <a href="#" onclick='alert("في الاصدار القادم")' class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
                                 <span class="v-line"></span>
                             </a>
                             <div class="work-text text-center">
@@ -415,217 +415,293 @@
                                     <li>D.W.A.M</li>
                                     <li>Life</li>
                                 </ul>
-                                <h4 class="mb-10"><a href="{{ url("/vposts/index") }}" class="fs-25 f-700 white hover-white">{{trans('main.videos')}}</a></h4>
-                                <p class=" white">{{trans("main.work_desc1")}}</p>
+                                <h4 class="mb-10"><a href="#" onclick='alert("في الاصدار القادم")' class="fs-25 f-700 white hover-white">{{trans('main.work_life1')}}</a></h4>
+                                <p class=" white">{{trans('main.work_life_desc1')}}</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 work-grid-item">
                     <div class="mnsry-work relative">
-                        <img src="frontend/assets/img/work/a2.jpg" alt="">
+                        <img src="{{ asset('frontend/assets/img/Our-D.W.A.M/2.jpg') }}" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
-                            <a href="sermons.html" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
+                            <a href="{{url('/vposts/index')}}"  class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
                                 <span class="v-line"></span>
                             </a>
                             <div class="work-text text-center">
                                 <ul class="category yellow">
-                                    <li>D.W.A.M.</li>
+                                    <li>D.W.A.M</li>
                                     <li>Life</li>
                                 </ul>
-                                <h4 class="mb-10"><a href="sermons.html" class="fs-25 f-700 white hover-white">Previous Video</a></h4>
-                                <p class=" white">Enjoy all previous videos and leave comment.</p>
+                                <h4 class="mb-10"><a href="{{url('/vposts/index')}}"  class="fs-25 f-700 white hover-white">{{trans('main.work_life2')}}</a></h4>
+                                <p class=" white">{{trans('main.work_life_desc2')}}</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 work-grid-item">
                     <div class="mnsry-work relative">
-                        <img src="frontend/assets/img/work/a3.jpg" alt="">
+                        <img src="{{ asset('frontend/assets/img/Our-D.W.A.M/3.jpg') }}" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
-                            <a href="#" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
+                            <a href="#" onclick='alert("في الاصدار القادم")' class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
                                 <span class="v-line"></span>
                             </a>
                             <div class="work-text text-center">
                                 <ul class="category yellow">
-                                    <li>D.W.A.M.</li>
+                                    <li>D.W.A.M</li>
                                     <li>Life</li>
                                 </ul>
-                                <h4 class="mb-10"><a href="#" class="fs-25 f-700 white hover-white">Events</a></h4>
-                                <p class=" white">Each month, DWAM give you a new EVENT.</p>
+                                <h4 class="mb-10"><a href="#" onclick='alert("في الاصدار القادم")' class="fs-25 f-700 white hover-white">{{trans('main.work_life3')}}</a></h4>
+                                <p class=" white">{{trans('main.work_life_desc3')}}</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 work-grid-item">
                     <div class="mnsry-work relative">
-                        <img src="frontend/assets/img/work/a4.jpg" alt="">
+                        <img src="{{ asset('frontend/assets/img/Our-D.W.A.M/4.jpg') }}" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
-                            <a href="blog.html" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
+                            <a href="{{url('/posts/index')}}"  class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
                                 <span class="v-line"></span>
                             </a>
                             <div class="work-text text-center">
                                 <ul class="category yellow">
-                                    <li>D.W.A.M.</li>
+                                    <li>D.W.A.M</li>
                                     <li>Life</li>
                                 </ul>
-                                <h4 class="mb-10"><a href="blog.html" class="fs-25 f-700 white hover-white">Blog</a></h4>
-                                <p class=" white">Enjoy DWAM Blogs and interact with comments.</p>
+                                <h4 class="mb-10"><a href="{{url('/posts/index')}}" class="fs-25 f-700 white hover-white">{{trans('main.work_life4')}}</a></h4>
+                                <p class=" white">{{trans('main.work_life_desc4')}}</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 work-grid-item">
                     <div class="mnsry-work relative">
-                        <img src="frontend/assets/img/work/a5.jpg" alt="">
+                        <img src="{{ asset('frontend/assets/img/Our-D.W.A.M/5.jpg') }}" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
-                            <a href="services.html" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
+                            <a href="#" onclick='alert("في الاصدار القادم")' class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
                                 <span class="v-line"></span>
                             </a>
                             <div class="work-text text-center">
                                 <ul class="category yellow">
-                                    <li>D.W.A.M.</li>
+                                    <li>D.W.A.M</li>
                                     <li>Life</li>
                                 </ul>
-                                <h4 class="mb-10"><a href="services.html" class="fs-25 f-700 white hover-white">Services</a></h4>
-                                <p class=" white">Enjoy DWAM Services and interact with us.</p>
+                                <h4 class="mb-10"><a href="#" onclick='alert("في الاصدار القادم")' class="fs-25 f-700 white hover-white">{{trans('main.work_life5')}}</a></h4>
+                                <p class=" white">{{trans('main.work_life_desc5')}}</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 work-grid-item">
                     <div class="mnsry-work relative">
-                        <img src="frontend/assets/img/work/a6.jpg" alt="">
+                        <img src="{{ asset('frontend/assets/img/Our-D.W.A.M/6.jpg') }}" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
-                            <a href="donate.php" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
+                            <a href="#" onclick='alert("في الاصدار القادم")' class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
                                 <span class="v-line"></span>
                             </a>
                             <div class="work-text text-center">
                                 <ul class="category yellow">
-                                    <li>D.W.A.M.</li>
+                                    <li>D.W.A.M</li>
                                     <li>Life</li>
                                 </ul>
-                                <h4 class="mb-10"><a href="donate.php" class="fs-25 f-700 white hover-white">{{trans('main.donate')}}</a></h4>
-                                <p class=" white">Share your love by donating.</p>
+                                <h4 class="mb-10"><a href="#" onclick='alert("في الاصدار القادم")' class="fs-25 f-700 white hover-white">{{trans('main.work_life6')}}</a></h4>
+                                <p class=" white">{{trans('main.work_life_desc6')}}</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 work-grid-item">
                     <div class="mnsry-work relative">
-                        <img src="frontend/assets/img/work/a7.jpg" alt="">
+                        <img src="{{ asset('frontend/assets/img/Our-D.W.A.M/7.jpg') }}" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
-                            <a href="our-member.html" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
+                            <a href="#" onclick='alert("في الاصدار القادم")' class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
                                 <span class="v-line"></span>
                             </a>
                             <div class="work-text text-center">
                                 <ul class="category yellow">
-                                    <li>D.W.A.M.</li>
+                                    <li>D.W.A.M</li>
                                     <li>Life</li>
                                 </ul>
-                                <h4 class="mb-10"><a href="our-member.html" class="fs-25 f-700 white hover-white">Our Members</a></h4>
-                                <p class=" white">Enjoy DWAM society with interacting us.</p>
+                                <h4 class="mb-10"><a href="#" onclick='alert("في الاصدار القادم")' class="fs-25 f-700 white hover-white">{{trans('main.work_life7')}}</a></h4>
+                                <p class=" white">{{trans('main.work_life_desc7')}}</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 work-grid-item">
                     <div class="mnsry-work relative">
-                        <img src="{{ asset('frontend/assets/img/work/a8.jpg') }}" alt="">
+                        <img src="{{ asset('frontend/assets/img/Our-D.W.A.M/8.jpg') }}" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
-                            <a href="about-us.html" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
+                            <a href="#" onclick='alert("في الاصدار القادم")' class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
                                 <span class="v-line"></span>
                             </a>
                             <div class="work-text text-center">
                                 <ul class="category yellow">
-                                    <li>D.W.A.M.</li>
+                                    <li>D.W.A.M</li>
                                     <li>Life</li>
                                 </ul>
-                                <h4 class="mb-10"><a href="about-us.html" class="fs-25 f-700 white hover-white">About Us</a></h4>
-                                <p class=" white">You can know all about US.</p>
+                                <h4 class="mb-10"><a href="#" onclick='alert("في الاصدار القادم")' class="fs-25 f-700 white hover-white">{{trans('main.work_life8')}}</a></h4>
+                                <p class=" white">{{trans('main.work_life_desc8')}}</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 work-grid-item">
                     <div class="mnsry-work relative">
-                        <img src="{{ asset('frontend/assets/img/work/a9.jpg') }}" alt="">
+                        <img src="{{ asset('frontend/assets/img/Our-D.W.A.M/9.jpg') }}" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
-                            <a href="#" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
+                            <a href="{{url('/about')}}" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
                                 <span class="v-line"></span>
                             </a>
                             <div class="work-text text-center">
                                 <ul class="category yellow">
-                                    <li>D.W.A.M.</li>
+                                    <li>D.W.A.M</li>
                                     <li>Life</li>
                                 </ul>
-                                <h4 class="mb-10"><a href="#" class="fs-25 f-700 white hover-white">News</a></h4>
-                                <p class=" white">Now you can know the news.</p>
+                                <h4 class="mb-10"><a href="{{url('/about')}}" class="fs-25 f-700 white hover-white">{{trans('main.work_life9')}}</a></h4>
+                                <p class=" white">{{trans('main.work_life_desc9')}}</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 work-grid-item">
                     <div class="mnsry-work relative">
-                        <img src="{{ asset('frontend/assets/img/work/a10.jpg') }}" alt="">
+                        <img src="{{ asset('frontend/assets/img/Our-D.W.A.M/10.jpg') }}" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
-                            <a href="/contact" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
+                            <a href="#" onclick='alert("في الاصدار القادم")' class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
                                 <span class="v-line"></span>
                             </a>
                             <div class="work-text text-center">
                                 <ul class="category yellow">
-                                    <li>D.W.A.M.</li>
+                                    <li>D.W.A.M</li>
                                     <li>Life</li>
                                 </ul>
-                                <h4 class="mb-10"><a href="/contact" class="fs-25 f-700 white hover-white">Connect</a></h4>
-                                <p class=" white">We hope your contacting with D.W.A.M.</p>
+                                <h4 class="mb-10"><a href="#" onclick='alert("في الاصدار القادم")' class="fs-25 f-700 white hover-white">{{trans('main.work_life10')}}</a></h4>
+                                <p class=" white">{{trans('main.work_life_desc10')}}</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 work-grid-item">
                     <div class="mnsry-work relative">
-                        <img src="{{ asset('frontend/assets/img/work/a11.jpg') }}" alt="">
+                        <img src="{{ asset('frontend/assets/img/Our-D.W.A.M/11.jpg') }}" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
-                            <a href="contact-2.html" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
+                            <a href="#" onclick='alert("في الاصدار القادم")' class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
                                 <span class="v-line"></span>
                             </a>
                             <div class="work-text text-center">
                                 <ul class="category yellow">
-                                    <li>D.W.A.M.</li>
+                                    <li>D.W.A.M</li>
                                     <li>Life</li>
                                 </ul>
-                                <h4 class="mb-10"><a href="contact-2.html" class="fs-25 f-700 white hover-white">Ask A Question</a></h4>
-                                <p class=" white">Don't Delay asking any questions.</p>
+                                <h4 class="mb-10"><a href="#" onclick='alert("في الاصدار القادم")' class="fs-25 f-700 white hover-white">{{trans('main.work_life11')}}</a></h4>
+                                <p class=" white">{{trans('main.work_life_desc11')}}</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 work-grid-item">
                     <div class="mnsry-work relative">
-                        <img src="{{ asset('frontend/assets/img/work/a12.jpg') }}" alt="">
+                        <img src="{{ asset('frontend/assets/img/Our-D.W.A.M/12.jpg') }}" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
-                            <a href="#" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
+                            <a href="#" onclick='alert("في الاصدار القادم")' class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
                                 <span class="v-line"></span>
                             </a>
                             <div class="work-text text-center">
                                 <ul class="category yellow">
-                                    <li>D.W.A.M.</li>
+                                    <li>D.W.A.M</li>
                                     <li>Life</li>
                                 </ul>
-                                <h4 class="mb-10"><a href="#" class="fs-25 f-700 white hover-white">Socialize</a></h4>
-                                <p class=" white">Let's interact with US.</p>
+                                <h4 class="mb-10"><a href="#" onclick='alert("في الاصدار القادم")' class="fs-25 f-700 white hover-white">{{trans('main.work_life12')}}</a></h4>
+                                <p class=" white">{{trans('main.work_life_desc12')}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 work-grid-item">
+                    <div class="mnsry-work relative">
+                        <img src="{{ asset('frontend/assets/img/Our-D.W.A.M/13.jpg') }}" alt="">
+                        <div class="content-wk transition-5">
+                            <div class="overlay-full transition-4"></div>
+                            <a href="#" onclick='alert("في الاصدار القادم")' class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
+                                <span class="v-line"></span>
+                            </a>
+                            <div class="work-text text-center">
+                                <ul class="category yellow">
+                                    <li>D.W.A.M</li>
+                                    <li>Life</li>
+                                </ul>
+                                <h4 class="mb-10"><a href="#" onclick='alert("في الاصدار القادم")' class="fs-25 f-700 white hover-white">{{trans('main.work_life13')}}</a></h4>
+                                <p class=" white">{{trans('main.work_life_desc13')}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 work-grid-item">
+                    <div class="mnsry-work relative">
+                        <img src="{{ asset('frontend/assets/img/Our-D.W.A.M/14.jpg') }}" alt="">
+                        <div class="content-wk transition-5">
+                            <div class="overlay-full transition-4"></div>
+                            <a href="{{url('/contact')}}" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
+                                <span class="v-line"></span>
+                            </a>
+                            <div class="work-text text-center">
+                                <ul class="category yellow">
+                                    <li>D.W.A.M</li>
+                                    <li>Life</li>
+                                </ul>
+                                <h4 class="mb-10"><a href="{{url('/contact')}}" class="fs-25 f-700 white hover-white">{{trans('main.work_life14')}}</a></h4>
+                                <p class=" white">{{trans('main.work_life_desc14')}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 work-grid-item">
+                    <div class="mnsry-work relative">
+                        <img src="{{ asset('frontend/assets/img/Our-D.W.A.M/15.jpg') }}" alt="">
+                        <div class="content-wk transition-5">
+                            <div class="overlay-full transition-4"></div>
+                            <a href=""{{url('/contact')}}"" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
+                                <span class="v-line"></span>
+                            </a>
+                            <div class="work-text text-center">
+                                <ul class="category yellow">
+                                    <li>D.W.A.M</li>
+                                    <li>Life</li>
+                                </ul>
+                                <h4 class="mb-10"><a href="{{url('/contact')}}" class="fs-25 f-700 white hover-white">{{trans('main.work_life15')}}</a></h4>
+                                <p class=" white">{{trans('main.work_life_desc15')}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 work-grid-item">
+                    <div class="mnsry-work relative">
+                        <img src="{{ asset('frontend/assets/img/Our-D.W.A.M/16.jpg') }}" alt="">
+                        <div class="content-wk transition-5">
+                            <div class="overlay-full transition-4"></div>
+                            <a href="#" onclick='alert("في الاصدار القادم")' class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
+                                <span class="v-line"></span>
+                            </a>
+                            <div class="work-text text-center">
+                                <ul class="category yellow">
+                                    <li>D.W.A.M</li>
+                                    <li>Life</li>
+                                </ul>
+                                <h4 class="mb-10"><a href="#" onclick='alert("في الاصدار القادم")' class="fs-25 f-700 white hover-white">{{trans('main.work_life16')}}</a></h4>
+                                <p class=" white">{{trans('main.work_life_desc16')}}</p>
                             </div>
                         </div>
                     </div>
@@ -633,7 +709,7 @@
             </div>
             <div class="row">
                 <dI graduatediv class="col-12 text-center">
-                    <div class="lined-btn mt-50"> <a href="#" class="lined-button rbt-slab">Load More..</a>
+                    <div class="lined-btn mt-50"> <a href="#" class="lined-button rbt-slab">trans('main.read_more')</a>
                     </div>
                 </div>
             </div>

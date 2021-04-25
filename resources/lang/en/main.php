@@ -1078,6 +1078,55 @@ return [
     'work_desc2'                          =>'Enjoy DWAM Services and interact with us',
     'work_desc2'                          =>'Share your love by donating',
 
+    // Work Gallery Start.. Dwam Life
+    'work_life1'                          =>'Live Video',
+    'work_life_desc1'                     =>'Enjoy with D.W.A.M  life Video.',
+
+    'work_life2'                          =>'Previous Videos',
+    'work_life_desc2'                     =>'Enjoy with previous D.W.A.M Videos.',
+
+    'work_life3'                          =>'Events',
+    'work_life_desc3'                     =>'Each year, DWAM give you a new EVENT',
+
+    'work_life4'                          =>'Blogs',
+    'work_life_desc4'                     =>'Enjoy DWAM Blogs and interact with our vision.',
+
+    'work_life5'                          =>'Services',
+    'work_life_desc5'                     =>'Enjoy DWAM Services and interact with us.',
+
+    'work_life6'                          =>'Donate',
+    'work_life_desc6'                     =>'Share your love by donating.',
+
+    'work_life7'                          =>'Our Members',
+    'work_life_desc7'                     =>'Enjoy DWAM society with interacting us.',
+
+    'work_life8'                          =>'Our Partners',
+    'work_life_desc8'                     =>'Interact with our partners in direct way.',
+
+    'work_life9'                          =>'About Us',
+    'work_life_desc9'                     =>'You can know all about US.',
+
+    'work_life10'                          =>'About Responsible',
+    'work_life_desc10'                     =>'DR Ehab Ayoub.  ehab@dwam4j.com',
+
+    'work_life11'                          =>'Shop',
+    'work_life_desc11'                     =>'Now you can collect your needs.',
+
+    'work_life12'                          =>'News',
+    'work_life_desc12'                     =>'Now you can know the news.',
+
+    'work_life13'                          =>'Verses',
+    'work_life_desc13'                     =>'Each you need spirit food.',
+
+    'work_life14'                          =>'Connect',
+    'work_life_desc14'                     =>'Now you can contact us from any place over the world.',
+
+    'work_life15'                          =>'Ask A Question',
+    'work_life_desc15'                     =>'Do not Delay asking any questions.',
+
+    'work_life16'                          =>'Socialize',
+    'work_life_desc16'                     =>'You can be in our community.',
+
 
 
 
