@@ -709,7 +709,7 @@
             </div>
             <div class="row">
                 <dI graduatediv class="col-12 text-center">
-                    <div class="lined-btn mt-50"> <a href="#" class="lined-button rbt-slab">trans('main.read_more')</a>
+                    <div class="lined-btn mt-50"> <a href="#" class="lined-button rbt-slab">{{trans('main.read_more')}}</a>
                     </div>
                 </div>
             </div>
