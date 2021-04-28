@@ -10,9 +10,11 @@ use App\Models\Pcategory;
 use App\Models\Ptaq;
 use Hash;
 use Helper;
+use App\Authorizable;
 
 class PostController extends Controller
 {
+  use Authorizable;
     private $viewPath = 'backend.posts';
 
     /**

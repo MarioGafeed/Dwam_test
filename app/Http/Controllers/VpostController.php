@@ -10,9 +10,11 @@ use App\Models\Vcategory;
 use App\Models\Vtaq;
 use Hash;
 use Helper;
+use App\Authorizable;
 
 class VpostController extends Controller
 {
+  use Authorizable;
     private $viewPath = 'backend.vposts';
 
     /**

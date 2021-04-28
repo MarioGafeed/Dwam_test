@@ -7,9 +7,11 @@ use App\Http\Requests\PcategoriesRequest;
 use App\DataTables\PcategoriesDataTable;
 use App\Models\Pcategory;
 use Helper;
+use App\Authorizable;
 
 class PcategoryController extends Controller
 {
+  use Authorizable;
     private $viewPath = 'backend.pcategories';
 
     /**

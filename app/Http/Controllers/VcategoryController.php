@@ -7,9 +7,11 @@ use App\Http\Requests\VcategoriesRequest;
 use App\DataTables\VcategoriesDataTable;
 use App\Models\Vcategory;
 use Helper;
+use App\Authorizable;
 
 class VcategoryController extends Controller
 {
+  use Authorizable;
     private $viewPath = 'backend.vcategories';
 
     /**

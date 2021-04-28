@@ -68,7 +68,7 @@
 
                       <a href="{{ url('/lang/ar') }}"><span class="avia-bullet"></span><span class="avia-menu-text">
                           <img src="{{ asset('frontend/assets/img/logo/Egypt.jpg') }}" title="English" alt="English"> {{ ' عربي ' }} <i class="fa fa-globe"></i>
-                      </a>                      
+                      </a>
                   </li>
                   @else
                   <li class="nav-link">
@@ -83,9 +83,9 @@
             </div>
         </div>
     </div>
-    <a href="#" onclick='alert("في الإصدار القادم صلواتكم")' class="db-block-{{GetDirection()}} ml-35 ml-xs-25">
+    <!-- <a href="#" onclick='alert("في الإصدار القادم صلواتكم")' class="db-block-{{GetDirection()}} ml-35 ml-xs-25">
         <div class="transform-center">{{ trans('main.donate') }}</div>
-    </a>
+    </a> -->
     <a href="#" class="menu-bars db-none right-menu ml-35 ml-xs-25">
         <div class="bars transform-center">
             <span></span>
@@ -107,7 +107,7 @@
               </a>
             </div>
           </div>
-          <a href="#" onclick='alert("في الإصدار القادم صلواتكم")' class="btn btn-black mt-30 mb-35 mb-xs-20">{{ trans('main.donate') }}</a>
+          <!-- <a href="#" onclick='alert("في الإصدار القادم صلواتكم")' class="btn btn-black mt-30 mb-35 mb-xs-20">{{ trans('main.donate') }}</a> -->
           <div class="fx-menu-content mb-15" >
             <ul class="fx-menu-links rbt-slab txt-{{GetDirection()}}">
               <!-- <li> <a href="#" >{{ trans('main.home') }}</a>

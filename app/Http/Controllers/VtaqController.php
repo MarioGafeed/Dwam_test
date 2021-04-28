@@ -7,9 +7,11 @@ use App\Http\Requests\VtaqsRequest;
 use App\DataTables\VtaqsDataTable;
 use App\Models\Vtaq;
 use Helper;
+use App\Authorizable;
 
 class VtaqController extends Controller
 {
+  use Authorizable;
     private $viewPath = 'backend.vtaqs';
 
     /**

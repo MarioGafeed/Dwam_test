@@ -9,9 +9,12 @@ use App\Models\User;
 use Spatie\Permission\Models\Role;
 use Hash;
 use Helper;
+use App\Authorizable;
+
 
 class UsersController extends Controller
 {
+  // use Authorizable;
     private $viewPath = 'backend.users';
 
     /**

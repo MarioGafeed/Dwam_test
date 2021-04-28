@@ -7,9 +7,11 @@ use App\Http\Requests\PtaqsRequest;
 use App\DataTables\PtaqsDataTable;
 use App\Models\Ptaq;
 use Helper;
+use App\Authorizable;
 
 class PtaqController extends Controller
 {
+  use Authorizable;
     private $viewPath = 'backend.ptaqs';
 
     /**
@@ -44,7 +46,7 @@ class PtaqController extends Controller
      */
     public function store(PtaqsRequest $request)
     {
-        $requestAll = $request->all();        
+        $requestAll = $request->all();
         $ptaq = Ptaq::create($requestAll);
 
         session()->flash('success', trans('main.added-message'));

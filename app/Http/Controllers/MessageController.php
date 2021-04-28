@@ -9,10 +9,12 @@ use App\Models\Message;
 use Helper;
 use App\Mail\ContactResponseMail;
 use Illuminate\Support\Facades\Mail;
+use App\Authorizable;
 
 
 class MessageController extends Controller
 {
+  use Authorizable;
   private $viewPath = 'backend.messages';
 
   /**

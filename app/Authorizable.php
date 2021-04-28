@@ -13,7 +13,7 @@ trait Authorizable
         'store' => 'Add',
         'destroy' => 'Delete'
     ];
-    
+
     /**
     * Override of callAction to perform the authorization before
     *
@@ -26,9 +26,13 @@ trait Authorizable
     {
         $ability = $this->getAbility($method);
         if (!is_null($ability)) {
-            if (!userCan($ability)) {
-                error(trans('main.no_permissions'));
-                return redirect()->route('adminhome');
+            // if (!userCan($ability)) {
+            //     error(trans('main.no_permissions'));
+            //     return redirect()->route('adminhome');
+                if (!userCan($ability)) {
+                // error(trans('main.no_permissions'));
+                // return redirect()->route('adminhome');
+                return redirect()->route('admin.index')->withErrors([trans('main.no_permissions')]);
             }
         }
 

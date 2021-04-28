@@ -103,7 +103,7 @@
                 <p class=" mb-30">Maecenas non faucibus nibh. Duis et eleifend sem, ut venenatis quam. Pelle ntesque eu quam ac arcu elementum vestibulum quis eu nulla. Donec lacinia risus ac ex mollis, sed faucibus magna pellentesque. Praesent volutpat mi ut leo vehicula,
                     iaculis finibus leo fermentum...<a href="#" class="underli">Readmore</a>
                 </p>
-                <h4 class="f-700 mb-15 fs-20">Why Choose My D.W.A.M?</h4>
+                <h4 class="f-700 mb-15 fs-20">Why Choose My DWAM?</h4>
                 <ul class="yello-dot-list">
                     <li>Aenean vehicula molestie aliquet. Maecenas sed pretium</li>
                     <li>Nulla malesuada id ipsum quis vestibulum. In in sapien</li>

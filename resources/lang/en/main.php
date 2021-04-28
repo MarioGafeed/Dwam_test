@@ -844,7 +844,7 @@ return [
     'insta'                        => 'Insta Link',
     // Front End Area
     // Header
-    'dwam'                         => 'D.W.A.M',
+    'dwam'                         => 'DWAM',
     'home'                         => 'HOME',
     'videos'                       => 'VIDEOS',
     'live_videos'                  => 'LIVE VIDEOS',
@@ -861,45 +861,45 @@ return [
     'txt2'                         => 'With A Mission',
     'txt3'                         => '(DWAM)',
     'txt4'                         => 'An Egyptian, Christian Medical, a multi-specialty group united to proclaim Jesus Christ
-                                       DWAM was started in 2007, by a group of committed Christian Egyptian health care workers.',
+                                       DWAM was started in 2007, by a group of committed Christian Egyptian health care workers',
     'banner_button1'               => 'CONNECT WITH US',
 
     'txt11'                         => '',
     'txt22'                         => 'Vision',
     'txt33'                         => '',
-    'txt44'                         => 'Reach unreached people in Egypt, the Middle East, and Africa, and encourage others to do the same.',
+    'txt44'                         => 'Reach unreached people in Egypt, the Middle East, and Africa, and encourage others to do the same',
 
 
     'txt111'                         => '',
     'txt222'                         => 'Mission',
     'txt333'                         => '',
-    'txt444'                         => 'Training, equipping, and serving Christian health care workers to reach others.',
+    'txt444'                         => 'Training, equipping, and serving Christian health care workers to reach others',
 
 
     'txt1111'                         => '',
     'txt2222'                         => 'Application',
     'txt3333'                         => '',
-    'txt4444'                         => 'Spiritual meetings in multiple governorates of Egypt and other Arab and African countries.',
+    'txt4444'                         => 'Spiritual meetings in multiple governorates of Egypt and other Arab and African countries',
 
     'txt11111'                         => '',
     'txt22222'                         => 'Application',
     'txt33333'                         => '',
-    'txt44444'                         => 'Annual Conference for health care l workers from Egypt and the Arab region which encourages attendees to shine as light in the darkness',
+    'txt44444'                         => 'Annual Conference for health care workers from Egypt and the Arab region which encourages attendees to shine as light in the darkness',
 
     'txt111111'                         => '',
     'txt222222'                         => 'Application',
     'txt333333'                         => '',
-    'txt444444'                         => 'Scientific training courses in Christian hospitals by physicians distinguished scientifically and spiritually, both Egyptian and foreigners from the UK and USA.',
+    'txt444444'                         => 'Scientific training courses in Christian hospitals by physicians distinguished scientifically and spiritually, both Egyptian and foreigners from the UK and USA',
 
     'txt1111111'                         => '',
     'txt2222222'                         => 'Application',
     'txt3333333'                         => '',
-    'txt4444444'                         => 'Short term mission trips to Arab and African countries.',
+    'txt4444444'                         => 'Short term mission trips to Arab and African countries',
 
     'txt11111111'                         => '',
     'txt22222222'                         => 'Application',
     'txt33333333'                         => '',
-    'txt44444444'                         => 'Support of long-term missionary physicians spiritually and financially.',
+    'txt44444444'                         => 'Support of long-term physicians spiritually and financially',
 
     'txt111111111'                         => 'you can support',
     'txt222222222'                         => 'DWAM',
@@ -934,30 +934,29 @@ return [
 
 
     // history
-    'history'                          => 'During the past 14 years,
-                                           the Lord honored us with:',
-    'his_desc1'                        => 'Meetings in various Egyptian governorates, which were attended by nearly 4000 medical workers over 4 years- Thirteen annual spiritual conferences attended by about 4800 medical field workers in Egypt and the Arab region.',
+    'history'                          => 'Till 2020, the Lord honored us with:',
+    'his_desc1'                        => 'Annual Conference for health care workers from Egypt and the Arab region which encourages attendees to shine as light in the darkness.',
     'his_year1'                        => '2007',
     'his_bold1'                        => 'Established',
 
-    'his_desc2'                        => 'Two prayer conferences attended by 100 medical field workers in Egypt - Three spiritual conferences for medical college students attended by 130 trainees.',
+    'his_desc1.5'                        => 'Thirteen annual spiritual conferences attended by about 4800 medical field workers in Egypt and the Arab region.',
+    'his_year1.5'                        => '2007',
+    'his_bold1.5'                        => 'Established',
+
+    'his_desc2'                        => 'Fifteen scientific courses in various medical specialties attended by 70 trainees.',
     'his_year2'                        => '2007',
     'his_bold2'                        => 'Established',
 
-    'his_desc3'                        => 'Eight courses taught at medical schools attended by 27 trainees - Fifteen scientific courses in various medical specialties attended by 70 trainees.',
-    'his_year3'                        => '2007',
-    'his_bold3'                        => 'Established',
-
-    'his_desc4'                        => '103  short mission trips outside of Egypt Three full time physician missionaries outside of Egypt.',
-    'his_year4'                        => '2007',
-    'his_bold4'                        => 'Established',
+    'his_desc2.5'                        => '103 short trips outside Egypt.',
+    'his_year2.5'                        => '2007',
+    'his_bold2.5'                        => 'Established',
 
     // Audio
     'audio_title'                      => 'Name of Jesus is the best name.(Nassef Sobhy)',
     'audio_desc'                       => 'DWAM Conference 2019.',
 
     // Work Gallery
-    'work1'                            => 'D.W.A.M',
+    'work1'                            => 'DWAM',
     'work_desc'                        => '“Reach unreached people in Egypt, the Middle East, and Africa, and encourage others to do the same.” ',
 
     // About me
@@ -965,35 +964,35 @@ return [
     'exper_txt'                        => 'Years of Experience',
     'me_name'                          => 'Maher Samuel',
     'me_desc'                          => 'I graduated from the Faculty of Medicine - Alexandria University with a diploma in brain diseases Neurology and psychiatry are from the same university. Many programs offer on Most Christian channels..',
-    'me_why'                           => 'Why Choose D.W.A.M.?',
+    'me_why'                           => 'Why Choose DWAM.?',
     'reson1'                           => 'First Reason.',
     'reson2'                           => 'Second Reason.',
     'reson3'                           => 'Third Reason.',
     'reson4'                           => 'Fourth Reason.',
 
     // Live Video
-    'live_video'                       => 'Promo VIDEO',
-    'video_txt'                        => 'D.W.A.M Video',
-    'video_desc'                       => 'Videos Shots collected from D.W.A.M conferences videos',
+    'live_video'                       => 'DWAM pomo 2017',
+    'video_txt'                        => 'DWAM Video',
+    'video_desc'                       => 'Videos Shots collected from DWAM conferences videos',
 
 
     // Members
     'member_says'                         => 'What our Members Says',
     'member_share'                        => 'Share Opinion',
-    'member_title1'                       => 'D.W.A.M. is the Best',
-    'member_txt1'                         => 'I visited other sites but I cant find enjoying like D.W.A.M site, please go on and continue to develop ideas and features.',
+    'member_title1'                       => 'DWAM. is the Best',
+    'member_txt1'                         => 'I visited other sites but I cant find enjoying like DWAM site, please go on and continue to develop ideas and features.',
     'member_who1'                         => 'David Joe',
     'member_job1'                         => 'CEO, Abc Company',
     'member_title2'                       => '100% Recommended',
-    'member_txt2'                         => 'I visited other sites but I cant find enjoying like D.W.A.M site, please go on and continue to develop ideas and features.',
+    'member_txt2'                         => 'I visited other sites but I cant find enjoying like DWAM site, please go on and continue to develop ideas and features.',
     'member_who2'                         => 'David Joe',
     'member_job2'                         => 'CEO, Abc Company',
     'member_title3'                       => '100% Recommended',
-    'member_txt3'                         => 'I visited other sites but I cant find enjoying like D.W.A.M site, please go on and continue to develop ideas and features.',
+    'member_txt3'                         => 'I visited other sites but I cant find enjoying like DWAM site, please go on and continue to develop ideas and features.',
     'member_who3'                         => 'David Joe',
     'member_job3'                         => 'CEO, Abc Company',
     'member_title4'                       => '100% Recommended',
-    'member_txt4'                         => 'I visited other sites but I cant find enjoying like D.W.A.M site, please go on and continue to develop ideas and features.',
+    'member_txt4'                         => 'I visited other sites but I cant find enjoying like DWAM site, please go on and continue to develop ideas and features.',
     'member_who4'                         => 'David Joe',
     'member_job4'                         => 'CEO, Abc Company',
 
@@ -1013,8 +1012,8 @@ return [
 
     // Footer
     'about'                               => 'About Us',
-    'about_desc1'                         => 'D.W.A.M is An Egyptian, Christian Medical, a multi-specialty group united to proclaim Jesus Christ.',
-    'about_desc2'                         => 'D.W.A.M was started in 2007, by a group of committed Christian Egyptian health care workers.',
+    'about_desc1'                         => 'DWAM is An Egyptian, Christian Medical, a multi-specialty group united to proclaim Jesus Christ.',
+    'about_desc2'                         => 'DWAM was started in 2007, by a group of committed Christian Egyptian health care workers.',
     'read_more'                           => 'Read More',
     'contact'                             => 'Contact US',
     'terms'                               => 'Terms',
@@ -1049,7 +1048,7 @@ return [
     'about_desc_right'                    =>'An Egyptian, Christian Medical, a multi-specialty group united to proclaim Jesus Christ DWAM was started in 2007, by a group of committed Christian Egyptian health care workers.',
     'about_desc_left'                     =>'Annual Conference for health care l workers from Egypt and the Arab region which encourages attendees to shine as light in the darkness',
     'about_desc_left2'                    =>'Scientific training courses in Christian hospitals by physicians distinguished scientifically and spiritually, both Egyptian and foreigners from the UK and USA',
-    'about_video_title'                   =>'D.W.A.M',
+    'about_video_title'                   =>'DWAM',
     'about_video_desc'                    =>'you can support DWAM in the following ways: PRAY & ACT',
     'about_pastor_txt_back'               =>'Everyone can partner with us in prayer!',
     'about_pastor_txt_title'              =>'PRAY',
@@ -1071,7 +1070,7 @@ return [
     'about_squre2'                        =>'+ Members',
 
     // Work
-    'work_desc1'                          =>'Enjoy with D.W.A.M life Videos',
+    'work_desc1'                          =>'Enjoy with DWAM life Videos',
     'work_desc2'                          =>'Enjoy all previous videos',
     'work_desc2'                          =>'Each year, DWAM give you a new EVENT',
     'work_desc2'                          =>'Enjoy DWAM Blogs and interact with comments',
@@ -1080,10 +1079,10 @@ return [
 
     // Work Gallery Start.. Dwam Life
     'work_life1'                          =>'Live Video',
-    'work_life_desc1'                     =>'Enjoy with D.W.A.M  life Video.',
+    'work_life_desc1'                     =>'Enjoy with DWAM  life Video.',
 
     'work_life2'                          =>'Previous Videos',
-    'work_life_desc2'                     =>'Enjoy with previous D.W.A.M Videos.',
+    'work_life_desc2'                     =>'Enjoy with previous DWAM Videos.',
 
     'work_life3'                          =>'Events',
     'work_life_desc3'                     =>'Each year, DWAM give you a new EVENT',

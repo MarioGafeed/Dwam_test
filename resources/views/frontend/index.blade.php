@@ -307,11 +307,27 @@
                             </div>
                         </div>
                         <div class="item">
+                          <p>{{ trans('main.his_desc1.5') }}
+                          </p>
+                            <div class="quote-by">
+                                <h5 class="yellow f-700 fs-16 mt-30">{{ trans('main.his_year1.5') }}</h5>
+                                <p class="mt-5">{{ trans('main.his_bold1.5') }}</p>
+                            </div>
+                        </div>
+                        <div class="item">
                           <p>{{ trans('main.his_desc2') }}
                           </p>
                             <div class="quote-by">
                                 <h5 class="yellow f-700 fs-16 mt-30">{{ trans('main.his_year2') }}</h5>
                                 <p class="mt-5">{{ trans('main.his_bold2') }}</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                          <p>{{ trans('main.his_desc2.5') }}
+                          </p>
+                            <div class="quote-by">
+                                <h5 class="yellow f-700 fs-16 mt-30">{{ trans('main.his_year2.5') }}</h5>
+                                <p class="mt-5">{{ trans('main.his_bold2.5') }}</p>
                             </div>
                         </div>
                         <div class="item">
@@ -328,6 +344,22 @@
                             <div class="quote-by">
                                 <h5 class="yellow f-700 fs-16 mt-30">{{ trans('main.his_year4') }}</h5>
                                 <p class="mt-5">{{ trans('main.his_bold4') }}</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                          <p>{{ trans('main.his_desc5') }}
+                          </p>
+                            <div class="quote-by">
+                                <h5 class="yellow f-700 fs-16 mt-30">{{ trans('main.his_year5') }}</h5>
+                                <p class="mt-5">{{ trans('main.his_bold5') }}</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                          <p>{{ trans('main.his_desc6') }}
+                          </p>
+                            <div class="quote-by">
+                                <h5 class="yellow f-700 fs-16 mt-30">{{ trans('main.his_year6') }}</h5>
+                                <p class="mt-5">{{ trans('main.his_bold6') }}</p>
                             </div>
                         </div>
                     </div>
@@ -404,7 +436,7 @@
             <div class="row work-masonry-div">
                 <div class="col-lg-4 col-md-6 work-grid-item">
                     <div class="mnsry-work relative">
-                        <img src="{{ asset('frontend/assets/img/Our-D.W.A.M/1.jpg') }}" alt="">
+                        <img src="{{ asset('frontend/assets/img/Our-DWAM/1.jpg') }}" alt="First Img in Gallery">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
                             <a href="#" onclick='alert("في الاصدار القادم")' class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
@@ -412,7 +444,7 @@
                             </a>
                             <div class="work-text text-center">
                                 <ul class="category yellow">
-                                    <li>D.W.A.M</li>
+                                    <li>DWAM</li>
                                     <li>Life</li>
                                 </ul>
                                 <h4 class="mb-10"><a href="#" onclick='alert("في الاصدار القادم")' class="fs-25 f-700 white hover-white">{{trans('main.work_life1')}}</a></h4>
@@ -423,7 +455,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 work-grid-item">
                     <div class="mnsry-work relative">
-                        <img src="{{ asset('frontend/assets/img/Our-D.W.A.M/2.jpg') }}" alt="">
+                        <img src="{{ asset('frontend/assets/img/Our-DWAM/2.jpg') }}" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
                             <a href="{{url('/vposts/index')}}"  class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
@@ -431,7 +463,7 @@
                             </a>
                             <div class="work-text text-center">
                                 <ul class="category yellow">
-                                    <li>D.W.A.M</li>
+                                    <li>DWAM</li>
                                     <li>Life</li>
                                 </ul>
                                 <h4 class="mb-10"><a href="{{url('/vposts/index')}}"  class="fs-25 f-700 white hover-white">{{trans('main.work_life2')}}</a></h4>
@@ -442,7 +474,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 work-grid-item">
                     <div class="mnsry-work relative">
-                        <img src="{{ asset('frontend/assets/img/Our-D.W.A.M/3.jpg') }}" alt="">
+                        <img src="{{ asset('frontend/assets/img/Our-DWAM/3.jpg') }}" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
                             <a href="#" onclick='alert("في الاصدار القادم")' class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
@@ -450,7 +482,7 @@
                             </a>
                             <div class="work-text text-center">
                                 <ul class="category yellow">
-                                    <li>D.W.A.M</li>
+                                    <li>DWAM</li>
                                     <li>Life</li>
                                 </ul>
                                 <h4 class="mb-10"><a href="#" onclick='alert("في الاصدار القادم")' class="fs-25 f-700 white hover-white">{{trans('main.work_life3')}}</a></h4>
@@ -461,7 +493,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 work-grid-item">
                     <div class="mnsry-work relative">
-                        <img src="{{ asset('frontend/assets/img/Our-D.W.A.M/4.jpg') }}" alt="">
+                        <img src="{{ asset('frontend/assets/img/Our-DWAM/4.jpg') }}" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
                             <a href="{{url('/posts/index')}}"  class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
@@ -469,7 +501,7 @@
                             </a>
                             <div class="work-text text-center">
                                 <ul class="category yellow">
-                                    <li>D.W.A.M</li>
+                                    <li>DWAM</li>
                                     <li>Life</li>
                                 </ul>
                                 <h4 class="mb-10"><a href="{{url('/posts/index')}}" class="fs-25 f-700 white hover-white">{{trans('main.work_life4')}}</a></h4>
@@ -480,7 +512,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 work-grid-item">
                     <div class="mnsry-work relative">
-                        <img src="{{ asset('frontend/assets/img/Our-D.W.A.M/5.jpg') }}" alt="">
+                        <img src="{{ asset('frontend/assets/img/Our-DWAM/5.jpg') }}" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
                             <a href="#" onclick='alert("في الاصدار القادم")' class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
@@ -488,7 +520,7 @@
                             </a>
                             <div class="work-text text-center">
                                 <ul class="category yellow">
-                                    <li>D.W.A.M</li>
+                                    <li>DWAM</li>
                                     <li>Life</li>
                                 </ul>
                                 <h4 class="mb-10"><a href="#" onclick='alert("في الاصدار القادم")' class="fs-25 f-700 white hover-white">{{trans('main.work_life5')}}</a></h4>
@@ -499,7 +531,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 work-grid-item">
                     <div class="mnsry-work relative">
-                        <img src="{{ asset('frontend/assets/img/Our-D.W.A.M/6.jpg') }}" alt="">
+                        <img src="{{ asset('frontend/assets/img/Our-DWAM/6.jpg') }}" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
                             <a href="#" onclick='alert("في الاصدار القادم")' class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
@@ -507,7 +539,7 @@
                             </a>
                             <div class="work-text text-center">
                                 <ul class="category yellow">
-                                    <li>D.W.A.M</li>
+                                    <li>DWAM</li>
                                     <li>Life</li>
                                 </ul>
                                 <h4 class="mb-10"><a href="#" onclick='alert("في الاصدار القادم")' class="fs-25 f-700 white hover-white">{{trans('main.work_life6')}}</a></h4>
@@ -518,7 +550,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 work-grid-item">
                     <div class="mnsry-work relative">
-                        <img src="{{ asset('frontend/assets/img/Our-D.W.A.M/7.jpg') }}" alt="">
+                        <img src="{{ asset('frontend/assets/img/Our-DWAM/7.jpg') }}" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
                             <a href="#" onclick='alert("في الاصدار القادم")' class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
@@ -526,7 +558,7 @@
                             </a>
                             <div class="work-text text-center">
                                 <ul class="category yellow">
-                                    <li>D.W.A.M</li>
+                                    <li>DWAM</li>
                                     <li>Life</li>
                                 </ul>
                                 <h4 class="mb-10"><a href="#" onclick='alert("في الاصدار القادم")' class="fs-25 f-700 white hover-white">{{trans('main.work_life7')}}</a></h4>
@@ -537,7 +569,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 work-grid-item">
                     <div class="mnsry-work relative">
-                        <img src="{{ asset('frontend/assets/img/Our-D.W.A.M/8.jpg') }}" alt="">
+                        <img src="{{ asset('frontend/assets/img/Our-DWAM/8.jpg') }}" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
                             <a href="#" onclick='alert("في الاصدار القادم")' class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
@@ -545,7 +577,7 @@
                             </a>
                             <div class="work-text text-center">
                                 <ul class="category yellow">
-                                    <li>D.W.A.M</li>
+                                    <li>DWAM</li>
                                     <li>Life</li>
                                 </ul>
                                 <h4 class="mb-10"><a href="#" onclick='alert("في الاصدار القادم")' class="fs-25 f-700 white hover-white">{{trans('main.work_life8')}}</a></h4>
@@ -556,7 +588,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 work-grid-item">
                     <div class="mnsry-work relative">
-                        <img src="{{ asset('frontend/assets/img/Our-D.W.A.M/9.jpg') }}" alt="">
+                        <img src="{{ asset('frontend/assets/img/Our-DWAM/9.jpg') }}" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
                             <a href="{{url('/about')}}" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
@@ -564,7 +596,7 @@
                             </a>
                             <div class="work-text text-center">
                                 <ul class="category yellow">
-                                    <li>D.W.A.M</li>
+                                    <li>DWAM</li>
                                     <li>Life</li>
                                 </ul>
                                 <h4 class="mb-10"><a href="{{url('/about')}}" class="fs-25 f-700 white hover-white">{{trans('main.work_life9')}}</a></h4>
@@ -575,7 +607,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 work-grid-item">
                     <div class="mnsry-work relative">
-                        <img src="{{ asset('frontend/assets/img/Our-D.W.A.M/10.jpg') }}" alt="">
+                        <img src="{{ asset('frontend/assets/img/Our-DWAM/10.jpg') }}" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
                             <a href="#" onclick='alert("في الاصدار القادم")' class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
@@ -583,7 +615,7 @@
                             </a>
                             <div class="work-text text-center">
                                 <ul class="category yellow">
-                                    <li>D.W.A.M</li>
+                                    <li>DWAM</li>
                                     <li>Life</li>
                                 </ul>
                                 <h4 class="mb-10"><a href="#" onclick='alert("في الاصدار القادم")' class="fs-25 f-700 white hover-white">{{trans('main.work_life10')}}</a></h4>
@@ -594,7 +626,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 work-grid-item">
                     <div class="mnsry-work relative">
-                        <img src="{{ asset('frontend/assets/img/Our-D.W.A.M/11.jpg') }}" alt="">
+                        <img src="{{ asset('frontend/assets/img/Our-DWAM/11.jpg') }}" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
                             <a href="#" onclick='alert("في الاصدار القادم")' class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
@@ -602,7 +634,7 @@
                             </a>
                             <div class="work-text text-center">
                                 <ul class="category yellow">
-                                    <li>D.W.A.M</li>
+                                    <li>DWAM</li>
                                     <li>Life</li>
                                 </ul>
                                 <h4 class="mb-10"><a href="#" onclick='alert("في الاصدار القادم")' class="fs-25 f-700 white hover-white">{{trans('main.work_life11')}}</a></h4>
@@ -613,7 +645,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 work-grid-item">
                     <div class="mnsry-work relative">
-                        <img src="{{ asset('frontend/assets/img/Our-D.W.A.M/12.jpg') }}" alt="">
+                        <img src="{{ asset('frontend/assets/img/Our-DWAM/12.jpg') }}" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
                             <a href="#" onclick='alert("في الاصدار القادم")' class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
@@ -621,7 +653,7 @@
                             </a>
                             <div class="work-text text-center">
                                 <ul class="category yellow">
-                                    <li>D.W.A.M</li>
+                                    <li>DWAM</li>
                                     <li>Life</li>
                                 </ul>
                                 <h4 class="mb-10"><a href="#" onclick='alert("في الاصدار القادم")' class="fs-25 f-700 white hover-white">{{trans('main.work_life12')}}</a></h4>
@@ -632,7 +664,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 work-grid-item">
                     <div class="mnsry-work relative">
-                        <img src="{{ asset('frontend/assets/img/Our-D.W.A.M/13.jpg') }}" alt="">
+                        <img src="{{ asset('frontend/assets/img/Our-DWAM/13.jpg') }}" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
                             <a href="#" onclick='alert("في الاصدار القادم")' class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
@@ -640,7 +672,7 @@
                             </a>
                             <div class="work-text text-center">
                                 <ul class="category yellow">
-                                    <li>D.W.A.M</li>
+                                    <li>DWAM</li>
                                     <li>Life</li>
                                 </ul>
                                 <h4 class="mb-10"><a href="#" onclick='alert("في الاصدار القادم")' class="fs-25 f-700 white hover-white">{{trans('main.work_life13')}}</a></h4>
@@ -651,7 +683,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 work-grid-item">
                     <div class="mnsry-work relative">
-                        <img src="{{ asset('frontend/assets/img/Our-D.W.A.M/14.jpg') }}" alt="">
+                        <img src="{{ asset('frontend/assets/img/Our-DWAM/14.jpg') }}" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
                             <a href="{{url('/contact')}}" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
@@ -659,7 +691,7 @@
                             </a>
                             <div class="work-text text-center">
                                 <ul class="category yellow">
-                                    <li>D.W.A.M</li>
+                                    <li>DWAM</li>
                                     <li>Life</li>
                                 </ul>
                                 <h4 class="mb-10"><a href="{{url('/contact')}}" class="fs-25 f-700 white hover-white">{{trans('main.work_life14')}}</a></h4>
@@ -670,7 +702,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 work-grid-item">
                     <div class="mnsry-work relative">
-                        <img src="{{ asset('frontend/assets/img/Our-D.W.A.M/15.jpg') }}" alt="">
+                        <img src="{{ asset('frontend/assets/img/Our-DWAM/15.jpg') }}" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
                             <a href=""{{url('/contact')}}"" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
@@ -678,7 +710,7 @@
                             </a>
                             <div class="work-text text-center">
                                 <ul class="category yellow">
-                                    <li>D.W.A.M</li>
+                                    <li>DWAM</li>
                                     <li>Life</li>
                                 </ul>
                                 <h4 class="mb-10"><a href="{{url('/contact')}}" class="fs-25 f-700 white hover-white">{{trans('main.work_life15')}}</a></h4>
@@ -689,7 +721,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 work-grid-item">
                     <div class="mnsry-work relative">
-                        <img src="{{ asset('frontend/assets/img/Our-D.W.A.M/16.jpg') }}" alt="">
+                        <img src="{{ asset('frontend/assets/img/Our-DWAM/16.jpg') }}" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
                             <a href="#" onclick='alert("في الاصدار القادم")' class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
@@ -697,7 +729,7 @@
                             </a>
                             <div class="work-text text-center">
                                 <ul class="category yellow">
-                                    <li>D.W.A.M</li>
+                                    <li>DWAM</li>
                                     <li>Life</li>
                                 </ul>
                                 <h4 class="mb-10"><a href="#" onclick='alert("في الاصدار القادم")' class="fs-25 f-700 white hover-white">{{trans('main.work_life16')}}</a></h4>

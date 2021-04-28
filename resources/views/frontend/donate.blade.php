@@ -142,7 +142,7 @@
                     <div class="overlay transition-4"></div>
                     <div class="price-main">
                         <div class="price-head">
-                            <h3 class="f-700 mb-5 mt-10 fs-36">D.W.A.M</h3>
+                            <h3 class="f-700 mb-5 mt-10 fs-36">DWAM</h3>
                             <p class="mb-0">Help in Expand and Repair</p> <span class="line transition-4 mt-20 mb-25"></span>
                         </div>
                         <div class="price-info">

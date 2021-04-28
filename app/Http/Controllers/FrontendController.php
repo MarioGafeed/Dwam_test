@@ -115,6 +115,6 @@ class FrontendController extends Controller
     public function logout()
     {
         auth()->logout();
-        return redirect('/login');
+        return redirect('/login33');
     }
 }
