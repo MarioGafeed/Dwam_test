@@ -935,7 +935,7 @@ return [
 
     // history
     'history'                          => 'Till 2020, the Lord honored us with:',
-    'his_desc1'                        => 'Annual Conference for health care workers from Egypt and the Arab region which encourages attendees to shine as light in the darkness.',
+    'his_desc1'                        => 'Meetings in various Egyptian governorates, which were attended by nearly 4000 medical workers over 4- years.',
     'his_year1'                        => '2007',
     'his_bold1'                        => 'Established',
 
@@ -943,13 +943,21 @@ return [
     'his_year1.5'                        => '2007',
     'his_bold1.5'                        => 'Established',
 
-    'his_desc2'                        => 'Fifteen scientific courses in various medical specialties attended by 70 trainees.',
+    'his_desc2'                        => 'Two prayer conferences attended by 100 medical field workers in Egypt.',
     'his_year2'                        => '2007',
     'his_bold2'                        => 'Established',
 
-    'his_desc2.5'                        => '103 short trips outside Egypt.',
+    'his_desc2.5'                        => 'Three spiritual conferences for medical college students attended by 130 trainees.',
     'his_year2.5'                        => '2007',
     'his_bold2.5'                        => 'Established',
+
+    'his_desc3'                        => 'Fifteen scientific courses in various medical specialties attended by 70 trainees.',
+    'his_year3'                        => '2007',
+    'his_bold3'                        => 'Established',
+
+    'his_desc4'                        => '103 short trips outside Egypt.',
+    'his_year4'                        => '2007',
+    'his_bold4'                        => 'Established',
 
     // Audio
     'audio_title'                      => 'Name of Jesus is the best name.(Nassef Sobhy)',

@@ -347,19 +347,19 @@
                             </div>
                         </div>
                         <div class="item">
-                          <p>{{ trans('main.his_desc5') }}
+                          <p>{{ trans('main.his_desc3') }}
                           </p>
                             <div class="quote-by">
-                                <h5 class="yellow f-700 fs-16 mt-30">{{ trans('main.his_year5') }}</h5>
-                                <p class="mt-5">{{ trans('main.his_bold5') }}</p>
+                                <h5 class="yellow f-700 fs-16 mt-30">{{ trans('main.his_year3') }}</h5>
+                                <p class="mt-5">{{ trans('main.his_bold3') }}</p>
                             </div>
                         </div>
                         <div class="item">
-                          <p>{{ trans('main.his_desc6') }}
+                          <p>{{ trans('main.his_desc4') }}
                           </p>
                             <div class="quote-by">
-                                <h5 class="yellow f-700 fs-16 mt-30">{{ trans('main.his_year6') }}</h5>
-                                <p class="mt-5">{{ trans('main.his_bold6') }}</p>
+                                <h5 class="yellow f-700 fs-16 mt-30">{{ trans('main.his_year4') }}</h5>
+                                <p class="mt-5">{{ trans('main.his_bold4') }}</p>
                             </div>
                         </div>
                     </div>
