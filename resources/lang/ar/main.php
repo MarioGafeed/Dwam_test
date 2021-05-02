@@ -929,8 +929,8 @@ return [
 
     // Live Video
     'live_video'                       => 'الفيديو الإفتتاحي',
-    'video_txt'                        => 'فيديو دوام 2017',
-    'video_desc'                       => 'مختطفات من مؤتمرات دوام',
+    'video_txt'                        => 'فيديو دوام',
+    'video_desc'                       => 'مقتصفات من مؤتمرات دوام',
 
 
     // Members
@@ -962,7 +962,7 @@ return [
     'event4'                              => 'Be brave to stand for what you...',
 
     // Connect area
-    'connect_area'                        => 'إلى الأن لم تتواصل معنا, نُرحب بتواصلك الدائم معنا..',
+    'connect_area'                        => 'إلى الأن لم تتواصل معنا, نُرحب بتواصلك معنا..',
     'connect_area_us'                     => 'اشترك الان',
 
     // Footer

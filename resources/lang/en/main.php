@@ -979,7 +979,7 @@ return [
     'reson4'                           => 'Fourth Reason.',
 
     // Live Video
-    'live_video'                       => 'DWAM pomo 2017',
+    'live_video'                       => 'DWAM Video',
     'video_txt'                        => 'DWAM Video',
     'video_desc'                       => 'Videos Shots collected from DWAM conferences videos',
 
@@ -1015,7 +1015,7 @@ return [
     'event6'                              => 'Sports are often part of our activities for the families...',
 
     // Connect area
-    'connect_area'                        => 'Not A Member? Connect With Us..',
+    'connect_area'                        => 'Not A Member? Contact Us..',
     'connect_area_us'                     => 'CONNECT WITH US',
 
     // Footer
