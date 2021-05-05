@@ -862,7 +862,7 @@ return [
     'txt3'                         => '(DWAM)',
     'txt4'                         => 'An Egyptian, Christian Medical, a multi-specialty group united to proclaim Jesus Christ
                                        DWAM was started in 2007, by a group of committed Christian Egyptian health care workers',
-    'banner_button1'               => 'CONNECT WITH US',
+    'banner_button1'               => 'CONTACT US',
 
     'txt11'                         => '',
     'txt22'                         => 'Vision',
@@ -1133,10 +1133,6 @@ return [
 
     'work_life16'                          =>'Socialize',
     'work_life_desc16'                     =>'You can be in our community.',
-
-
-
-
 
 
 

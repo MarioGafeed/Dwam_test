@@ -290,7 +290,7 @@
     <!-- Banner end -->
     <!-- Our History start -->
     <section class="testimonials-area pt-80 pb-80">
-        <div class="container">
+        <div class="container" dir="ltr">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h3 class="f-700 fs-41 mb-30">{{ trans('main.history') }}</h3>
