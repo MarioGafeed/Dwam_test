@@ -784,7 +784,7 @@
     <!-- about me end -->
     <!-- shooting style start -->
     <div class="section shooting pt-30 pb-30">
-        <div class="container">
+        <div class="container" dir="ltr">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1 text-center">
                     <div class="shoot-head relative mb-55">
