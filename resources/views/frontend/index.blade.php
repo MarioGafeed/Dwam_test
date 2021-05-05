@@ -791,7 +791,7 @@
                         <h3 class="f-700 fs-41 mb-15 relative">{{ trans('main.live_video') }}
                             <span class="fade-texts my-style transform-center"> {{ trans('main.video_txt') }} </span>
                         </h3>
-                        <p>{{ trans('main.video_desc') }}</p>
+                        <p>{{ trans('main.video_desc_ehab') }}</p>
                     </div>
                     <div class="video-area relative mt-45 shadow-1">
                         <img src="{{ asset('frontend/assets/img/bg/style.jpg') }}" alt="">

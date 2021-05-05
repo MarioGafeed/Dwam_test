@@ -982,6 +982,7 @@ return [
     'live_video'                       => 'DWAM Video',
     'video_txt'                        => 'DWAM Video',
     'video_desc'                       => 'Videos Shots collected from DWAM conferences videos',
+    'video_desc_ehab'                  => '',
 
 
     // Members

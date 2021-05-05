@@ -931,6 +931,7 @@ return [
     'live_video'                       => 'الفيديو الإفتتاحي',
     'video_txt'                        => 'فيديو دوام',
     'video_desc'                       => 'مقتصفات من مؤتمرات دوام',
+    'video_desc_ehab'                  => '',
 
 
     // Members
