@@ -1533,6 +1533,7 @@ header.type4 {
     max-width: 135px;
     width: 100%;
     min-width: 96px;
+    margin-right: 50px;
 }
 
 .type4.fixed-nav .logo2 img {

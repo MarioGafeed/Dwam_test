@@ -458,7 +458,7 @@
                         <img src="{{ asset('frontend/assets/img/Our-DWAM/2.jpg') }}" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
-                            <a href="#" onclick= 'alert("في الاصدار القادم")'  class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
+                            <a href="https://www.instagram.com/dwam_dwam/" target="_blank" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
                                 <span class="v-line"></span>
                             </a>
                             <div class="work-text text-center">
@@ -466,7 +466,7 @@
                                     <li>DWAM</li>
                                     <li>Life</li>
                                 </ul>
-                                <h4 class="mb-10"><a href="#" onclick= 'alert("في الاصدار القادم")'  class="fs-25 f-700 white hover-white">{{trans('main.work_life2')}}</a></h4>
+                                <h4 class="mb-10"><a href="https://www.instagram.com/dwam_dwam/" target="_blank"   class="fs-25 f-700 white hover-white">{{trans('main.work_life2')}}</a></h4>
                                 <p class=" white">{{trans('main.work_life_desc2')}}</p>
                             </div>
                         </div>
@@ -477,7 +477,7 @@
                         <img src="{{ asset('frontend/assets/img/Our-DWAM/3.jpg') }}" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
-                            <a href="#" onclick='alert("في الاصدار القادم")' class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
+                            <a href="https://twitter.com/DWAM4HIM?s=20" target="_blank" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
                                 <span class="v-line"></span>
                             </a>
                             <div class="work-text text-center">
@@ -485,7 +485,7 @@
                                     <li>DWAM</li>
                                     <li>Life</li>
                                 </ul>
-                                <h4 class="mb-10"><a href="#" onclick='alert("في الاصدار القادم")' class="fs-25 f-700 white hover-white">{{trans('main.work_life3')}}</a></h4>
+                                <h4 class="mb-10"><a href="https://twitter.com/DWAM4HIM?s=20" target="_blank" class="fs-25 f-700 white hover-white">{{trans('main.work_life3')}}</a></h4>
                                 <p class=" white">{{trans('main.work_life_desc3')}}</p>
                             </div>
                         </div>
