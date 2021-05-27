@@ -447,7 +447,7 @@
                                     <li>DWAM</li>
                                     <li>Life</li>
                                 </ul>
-                                <h4 class="mb-10"><a href="#" onclick='alert("في الاصدار القادم")' class="fs-25 f-700 white hover-white">{{trans('main.work_life1')}}</a></h4>
+                                <h4 class="mb-10"><a href="https://www.facebook.com/DoctorsWithAMission" target="_blank"  class="fs-25 f-700 white hover-white">{{trans('main.work_life1')}}</a></h4>
                                 <p class=" white">{{trans('main.work_life_desc1')}}</p>
                             </div>
                         </div>
@@ -458,7 +458,7 @@
                         <img src="{{ asset('frontend/assets/img/Our-DWAM/2.jpg') }}" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
-                            <a href="{{url('/vposts/index')}}"  class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
+                            <a href="#" onclick= 'alert("في الاصدار القادم")'  class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
                                 <span class="v-line"></span>
                             </a>
                             <div class="work-text text-center">
@@ -466,7 +466,7 @@
                                     <li>DWAM</li>
                                     <li>Life</li>
                                 </ul>
-                                <h4 class="mb-10"><a href="{{url('/vposts/index')}}"  class="fs-25 f-700 white hover-white">{{trans('main.work_life2')}}</a></h4>
+                                <h4 class="mb-10"><a href="#" onclick= 'alert("في الاصدار القادم")'  class="fs-25 f-700 white hover-white">{{trans('main.work_life2')}}</a></h4>
                                 <p class=" white">{{trans('main.work_life_desc2')}}</p>
                             </div>
                         </div>
@@ -496,7 +496,7 @@
                         <img src="{{ asset('frontend/assets/img/Our-DWAM/4.jpg') }}" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
-                            <a href="{{url('/posts/index')}}"  class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
+                            <a href="{{url('/vposts/index')}}" target="_blank" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
                                 <span class="v-line"></span>
                             </a>
                             <div class="work-text text-center">
@@ -504,7 +504,7 @@
                                     <li>DWAM</li>
                                     <li>Life</li>
                                 </ul>
-                                <h4 class="mb-10"><a href="{{url('/posts/index')}}" class="fs-25 f-700 white hover-white">{{trans('main.work_life4')}}</a></h4>
+                                <h4 class="mb-10"><a href="{{url('/vposts/index')}}" target="_blank" class="fs-25 f-700 white hover-white">{{trans('main.work_life4')}}</a></h4>
                                 <p class=" white">{{trans('main.work_life_desc4')}}</p>
                             </div>
                         </div>
@@ -534,7 +534,7 @@
                         <img src="{{ asset('frontend/assets/img/Our-DWAM/6.jpg') }}" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
-                            <a href="#" onclick='alert("في الاصدار القادم")' class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
+                            <a href="{{url('/posts/index')}}" target="_blank" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
                                 <span class="v-line"></span>
                             </a>
                             <div class="work-text text-center">
@@ -542,7 +542,7 @@
                                     <li>DWAM</li>
                                     <li>Life</li>
                                 </ul>
-                                <h4 class="mb-10"><a href="#" onclick='alert("في الاصدار القادم")' class="fs-25 f-700 white hover-white">{{trans('main.work_life6')}}</a></h4>
+                                <h4 class="mb-10"><a href="{{url('/posts/index')}}" target="_blank" class="fs-25 f-700 white hover-white">{{trans('main.work_life6')}}</a></h4>
                                 <p class=" white">{{trans('main.work_life_desc6')}}</p>
                             </div>
                         </div>
@@ -591,7 +591,7 @@
                         <img src="{{ asset('frontend/assets/img/Our-DWAM/9.jpg') }}" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
-                            <a href="{{url('/about')}}" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
+                            <a href="{{url('/vposts/index')}}" target="_blank" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
                                 <span class="v-line"></span>
                             </a>
                             <div class="work-text text-center">
@@ -599,7 +599,7 @@
                                     <li>DWAM</li>
                                     <li>Life</li>
                                 </ul>
-                                <h4 class="mb-10"><a href="{{url('/about')}}" class="fs-25 f-700 white hover-white">{{trans('main.work_life9')}}</a></h4>
+                                <h4 class="mb-10"><a href="{{url('/vposts/index')}}" target="_blank" class="fs-25 f-700 white hover-white">{{trans('main.work_life9')}}</a></h4>
                                 <p class=" white">{{trans('main.work_life_desc9')}}</p>
                             </div>
                         </div>
@@ -686,7 +686,7 @@
                         <img src="{{ asset('frontend/assets/img/Our-DWAM/14.jpg') }}" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
-                            <a href="{{url('/contact')}}" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
+                            <a href="{{url('/vposts/index')}}" target="_blank" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
                                 <span class="v-line"></span>
                             </a>
                             <div class="work-text text-center">
@@ -694,7 +694,7 @@
                                     <li>DWAM</li>
                                     <li>Life</li>
                                 </ul>
-                                <h4 class="mb-10"><a href="{{url('/contact')}}" class="fs-25 f-700 white hover-white">{{trans('main.work_life14')}}</a></h4>
+                                <h4 class="mb-10"><a href="{{url('/vposts/index')}}" target="_blank" class="fs-25 f-700 white hover-white">{{trans('main.work_life14')}}</a></h4>
                                 <p class=" white">{{trans('main.work_life_desc14')}}</p>
                             </div>
                         </div>

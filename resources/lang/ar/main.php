@@ -1025,54 +1025,53 @@ return [
     'about_squre2'                        =>'+ عضو',
 
     // Work Gallery Start.. Dwam Life
-    'work_life1'                          =>'فيديو لايف',
-    'work_life_desc1'                     =>'تمتع بفيديو دوام اللايف',
+    'work_life1'                          =>'Facebook',
+    'work_life_desc1'                     =>'تمتع بمقالات دوام علي FB',
 
-    'work_life2'                          =>'الفيديوهات السابقة',
-    'work_life_desc2'                     =>'تمتع بكل محتوى دوام من فيديوهات',
+    'work_life2'                          =>'Instagram',
+    'work_life_desc2'                     =>'تمتع بصور دوام على الـ Insta',
 
-    'work_life3'                          =>'احداث',
-    'work_life_desc3'                     =>'كل عام او اقل تنشىء دوام حدثاً تابعنا باستمرار',
+    'work_life3'                          =>'Twitter',
+    'work_life_desc3'                     =>'تابع كل تويتات دوام على Twitter',
 
-    'work_life4'                          =>'مدونات',
-    'work_life_desc4'                     =>'تمتع بمقالات دوام في مجالات متعددة',
+    'work_life4'                          =>'ترانيم',
+    'work_life_desc4'                     =>'سبح مع ترانيم دوام.',
 
-    'work_life5'                          =>'خدمات',
-    'work_life_desc5'                     =>'تمتع بخدمات دوام وشارك معنا',
+    'work_life5'                          =>'ZOOM',
+    'work_life_desc5'                     =>'تواصل مع فريق دوام عبر تطبيق زوم.',
 
-    'work_life6'                          =>'التبرع',
-    'work_life_desc6'                     =>'شارك بجزء من محبتك بالتبرع',
+    'work_life6'                          =>'مدونات',
+    'work_life_desc6'                     =>'تمتع بمقالات دوام وتفاعل معها.',
 
-    'work_life7'                          =>'اعضائنا',
-    'work_life_desc7'                     =>'نرحب بك عضواً جديداً في دوام',
+    'work_life7'                          =>'سجل الأن',
+    'work_life_desc7'                     =>'سجل لتتمكن من حجز المؤتمر القادم.',
 
-    'work_life8'                          =>'شركائنا',
-    'work_life_desc8'                     =>'تواصل مع شركائنا بشكل مباشر',
+    'work_life8'                          =>'كتب',
+    'work_life_desc8'                     =>'تمتع بقراءة كتب دوام.',
 
-    'work_life9'                          =>'ماذا عنا؟',
-    'work_life_desc9'                     =>'الان تستطيع المزيد عن دوام',
+    'work_life9'                          =>'المؤتمرات السابقة',
+    'work_life_desc9'                     =>'الان تستطيع ان تتابع المؤتمرات السابقة.',
 
-    'work_life10'                          =>'عن المسئول',
-    'work_life_desc10'                     =>'د. ايهاب ايوب.  ehab@dwam4j.com',
+    'work_life10'                          =>'ورشة عمل',
+    'work_life_desc10'                     =>'انضم وتفاعل مع ورش عمل دوام.',
 
-    'work_life11'                          =>'متجر',
-    'work_life_desc11'                     =>'تستطيع الان ان تجمع مما تريد',
+    'work_life11'                          =>'أهلاً باسئلتك',
+    'work_life_desc11'                     =>'كل اسئلتك مُرحب بها.',
 
-    'work_life12'                          =>'الاخبار الجديدة',
-    'work_life_desc12'                     =>'تستطيع الان معرفة كل ما هو جديد عن دوام',
+    'work_life12'                          =>'أخبارنا',
+    'work_life_desc12'                     =>'الأن تستطيع ان تُتابع كل ما هو جديد لدوام.',
 
-    'work_life13'                          =>'ايات',
-    'work_life_desc13'                     =>'مع دوام تستطيع ان تتغذى على طعام الروح',
+    'work_life13'                          =>'محاضرات عملية',
+    'work_life_desc13'                     =>'تمتع بمحاضرات المجال الطبي.',
 
-    'work_life14'                          =>'تواصل',
-    'work_life_desc14'                     =>'الان تستطيع ان تتواصل مع دوام من اي مكان في العالم',
+    'work_life14'                          =>'خدمات',
+    'work_life_desc14'                     =>'شاهد وشارك في خدمات دوام.',
 
-    'work_life15'                          =>'أسال سؤال',
-    'work_life_desc15'                     =>'لا تؤجل وتشجع واسأل الان',
+    'work_life15'                          =>'',
+    'work_life_desc15'                     =>'.',
 
-    'work_life16'                          =>'مجتمعنا',
-    'work_life_desc16'                     =>'تستطيع ان تنضم الى مجتمع دوام',
-
+    'work_life16'                          =>'',
+    'work_life_desc16'                     =>'',
 
 
 

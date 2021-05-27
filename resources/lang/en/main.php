@@ -967,6 +967,8 @@ return [
     'work1'                            => 'DWAM',
     'work_desc'                        => '“Reach unreached people in Egypt, the Middle East, and Africa, and encourage others to do the same.” ',
 
+
+
     // About me
     'exper_age'                        => '35',
     'exper_txt'                        => 'Years of Experience',
@@ -1087,53 +1089,53 @@ return [
     'work_desc2'                          =>'Share your love by donating',
 
     // Work Gallery Start.. Dwam Life
-    'work_life1'                          =>'Live Video',
-    'work_life_desc1'                     =>'Enjoy with DWAM  life Video.',
+    'work_life1'                          =>'Facebook',
+    'work_life_desc1'                     =>'Enjoy with DWAM FB Posts',
 
-    'work_life2'                          =>'Previous Videos',
-    'work_life_desc2'                     =>'Enjoy with previous DWAM Videos.',
+    'work_life2'                          =>'Instagram',
+    'work_life_desc2'                     =>'Enjoy with DWAM insta pics',
 
-    'work_life3'                          =>'Events',
-    'work_life_desc3'                     =>'Each year, DWAM give you a new EVENT',
+    'work_life3'                          =>'Twitter',
+    'work_life_desc3'                     =>'Enjoy with DWAM twitter tweets',
 
-    'work_life4'                          =>'Blogs',
-    'work_life_desc4'                     =>'Enjoy DWAM Blogs and interact with our vision.',
+    'work_life4'                          =>'Hymns',
+    'work_life_desc4'                     =>'Enjoy DWAM Hymns.',
 
-    'work_life5'                          =>'Services',
-    'work_life_desc5'                     =>'Enjoy DWAM Services and interact with us.',
+    'work_life5'                          =>'ZOOM',
+    'work_life_desc5'                     =>'Interact with Dwam team via ZOOM.',
 
-    'work_life6'                          =>'Donate',
-    'work_life_desc6'                     =>'Share your love by donating.',
+    'work_life6'                          =>'Blogs',
+    'work_life_desc6'                     =>'Enjoy DWAM Blogs.',
 
-    'work_life7'                          =>'Our Members',
-    'work_life_desc7'                     =>'Enjoy DWAM society with interacting us.',
+    'work_life7'                          =>'Registration',
+    'work_life_desc7'                     =>'Register and join next conference.',
 
-    'work_life8'                          =>'Our Partners',
-    'work_life_desc8'                     =>'Interact with our partners in direct way.',
+    'work_life8'                          =>'Books',
+    'work_life_desc8'                     =>'Enjoy Dwam books.',
 
-    'work_life9'                          =>'About Us',
-    'work_life_desc9'                     =>'You can know all about US.',
+    'work_life9'                          =>'Previous conferences',
+    'work_life_desc9'                     =>'Now you can interact with our previous conferences.',
 
-    'work_life10'                          =>'About Responsible',
-    'work_life_desc10'                     =>'DR Ehab Ayoub.  ehab@dwam4j.com',
+    'work_life10'                          =>'Workshops',
+    'work_life_desc10'                     =>'Interact with Dwam team workshops.',
 
-    'work_life11'                          =>'Shop',
-    'work_life_desc11'                     =>'Now you can collect your needs.',
+    'work_life11'                          =>'Your Question',
+    'work_life_desc11'                     =>'Your questions are welcome.',
 
     'work_life12'                          =>'News',
-    'work_life_desc12'                     =>'Now you can know the news.',
+    'work_life_desc12'                     =>'Now you can know the all news about Dwam.',
 
-    'work_life13'                          =>'Verses',
-    'work_life_desc13'                     =>'Each you need spirit food.',
+    'work_life13'                          =>'Medical lectures',
+    'work_life_desc13'                     =>'You can enjoy with Dwam medical learning.',
 
-    'work_life14'                          =>'Connect',
-    'work_life_desc14'                     =>'Now you can contact us from any place over the world.',
+    'work_life14'                          =>'Sermons',
+    'work_life_desc14'                     =>'Enjoy Dwam Sermons.',
 
-    'work_life15'                          =>'Ask A Question',
-    'work_life_desc15'                     =>'Do not Delay asking any questions.',
+    'work_life15'                          =>'',
+    'work_life_desc15'                     =>'.',
 
-    'work_life16'                          =>'Socialize',
-    'work_life_desc16'                     =>'You can be in our community.',
+    'work_life16'                          =>'',
+    'work_life_desc16'                     =>'',
 
 
 
