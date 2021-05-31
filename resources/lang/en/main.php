@@ -1045,7 +1045,7 @@ return [
     'send_mail'                           =>'SEND A MAIL',
     'our_add'                             =>'OUR ADDRESS',
     // 'full_add'                            =>'41  Abou Dawoud Al Zaheri, Manteqah as Sadesah, Nasr City, Cairo',
-    'full_add'                            =>'Please follow our site continuously to can know our address, Thanks ',
+    'full_add'                            =>'Our Facebook Page',
     'send_message'                        =>'Send Us a Message',
     'your_message'                        =>'Your message',
     'contact_mgs_send'                    =>'Your message send successfully',

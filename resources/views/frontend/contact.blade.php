@@ -57,7 +57,7 @@
                     <div class="ctnct-info-icon"> <i class="fas fa-map-marker-alt"></i>
                     </div>
                     <h5 class="fs-12 f-500 mb-10 txt-center">{{ trans('main.our_add') }}</h5>
-                    <p class="bld-text"> <a href="#" class="fs-16 f-500">{{ trans('main.full_add') }}</a>
+                    <p class="bld-text"> <a href="https://www.facebook.com/DoctorsWithAMission" target="_blank" class="fs-16 f-500">{{ trans('main.full_add') }}</a>
                     </p>
                 </div>
             </div>
