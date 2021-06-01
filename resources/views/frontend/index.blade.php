@@ -106,7 +106,7 @@
           </div>
 
           <div class="item">
-              <div class="each-slider-2 flex-center" style="background-image: url('frontend/assets/img/banner/banner-h3-6.jpg');" data-overlay="4">\
+              <div class="each-slider-2 flex-center" style="background-image: url('frontend/assets/img/banner/banner-h3-6.png');" data-overlay="4">\
               </div>
               <div class="banner-text">
                   <div class="container">

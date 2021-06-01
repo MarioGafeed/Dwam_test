@@ -84,7 +84,6 @@
                     <form method="post" action="{{ url('contact/message/send') }}"  class="relative z-5 mt-10">
                       @csrf
                         <div class="row">
-
                             <div class="col-lg-4">
                               <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
                                 <div class="form-group relative mb-30 mb-sm-20">
