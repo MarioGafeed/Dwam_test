@@ -11,7 +11,7 @@ use App\Authorizable;
 
 class PtaqController extends Controller
 {
-  use Authorizable;
+  // use Authorizable;
     private $viewPath = 'backend.ptaqs';
 
     /**
