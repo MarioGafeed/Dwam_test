@@ -496,7 +496,7 @@
                         <img src="{{ asset('frontend/assets/img/Our-DWAM/4.jpg') }}" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
-                            <a href="{{url('/vposts/index')}}" target="_blank" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
+                            <a href="{{url('vcatposts/show/1')}}" target="_blank" class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
                                 <span class="v-line"></span>
                             </a>
                             <div class="work-text text-center">
@@ -504,7 +504,7 @@
                                     <li>DWAM</li>
                                     <li>Life</li>
                                 </ul>
-                                <h4 class="mb-10"><a href="{{url('/vposts/index')}}" target="_blank" class="fs-25 f-700 white hover-white">{{trans('main.work_life4')}}</a></h4>
+                                <h4 class="mb-10"><a href="{{url('vcatposts/show/1')}}" target="_blank" class="fs-25 f-700 white hover-white">{{trans('main.work_life4')}}</a></h4>
                                 <p class=" white">{{trans('main.work_life_desc4')}}</p>
                             </div>
                         </div>

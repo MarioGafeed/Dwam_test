@@ -80,7 +80,7 @@
                 </div>
                 <div>
                     <span class="btn red btn-outline btn-file">
-                        <span class="fileinput-new"> {{ trans('main.select_image') }} 255*336</span>
+                        <span class="fileinput-new"> {{ trans('main.select_image') }} 600*900</span>
                         <span class="fileinput-exists"> {{ trans('main.change') }} 255*336</span>
                         <input type="file" name="image">
                     </span>
