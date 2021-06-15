@@ -1137,22 +1137,10 @@ return [
     'work_life16'                          =>'',
     'work_life_desc16'                     =>'',
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    'book1'                                =>'Christian Mercy',
+    'book2'                                =>'Daily help for the doctor',
+    'book3'                                =>'Eileen Coleman',
+    'book4'                                =>'Ready to a mission',
 
 
 

@@ -35,6 +35,7 @@ Route::middleware(\App\Http\Middleware\LangMiddleware::class)->group(function ()
 });
 
 Route::get('/lang/{lang}', 'web\HomeController@changeLang');
+Route::get('/download_local', 'web\PdfController@download_local');
 
 
 

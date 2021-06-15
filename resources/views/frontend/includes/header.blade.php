@@ -40,11 +40,18 @@
                         </ul>
                     </li>
                     <li class="mg-nav-item mg-nav-item-has-children nav-link">
-                        <a href="#">{{ trans('main.services') }}</a>
+                        <a href="#">{{ trans('main.books') }}</a>
                         <ul class="sub-menu">
-                            <li class="mg-nav-item nav-link"> <a href="#" onclick='alert("معذرة تحت الإنشاء")'>{{ trans('main.books') }}</a></li>
-                            <li class="mg-nav-item nav-link"> <a href="#" onclick='alert("معذرة تحت الإنشاء")'>{{ trans('main.book_room') }}</a></li>
+                          <ul class="sub-menu">
+                              <li class="mg-nav-item nav-link"> <a href=" {{ url('/download_local/?file=Mercy.pdf') }} "     target="_blank" >{{ trans('main.book1') }}</a></li>
+                              <li class="mg-nav-item nav-link"> <a href=" {{ url('/download_local/?file=today.pdf') }} "     target="_blank" >{{ trans('main.book2') }}</a></li>
+                              <li class="mg-nav-item nav-link"> <a href=" {{ url('/download_local/?file=Kolman.pdf') }} "    target="_blank" >{{ trans('main.book3') }}</a></li>
+                              <li class="mg-nav-item nav-link"> <a href=" {{ url('/download_local/?file=invitaion.pdf') }} " target="_blank" >{{ trans('main.book4') }}</a></li>
+                          </ul>
                         </ul>
+                    </li>
+                    <li class="mg-nav-item mg-nav-item-has-children nav-link">
+                        <a href="#" onclick='alert("معذرة تحت الإنشاء")'>{{ trans('main.book_room') }}</a>
                     </li>
                     <li class="mg-nav-item mg-nav-item-has-children nav-link">
                         <a href="{{ url("/posts/index") }}">{{ trans('main.blogs') }}</a>
@@ -126,11 +133,15 @@
                   @endforeach
                 </ul>
               </li>
-              <li> <a href="#" class="has-sub"  >{{ trans('main.services') }}</a>
+              <li> <a href="#" class="has-submenu"  >{{ trans('main.books') }}</a>
                 <ul class="submenu">
-                  <li class="mg-nav-item nav-link" > <a href="#" onclick='alert("معذرة تحت الإنشاء")' >{{ trans('main.books') }}</a></li>
-                  <li class="mg-nav-item nav-link" > <a href="#" onclick='alert("معذرة تحت الإنشاء")'>{{ trans('main.book_room') }}</a></li>
+                  <li class="mg-nav-item nav-link" > <a href="{{ url('/download_local/?file=Mercy.pdf') }}"  target="_blank" >{{ trans('main.book1') }}</a></li>
+                  <li class="mg-nav-item nav-link" > <a href="{{ url('/download_local/?file=today.pdf') }} " target="_blank">{{ trans('main.book2') }}</a></li>
+                  <li class="mg-nav-item nav-link" > <a href="{{ url('/download_local/?file=Kolman.pdf') }} " target="_blank">{{ trans('main.book3') }}</a></li>
+                  <li class="mg-nav-item nav-link" > <a href="{{ url('/download_local/?file=invitaion.pdf') }} " target="_blank">{{ trans('main.book4') }}</a></li>
                 </ul>
+              </li>
+              <li> <a href="#" class="submenu" onclick='alert("معذرة تحت الإنشاء")' >{{ trans('main.book_room') }}</a>
               </li>
               <li> <a href="{{ url("/posts/index") }}" class="has-sub"  >{{ trans('main.blogs') }}</a>
                 <ul class="submenu">
