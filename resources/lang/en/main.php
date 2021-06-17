@@ -251,6 +251,7 @@ return [
     'sent'                => 'Sent',
     'accepted'            => 'Accepted',
     'actions'             => 'Actions',
+    'action'              => 'Action',
     'assign_agent'        => 'Assign To Agent',
     'you_have'            => 'You have',
     'pending_tasks'       => 'pending tasks',
@@ -267,7 +268,7 @@ return [
     'unit_code'           => 'Unit Code',
     'agent_information'   => 'Agent Information',
     'documents'           => 'Documents',
-    'download'            => 'download',
+    'vdownload'            => 'View / Download',
     'devcontact'          => 'Developer Contact',
     'position'            => 'Position',
     'files'               => 'Files',
@@ -1141,6 +1142,7 @@ return [
     'book2'                                =>'Daily help for the doctor',
     'book3'                                =>'Eileen Coleman',
     'book4'                                =>'Ready to a mission',
+    'bookname'                             =>'Book Name',
 
 
 

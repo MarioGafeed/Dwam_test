@@ -40,7 +40,7 @@
                         </ul>
                     </li>
                     <li class="mg-nav-item mg-nav-item-has-children nav-link">
-                        <a href="#">{{ trans('main.books') }}</a>
+                        <a href="{{ url('/books/index') }}">{{ trans('main.books') }}</a>
                         <ul class="sub-menu">
                           <ul class="sub-menu">
                               <li class="mg-nav-item nav-link"> <a href=" {{ url('/download_local/?file=Mercy.pdf') }} "     target="_blank" >{{ trans('main.book1') }}</a></li>
@@ -133,7 +133,7 @@
                   @endforeach
                 </ul>
               </li>
-              <li> <a href="#" class="has-submenu"  >{{ trans('main.books') }}</a>
+              <li> <a href="{{ url('/books/index') }}" class="has-submenu"  >{{ trans('main.books') }}</a>
                 <ul class="submenu">
                   <li class="mg-nav-item nav-link" > <a href="{{ url('/download_local/?file=Mercy.pdf') }}"  target="_blank" >{{ trans('main.book1') }}</a></li>
                   <li class="mg-nav-item nav-link" > <a href="{{ url('/download_local/?file=today.pdf') }} " target="_blank">{{ trans('main.book2') }}</a></li>

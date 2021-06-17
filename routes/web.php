@@ -32,6 +32,7 @@ Route::middleware(\App\Http\Middleware\LangMiddleware::class)->group(function ()
     Route::get('/vpost/show/{id}', 'web\VpostController@show');
     Route::get('/vcatposts/show/{id}', 'web\VcatpostController@show');
 
+    Route::get('/books/index', 'web\PdfController@index');
 });
 
 Route::get('/lang/{lang}', 'web\HomeController@changeLang');
