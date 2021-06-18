@@ -629,7 +629,7 @@
                         <img src="{{ asset('frontend/assets/img/Our-DWAM/11.jpg') }}" alt="">
                         <div class="content-wk transition-5">
                             <div class="overlay-full transition-4"></div>
-                            <a href="#" onclick='alert("في الاصدار القادم")' class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
+                            <a href="{{ url('/contact') }}"  class="plus-btn plus-btn-center transform-center"> <span class="h-line"></span>
                                 <span class="v-line"></span>
                             </a>
                             <div class="work-text text-center">
@@ -637,7 +637,7 @@
                                     <li>DWAM</li>
                                     <li>Life</li>
                                 </ul>
-                                <h4 class="mb-10"><a href="#" onclick='alert("في الاصدار القادم")' class="fs-25 f-700 white hover-white">{{trans('main.work_life11')}}</a></h4>
+                                <h4 class="mb-10"><a href="{{ url('/contact') }}"  class="fs-25 f-700 white hover-white">{{trans('main.work_life11')}}</a></h4>
                                 <p class=" white">{{trans('main.work_life_desc11')}}</p>
                             </div>
                         </div>
