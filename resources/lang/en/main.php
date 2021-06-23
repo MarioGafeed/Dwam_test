@@ -1139,9 +1139,9 @@ return [
     'work_life_desc16'                     =>'',
 
     'book1'                                =>'Christian Mercy',
-    'book2'                                =>'Daily help',
-    'book3'                                =>'Eileen Coleman',
-    'book4'                                =>'Ready to a mission',
+    'book2'                                =>'The Doctor’s Life Support2',
+    'book3'                                =>'The Desert Rat (Aileen Coleman)',
+    'book4'                                =>'On call',
     'bookname'                             =>'Book Name',
 
 
