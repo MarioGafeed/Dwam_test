@@ -16,6 +16,8 @@ class RouteServiceProvider extends ServiceProvider
      */
     protected $namespace = 'App\Http\Controllers';
     protected $admin_namespace = 'App\Http\Controllers';
+    // Add To help Fortify
+    public const HOME = '/home';
 
     /**
      * Define your route model bindings, pattern filters, etc.

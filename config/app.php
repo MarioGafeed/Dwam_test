@@ -150,6 +150,7 @@ return [
         /*
          * Package Service Providers...
          */
+         App\Providers\FortifyServiceProvider::class,
         Pyaesone17\ActiveState\ActiveStateServiceProvider::class,
         Spatie\Permission\PermissionServiceProvider::class,
 
