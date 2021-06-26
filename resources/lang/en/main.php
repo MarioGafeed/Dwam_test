@@ -1012,7 +1012,7 @@ return [
     'event'                               => 'Upcoming Event',
     'event_desc'                          => 'News & Conferences',
     'event1'                              => 'DWAM ONLINE conference from 4 to 5 March – on  ZOOM....',
-    'event2'                              => 'DWAM Conference – Sant Mark Hotel – El Khatatba....',
+    'event2'                              => 'DWAM Conference 2021',
     'event3'                              => 'Many of our families vary in the value they place on education..',
     'event4'                              => 'We help meet some of our families’ needs with free clothing and shoes..',
     'event5'                              => 'We want to recognize the important role of women in the families and community..',
@@ -1139,7 +1139,7 @@ return [
     'work_life_desc16'                     =>'',
 
     'book1'                                =>'Christian Mercy',
-    'book2'                                =>'The Doctor’s Life Support2',
+    'book2'                                =>'Doctor’s Life Support2',
     'book3'                                =>'The Desert Rat (Aileen Coleman)',
     'book4'                                =>'On call',
     'bookname'                             =>'Book Name',
