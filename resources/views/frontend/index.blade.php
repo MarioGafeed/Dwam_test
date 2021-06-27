@@ -989,8 +989,8 @@
                                     </h4>
                                     <div class="blog-data">
                                         <ul class="d-flex align-items-center ">
-                                            <li><i class="far fa-calendar-alt"></i>29-07-2021 To</li>
-                                            <li><i class="fas fa-comment "></i>01-08-2021</li>
+                                            <li><i class="far fa-calendar-alt"></i>{{trans('main.soon')}}</li>
+                                            <li><i class="fas fa-comment "></i>{{trans('main.soon')}}</li>
                                         </ul>
                                     </div>
                                 </div>

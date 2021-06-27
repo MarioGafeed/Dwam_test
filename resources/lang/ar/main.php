@@ -962,6 +962,7 @@ return [
     'event2'                              => 'مؤتمر العاملين بالحقل الطبي 2021',
     'event3'                              => 'Be brave to stand for what you...',
     'event4'                              => 'Be brave to stand for what you...',
+    'soon'                                => 'قريباً',
 
     // Connect area
     'connect_area'                        => 'إلى الأن لم تتواصل معنا, نُرحب بتواصلك معنا..',
@@ -1079,6 +1080,16 @@ return [
     'book3'                                =>'فاره الصحراء (حياه إيلين كولمان)',
     'book4'                                =>'جاهزون للدعوة',
     'bookname'                             =>'إسم الكتاب',
+
+    // register create account
+      'createacc'                          =>'إنشاء حساب',
+      'createdesc'                         =>'تجربة تجربة تجربة',
+      'username'                           =>'إسم المستخدم',
+
+      'remeberme'                          =>'تذكرني',
+      'signup'                             =>'تسجيل',
+      'login'                              =>'تسجيل دخول',
+      'areadymemeber'                      =>'هل انت عضو بالفعل؟',
 
 
 ];

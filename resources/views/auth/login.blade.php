@@ -1,100 +1,71 @@
-<!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
-<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
-<!--[if !IE]><!-->
-<html lang="{{ GetLanguage() }}" dir="{{ GetDirection() }}">
-    <!--<![endif]-->
-    <!-- BEGIN HEAD -->
-    <head>
-        <meta charset="utf-8" />
-        <title>{{ trans('main.login') }}</title>
+@extends('frontend.layout.app')
 
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+@section('content')
 
-        <meta content="width=device-width, initial-scale=1" name="viewport" />
-
-        <meta content="Mario Adel" name="author" />
-
-        {{-- <link rel="shortcut icon" href="favicon.ico" /> --}}
-
-        <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
-
-        <!-- CSRF Token -->
-        <meta name="csrf-token" content="{{ csrf_token() }}">
-
-        <link href="{{asset('backend/base/css/main-'.GetDirection().'.min.css')}}" rel="stylesheet" type="text/css" />
-
-        <!-- BEGIN PAGE LEVEL STYLES -->
-        <link href="{{ asset('backend/assets/pages/css/login.min.css') }}" rel="stylesheet" type="text/css" />
-        <!-- END PAGE LEVEL STYLES -->
-        <!-- BEGIN THEME LAYOUT STYLES -->
-        <!-- END THEME LAYOUT STYLES -->
-        <link rel="shortcut icon" href="favicon.ico" /> </head>
-    <!-- END HEAD -->
-
-    <body class=" login">
-        <!-- BEGIN LOGO -->
-        <div class="logo">
-            <a href="{{ url('/login') }}">
-                <img style="width:100px" src="{{ asset('frontend/img/core-img/logo.jpg') }}" alt="" />
-            </a>
+<!-- Inner start -->
+<section class="login-inner inner-banner bg-cover" style="background-image: url('assets/img/bg/bg-abt.jpg');">
+</section>
+<section class=" shop-bnr bnr-pagination pt-35 pt-sm-20 pb-45 pb-sm-20 bg-light-white">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-8 text-center text-md-left">
+                <h2 class="f-700">Login</h2>
+            </div>
+            <div class="col-md-4 text-center text-md-right">
+                <ul class="pagination-inner">
+                    <li><a href="" class="shop-bg">Home </a>
+                    </li>
+                    <li>Login</li>
+                </ul>
+            </div>
         </div>
-        <!-- END LOGO -->
-        <!-- BEGIN LOGIN -->
-        <div class="content">
-            @if ($errors->count())
-                <div class="alert alert-danger">
-                    <button class="close" data-close="alert"></button>
-                    <span> {{ trans('main.login_error') }} </span>
+    </div>
+</section>
+<!--Inner end -->
+<!-- login start -->
+<section class="login-form login pt-80 pb-80">
+    <div class="container">
+        <div class="row no-gutters">
+            <div class="col-xl-7 col-lg-6 d-none d-lg-block">
+                <div class="login-image bg-cover h-100" style="background-image: url('assets/img/shop/all-items.jpg');">
+
                 </div>
-            @endif
-            <!-- BEGIN LOGIN FORM -->
-            <form class="login-form" action="{{ url('/login') }}" method="post">
-                {{ csrf_field() }}
-                <h3 style="float:  {{ GetLanguage() == 'en' ? 'left' : 'right' }}  " class="form-title font-green">{{ trans('main.login') }}</h3>
-                @if (GetLanguage() == 'en')
-                    <a style="float:  {{ GetLanguage() == 'en' ? 'left' : 'right' }} ; position: absolute;  {{ GetLanguage() != 'en' ? 'left' : 'right' }} : 30px; top: {{ $errors->count() ? '108px' : '37px' }}; text-decoration: none" href="{{ url('/lang/ar') }}">
-                        {{ ' عربي ' }} <i class="fa fa-globe"></i>
-                    </a>
-                @else
-                    <a style="float:  {{ GetLanguage() == 'en' ? 'left' : 'right' }} ; position: absolute;  {{ GetLanguage() != 'en' ? 'left' : 'right' }} : 30px; top: {{ $errors->count() ? '108px' : '37px' }}; text-decoration: none" href="{{ url('/lang/en') }}">
-                        {{ ' English ' }} <i class="fa fa-globe"></i>
-                    </a>
-                @endif
-                <div class="form-group">
-                    <!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
-                    <label class="control-label visible-ie8 visible-ie9">{{ trans('main.email') }}</label>
-                    <input class="form-control form-control-solid placeholder-no-fix" type="email" placeholder="{{ trans('main.email') }}" name="email" required />
+            </div>
+            <div class="col-xl-5 col-lg-6 ">
+                <div class="form-area bg-yellow">
+                    <h2 class="f-700 mb-15">Have an Account?</h2>
+                    <p>Quisque enim ipsum, commodo et venenatis rutrum, luctus in enim venenatis.</p>
+                    <form action="#">
+                        <div class="form-group relative mb-25 mb-sm-20">
+                            <input type="text" class="form-control input-lg input-white shadow-5" id="name" placeholder="Username">
+                            <i class="far fa-user transform-v-center"></i>
+                        </div>
+                        <div class="form-group relative mb-20 mb-sm-20">
+                            <input type="password" class="form-control input-lg input-white shadow-5" id="pwd" placeholder="Password">
+                            <i class="fas fa-lock transform-v-center"></i>
+                        </div>
+                        <div class="form-group form-check pl-0">
+                            <div class="d-flex justify-content-between">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck1" checked="">
+                                    <label class="custom-control-label fs-13" for="customCheck1"><span class="label-check">Remember me</span></label>
+                                </div>
+                                <a href="" class="fs-12 black">Forgot Password?</a>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-black btn-block shadow-4 mt-20">LOGIN</button>
+                        <div class="signup-login text-center">
+                            <p class="mt-15 fs-13">
+                                New here?<a href="" class="ml-5 mb-0 d-inline-block f-500">Sign up</a>
+                            </p>
+                        </div>
+                    </form>
                 </div>
-                <div class="form-group">
-                    <label class="control-label visible-ie8 visible-ie9">{{ trans('main.password') }}</label>
-                    <input class="form-control form-control-solid placeholder-no-fix" type="password" placeholder="{{ trans('main.password') }}" name="password" />
-                </div>
-                <div class="form-actions">
-                    <button type="submit" class="btn green uppercase">{{ trans('main.login') }}</button>
-                    <label class="rememberme check mt-checkbox mt-checkbox-outline">
-                        <input type="checkbox" name="remember" value="1" />{{ trans('main.remember') }}
-                        <span></span>
-                    </label>
-                </div>
-            </form>
-            <!-- END LOGIN FORM -->
+            </div>
         </div>
-        <div class="copyright">
-            <a target="_blank" href="https://www.facebook.com/megomalamego">
-                @@Mario Adel
-            </a>
-         </div>
-         <!--[if lt IE 9]>
-         <script src="{{asset('backend/assets/global/plugins/respond.min.js')}}"></script>
-         <script src="{{asset('backend/assets/global/plugins/excanvas.min.js')}}"></script>
-         <script src="{{asset('backend/assets/global/plugins/ie8.fix.min.js')}}"></script>
-         <![endif]-->
+    </div>
+</section>
+<!-- logi end -->
 
-         <script src="{{asset('backend/base/js/main.min.js')}}" type="text/javascript"></script>
 
-         <script src="{{asset('backend/base/js/sweetalert.min.js')}}" type="text/javascript"></script>
-
-         @include('backend.theme.includes.messages')
-     </body>
- </html>
+@endsection

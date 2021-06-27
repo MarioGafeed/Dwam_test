@@ -10,6 +10,7 @@
                     </a>
                 </div>
             </div>
+            <!-- Nav -->
             <div class="col-md-8 col-4 text-right ">
                 <span class="toggle-category">
                     <i class="fas fa-chevron-down"></i>
@@ -28,15 +29,9 @@
                         <a href="{{ url("/vposts/index") }}">{{ trans('main.videos') }}</a>
                         <ul class="sub-menu">
                             <li class="mg-nav-item nav-link"> <a href="#" onclick='alert("قريباً في الإصدار القادم")'>{{ trans('main.live_videos') }}</a></li>
-                            @foreach($vcats as $vcat)
-                              <li class="mg-nav-item nav-link"> <a href="{{ url("/vcatposts/show/{$vcat->id}") }}">
-                                  @if(GetLanguage() == 'en')
-                                  {{json_decode($vcat->title)->en}}
-                                  @else
-                                  {{json_decode($vcat->title)->ar}}
-                                  @endif
-                                 </a></li>
-                            @endforeach
+                            <!-- Navbar video foreach -->
+                            <x-navbar></x-navbar>
+                            <!-- End Navbar video foreach -->
                         </ul>
                     </li>
                     <li class="mg-nav-item mg-nav-item-has-children nav-link">
@@ -56,15 +51,9 @@
                     <li class="mg-nav-item mg-nav-item-has-children nav-link">
                         <a href="{{ url("/posts/index") }}">{{ trans('main.blogs') }}</a>
                         <ul class="sub-menu">
-                          @foreach($pcats as $pcat)
-                            <li class="mg-nav-item nav-link"> <a href="{{ url("/catposts/show/{$pcat->id}") }}">
-                                @if(GetLanguage() == 'en')
-                                {{json_decode($pcat->title)->en}}
-                                @else
-                                {{json_decode($pcat->title)->ar}}
-                                @endif
-                               </a></li>
-                          @endforeach
+                          <!-- Navbar Cats foreach -->
+                          <x-navbar2></x-navbar2>
+                          <!-- End Navbar Cats foreach -->
                         </ul>
                     </li>
                   <!-- <h3 style="float:  {{ GetLanguage() == 'en' ? 'left' : 'right' }}  " class="form-title font-green">{{ trans('main.login') }}</h3> -->
@@ -84,10 +73,10 @@
                       </a>
                   </li>
                   @endif
-
                         <!-- mega menu page-->
                 </ul>
             </div>
+            <!-- End Navbar -->
         </div>
     </div>
     <!-- <a href="#" onclick='alert("في الإصدار القادم صلواتكم")' class="db-block-{{GetDirection()}} ml-35 ml-xs-25">
@@ -122,15 +111,9 @@
               <li> <a href="{{ url("/vposts/index") }}" class="has-sub" >{{ trans('main.videos') }}</a>
                 <ul class="submenu">
                   <li class="mg-nav-item nav-link"  dir="ltr"> <a href="#" onclick='alert("قريباً في الإصدار القادم")'>{{ trans('main.live_videos') }}</a></li>
-                  @foreach($vcats as $vcat)
-                  <li class="mg-nav-item nav-link"   dir="ltr"> <a href="{{ url("/vcatposts/show/{$vcat->id}") }}">
-                    @if(GetLanguage() == 'en')
-                    {{json_decode($vcat->title)->en}}
-                    @else
-                    {{json_decode($vcat->title)->ar}}
-                    @endif
-                  </a></li>
-                  @endforeach
+                  <!-- Navbar video foreach -->
+                  <x-navbar></x-navbar>
+                  <!-- End Navbar video foreach -->
                 </ul>
               </li>
               <li> <a href="{{ url('/books/index') }}" class="has-submenu"  >{{ trans('main.books') }}</a>
@@ -145,15 +128,9 @@
               </li>
               <li> <a href="{{ url("/posts/index") }}" class="has-sub"  >{{ trans('main.blogs') }}</a>
                 <ul class="submenu">
-                  @foreach($pcats as $pcat)
-                  <li class="mg-nav-item nav-link"  dir="ltr"> <a href="{{ url("/catposts/show/{$pcat->id}") }}">
-                    @if(GetLanguage() == 'en')
-                    {{json_decode($pcat->title)->en}}
-                    @else
-                    {{json_decode($pcat->title)->ar}}
-                    @endif
-                  </a></li>
-                  @endforeach
+                  <!-- Navbar Cats foreach -->
+                  <x-navbar2></x-navbar2>
+                  <!-- End Navbar Cats foreach --> 
                 </ul>
               </li>
             </ul>

@@ -1,77 +1,74 @@
-@extends('layouts.app')
+@extends('frontend.layout.app')
 
 @section('content')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Register') }}</div>
 
-                <div class="card-body">
-                    <form method="POST" action="{{ route('register') }}">
-                        @csrf
 
-                        <div class="form-group row">
-                            <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Name') }}</label>
+<!-- Inner start -->
+<section class="signup-inner inner-banner bg-cover" style="background-image: url('frontend/assets/img/bg/bg-abt.jpg');">
+    <h1 class="transform-center">{{trans('main.signup')}}</h1>
+</section>
+<section class=" shop-bnr bnr-pagination pt-35 pt-sm-20 pb-45 pb-sm-20 bg-light-white">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-8 text-center text-md-left">
+                <h2 class="f-700">{{trans('main.signup')}}</h2>
+            </div>
+            <div class="col-md-4 text-center text-md-right">
+                <ul class="pagination-inner">
+                    <li><a href="/" class="shop-bg">{{trans('main.home')}} </a>
+                    </li>
+                    <li>{{trans('main.signup')}}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Inner end -->
+<!-- login start -->
+<section class=" signup-form login pt-80 pb-80">
+    <div class="container">
+        <div class="row no-gutters">
+            <div class="col-xl-7 col-lg-6 d-none d-lg-block">
+                <div class="login-image bg-cover h-100" style="background-image: url('frontend/assets/img/shop/all-items.jpg');">
 
-                            <div class="col-md-6">
-                                <input id="name" type="text" class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="name" value="{{ old('name') }}" required autofocus>
-
-                                @if ($errors->has('name'))
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $errors->first('name') }}</strong>
-                                    </span>
-                                @endif
+                </div>
+            </div>
+            <div class="col-xl-5 col-lg-6 ">
+                <div class="form-area bg-yellow">
+                    <h2 class="f-700 mb-15">{{trans('main.createacc')}}</h2>
+                    <p>{{trans('main.createdesc')}}</p>
+                    <form action="#">
+                        <div class="form-group relative mb-25 mb-sm-20">
+                            <input type="text" class="form-control input-lg input-white shadow-5" id="name" placeholder={{trans('main.username')}}>
+                            <i class="far fa-user transform-v-center"></i>
+                        </div>
+                        <div class="form-group relative mb-25 mb-sm-20">
+                            <input type="email" class="form-control input-lg input-white shadow-5" id="email" placeholder={{trans('main.email')}}>
+                            <i class="far fa-envelope transform-v-center"></i>
+                        </div>
+                        <div class="form-group relative mb-20 mb-sm-20">
+                            <input type="password" class="form-control input-lg input-white shadow-5" id="pwd" placeholder={{trans('main.password')}}>
+                            <i class="fas fa-lock transform-v-center"></i>
+                        </div>
+                        <div class="form-group form-check pl-0">
+                            <div class="d-flex justify-content-between">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck1" checked="">
+                                    <label class="custom-control-label fs-13" for="customCheck1"><span class="label-check">{{trans('main.remeberme')}}</span></label>
+                                </div>
                             </div>
                         </div>
-
-                        <div class="form-group row">
-                            <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="email" type="email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" required>
-
-                                @if ($errors->has('email'))
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $errors->first('email') }}</strong>
-                                    </span>
-                                @endif
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Password') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="password" type="password" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" required>
-
-                                @if ($errors->has('password'))
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $errors->first('password') }}</strong>
-                                    </span>
-                                @endif
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <label for="password-confirm" class="col-md-4 col-form-label text-md-right">{{ __('Confirm Password') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required>
-                            </div>
-                        </div>
-
-                        <div class="form-group row mb-0">
-                            <div class="col-md-6 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
-                                    {{ __('Register') }}
-                                </button>
-                            </div>
+                        <button type="submit" class="btn btn-black btn-block shadow-4 mt-20">{{trans('main.signup')}}</button>
+                        <div class="signup-login text-center">
+                            <p class="mt-15 fs-13">
+                              {{trans('main.areadymemeber')}}<a href="" class="ml-5 mb-0 d-inline-block f-500">{{trans('main.login')}}</a>
+                            </p>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</section>
+<!-- logi end -->
 @endsection

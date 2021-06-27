@@ -1017,6 +1017,8 @@ return [
     'event4'                              => 'We help meet some of our families’ needs with free clothing and shoes..',
     'event5'                              => 'We want to recognize the important role of women in the families and community..',
     'event6'                              => 'Sports are often part of our activities for the families...',
+    'soon'                                => 'Soon',
+
 
     // Connect area
     'connect_area'                        => 'Not A Member? Contact Us..',
@@ -1143,6 +1145,16 @@ return [
     'book3'                                =>'The Desert Rat (Aileen Coleman)',
     'book4'                                =>'On call',
     'bookname'                             =>'Book Name',
+
+    // register create account
+      'createacc'                          =>'Create account',
+      'createdesc'                         =>'Test test test',
+      'username'                           =>'User Name',
+
+      'remeberme'                          =>'Remeber me',
+      'signup'                             =>'Sign Up',
+      'login'                              =>'Login In',
+      'areadymemeber'                      =>'Already a member?',
 
 
 

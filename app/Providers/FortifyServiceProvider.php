@@ -30,11 +30,19 @@ class FortifyServiceProvider extends ServiceProvider
      * @return void
      */
     public function boot()
-    {
+    {    
         Fortify::createUsersUsing(CreateNewUser::class);
         Fortify::updateUserProfileInformationUsing(UpdateUserProfileInformation::class);
         Fortify::updateUserPasswordsUsing(UpdateUserPassword::class);
         Fortify::resetUserPasswordsUsing(ResetUserPassword::class);
+
+        Fortify::loginView(function () {
+        return view('auth.login');
+        });
+
+        Fortify::registerView(function () {
+         return view('auth.register');
+        });
 
         RateLimiter::for('login', function (Request $request) {
             return Limit::perMinute(5)->by($request->email.$request->ip());
