@@ -4,7 +4,7 @@ return [
     'website'             => 'Orbscope co.',
     'login'               => 'Login',
     'register'            => 'Register',
-    'username'            => 'Username',
+    'username'            => 'User Name',
     'password'            => 'Password',
     'confirm_password'    => 'Confirm Password',
     'remember'            => 'Remember',

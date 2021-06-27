@@ -37,28 +37,28 @@
                 <div class="form-area bg-yellow">
                     <h2 class="f-700 mb-15">{{trans('main.createacc')}}</h2>
                     <p>{{trans('main.createdesc')}}</p>
-                    <form action="#">
+                    <form action="{{ url('/register') }}" method="post">
                         <div class="form-group relative mb-25 mb-sm-20">
-                            <input type="text" class="form-control input-lg input-white shadow-5" id="name" placeholder={{trans('main.username')}}>
+                            <input type="text" class="form-control input-lg input-white shadow-5" id="name" placeholder="{{trans('main.username')}}">
                             <i class="far fa-user transform-v-center"></i>
                         </div>
                         <div class="form-group relative mb-25 mb-sm-20">
-                            <input type="email" class="form-control input-lg input-white shadow-5" id="email" placeholder={{trans('main.email')}}>
+                            <input type="email" class="form-control input-lg input-white shadow-5" id="email" placeholder="{{trans('main.email')}}">
                             <i class="far fa-envelope transform-v-center"></i>
                         </div>
                         <div class="form-group relative mb-20 mb-sm-20">
-                            <input type="password" class="form-control input-lg input-white shadow-5" id="pwd" placeholder={{trans('main.password')}}>
+                            <input type="password" class="form-control input-lg input-white shadow-5" id="pwd" placeholder="{{ trans('main.password')}}">
                             <i class="fas fa-lock transform-v-center"></i>
                         </div>
-                        <div class="form-group form-check pl-0">
-                            <div class="d-flex justify-content-between">
-                                <div class="custom-control custom-checkbox">
-                                    <input type="checkbox" class="custom-control-input" id="customCheck1" checked="">
-                                    <label class="custom-control-label fs-13" for="customCheck1"><span class="label-check">{{trans('main.remeberme')}}</span></label>
-                                </div>
-                            </div>
+                        <div class="form-group relative mb-20 mb-sm-20">
+                            <input  type="password" class="form-control input-lg input-white shadow-5" id="pwd2" name="password_confirmation" placeholder= "{{ trans('main.confirm_password') }}">
+                            <i class="fas fa-lock transform-v-center"></i>
                         </div>
-                        <button type="submit" class="btn btn-black btn-block shadow-4 mt-20">{{trans('main.signup')}}</button>
+                        <div class="form-group relative mb-20 mb-sm-20">
+                            <input  type="text" class="form-control input-lg input-white shadow-5" id="phone" name="phone" placeholder= "{{ trans('main.phone') }}">
+                            <i class="fas fa-phone transform-v-center"></i>
+                        </div>
+                        <button type="submit" class="btn btn-black btn-block shadow-4 mt-20">{{ trans('main.signup')}}</button>
                         <div class="signup-login text-center">
                             <p class="mt-15 fs-13">
                               {{trans('main.areadymemeber')}}<a href="" class="ml-5 mb-0 d-inline-block f-500">{{trans('main.login')}}</a>
