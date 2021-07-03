@@ -1089,7 +1089,15 @@ return [
       'remeberme'                          =>'تذكرني',
       'signup'                             =>'تسجيل',
       'login'                              =>'تسجيل دخول',
+      'forgetpass'                         =>'نسيت كلمة السر',
       'areadymemeber'                      =>'هل انت عضو بالفعل؟',
+      'newhere'                            =>'جديد هنا؟',
+      'haveaccount'                        =>'هل لديك حساب؟',
+      'haveaccountdesc'                    =>'وصف بسيط',
+      // msg verify
+      'verify_problem'                     =>'بتواجه مشكلة في التحقق؟',
+      'resend_mail'                        =>'طلب إعادة إرسال',
+      'verify_succ'                      =>'تم إرسال بريد التحقق بنجاح, من فضلك راجع رسائل البريد',
 
 
 ];

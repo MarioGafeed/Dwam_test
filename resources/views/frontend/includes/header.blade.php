@@ -15,6 +15,12 @@
                 <span class="toggle-category">
                     <i class="fas fa-chevron-down"></i>
                   </span>
+                  <!-- Add Logout -->
+                  <form id="logout-form" action="{{ url('/logout') }}" method="post" style="display: none;">
+                    @csrf
+                    <input type="submit" value="{{ trans('main.logout') }}">
+                  </form>
+
                 <ul class="nav nav-links1 list-type2 justify-content-center">
                     <li class="mg-nav-item mg-nav-item-has-children nav-link">
                         <a href="/">{{ trans('main.home') }}</a>
@@ -56,6 +62,22 @@
                           <!-- End Navbar Cats foreach -->
                         </ul>
                     </li>
+                    @guest
+                    <li class="mg-nav-item mg-nav-item-has-children nav-link">
+                        <a href="{{ url('/login') }}" >{{ trans('main.login') }}</a>
+                    </li>
+
+                    <li class="mg-nav-item mg-nav-item-has-children nav-link">
+                      <a href="{{ url('/register') }}" >{{ trans('main.register') }}</a>
+                    </li>
+                    @endguest
+
+                    @auth
+                    <li class="mg-nav-item mg-nav-item-has-children nav-link">
+                        <a id="logout-link" href="#" >{{ trans('main.logout') }}</a>
+                    </li>
+                    @endauth
+
                   <!-- <h3 style="float:  {{ GetLanguage() == 'en' ? 'left' : 'right' }}  " class="form-title font-green">{{ trans('main.login') }}</h3> -->
 
                   @if (GetLanguage() == 'en')
@@ -130,7 +152,7 @@
                 <ul class="submenu">
                   <!-- Navbar Cats foreach -->
                   <x-navbar2></x-navbar2>
-                  <!-- End Navbar Cats foreach --> 
+                  <!-- End Navbar Cats foreach -->
                 </ul>
               </li>
             </ul>

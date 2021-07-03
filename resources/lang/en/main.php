@@ -1153,8 +1153,17 @@ return [
 
       'remeberme'                          =>'Remeber me',
       'signup'                             =>'Sign Up',
-      'login'                              =>'Login In',
+      'login'                              =>'Log In',
+      'forgetpass'                         =>'Forget Password',
       'areadymemeber'                      =>'Already a member?',
+      'newhere'                            =>'New here?',
+      'haveaccount'                        =>'Have an Account?',
+      'haveaccountdesc'                    =>'description here here',
+      // msg verify
+      'verify_problem'                     =>'Problem in Verification',
+      'resend_mail'                        =>'Resend Mail',
+      'verify_succ'                        =>'A verification email sent successfully, please check your inbox..',
+
 
 
 

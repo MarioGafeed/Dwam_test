@@ -30,7 +30,7 @@ class FortifyServiceProvider extends ServiceProvider
      * @return void
      */
     public function boot()
-    {    
+    {
         Fortify::createUsersUsing(CreateNewUser::class);
         Fortify::updateUserProfileInformationUsing(UpdateUserProfileInformation::class);
         Fortify::updateUserPasswordsUsing(UpdateUserPassword::class);
@@ -44,9 +44,23 @@ class FortifyServiceProvider extends ServiceProvider
          return view('auth.register');
         });
 
+        Fortify::verifyEmailView(function () {
+          return view('auth.verify-email');
+        });
+
+        Fortify::requestPasswordResetLinkView(function () {
+        return view('auth.passwords.forgot-password');
+        });
+
+        Fortify::resetPasswordView(function ($request) {
+       return view('auth.passwords.reset', ['request' => $request]);
+        });
+
+
         RateLimiter::for('login', function (Request $request) {
             return Limit::perMinute(5)->by($request->email.$request->ip());
         });
+
 
         RateLimiter::for('two-factor', function (Request $request) {
             return Limit::perMinute(5)->by($request->session()->get('login.id'));

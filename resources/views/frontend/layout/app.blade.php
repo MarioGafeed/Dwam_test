@@ -77,7 +77,14 @@
       <script src="{{ asset('frontend/assets/js/tilt.jquery.min.js') }}"></script>
       <script src="{{ asset('frontend/assets/js/main.js') }}"></script>
       <script src="{{ asset('frontend/assets/js/audio-file.js') }}"></script>
-      <!-- JS Files end -->
+    <!-- JS Files end -->
+      <script type="text/javascript">
+	$('#logout-link').click(function(e) {
+		e.preventDefault()
+		$('#logout-form').submit()
+	})
+</script>
+
   </body>
 
   </html>
