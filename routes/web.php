@@ -19,7 +19,7 @@ Route::middleware(\App\Http\Middleware\LangMiddleware::class)->group(function ()
 
     Route::get('/', 'web\HomeController@index');
     Route::get('/donate', 'web\HomeController@donate');
-    Route::get('/contact', 'web\HomeController@contact')->middleware('verified');
+    Route::get('/contact', 'web\HomeController@contact');
     Route::post('/contact/message/send', 'web\HomeController@send');
     Route::get('/about', 'web\HomeController@about');
     // Route::get('/lang/{lang}', 'FrontendController@changeLang');
@@ -33,6 +33,7 @@ Route::middleware(\App\Http\Middleware\LangMiddleware::class)->group(function ()
     Route::get('/vcatposts/show/{id}', 'web\VcatpostController@show');
 
     Route::get('/books/index', 'web\PdfController@index');
+    Route::get('profile', 'web\ProfileController@index')->middleware(['auth']);
 });
 
 Route::get('/lang/{lang}', 'web\HomeController@changeLang');

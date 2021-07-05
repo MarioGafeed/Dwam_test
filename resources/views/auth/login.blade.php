@@ -33,8 +33,8 @@
             </div>
             <div class="col-xl-5 col-lg-6 ">
                 <div class="form-area bg-yellow">
-                    <h2 class="f-700 mb-15">{{ trans('main.haveaccount') }}</h2>
-                    <p>"{{ trans('main.haveaccountdesc') }}"</p>
+                    <h2 class="f-700 mb-15 txt-center">{{ trans('main.haveaccount') }}</h2>
+                    <p class="txt-center">"{{ trans('main.haveaccountdesc') }}"</p>
                     @include('frontend.inc.messages')
                     <form action="{{ url('login') }} " method="post">
                       @csrf

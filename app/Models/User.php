@@ -21,6 +21,16 @@ class User extends Authenticatable Implements MustVerifyEmail
         'name', 'email', 'password', 'type', 'image', 'phone',
     ];
 
+    public function posts()
+    {
+      return $this->hasMany(Post::class, 'user_id');
+    }
+
+    public function vposts()
+    {
+      return $this->hasMany(Vpost::class, 'user_id');
+    }
+
     /**
      * The attributes that should be hidden for arrays.
      *

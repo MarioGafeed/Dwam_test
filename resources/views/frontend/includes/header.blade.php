@@ -74,6 +74,9 @@
 
                     @auth
                     <li class="mg-nav-item mg-nav-item-has-children nav-link">
+                        <a  href="{{ url('profile') }}" >{{ trans('main.profile') }}</a>
+                    </li>
+                    <li class="mg-nav-item mg-nav-item-has-children nav-link">
                         <a id="logout-link" href="#" >{{ trans('main.logout') }}</a>
                     </li>
                     @endauth
