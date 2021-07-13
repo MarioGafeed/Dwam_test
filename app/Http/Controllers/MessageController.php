@@ -112,15 +112,15 @@ class MessageController extends Controller
   public function response(Message $message, Request $request)
   {
     $request->validate([
-      'name'=>'required|string|max:255',
-      'subject'=>'required',
-      'body'=>'required|string',
-      'email'   =>'required|email|max:255',
+      'name'      =>'required|string|max:255',
+      'subject'   =>'required',
+      'body'      =>'required|string',
+      'email'     =>'required|email|max:255',
     ]);
     // $receiverName = $message->name;
     $receiverMail = $request->email;
+    
     Mail::to($receiverMail)->send(new ContactResponseMail($request->name, $request->subject, $request->body) );
-
     session()->flash('success', trans('main.send-message'));
     return redirect()->route('messages.index');
   }
